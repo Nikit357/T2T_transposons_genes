@@ -25,19 +25,20 @@ The repository is organized into several key components: the core processing not
 
 - GO_tables/: A library of CSV files containing specific GO term results for individual TE subfamilies (e.g., GO_terms_by_subfamilies_AluY.csv, GO_terms_by_subfamilies_L1PA2.csv).
 - plots/: Comprehensive collection of SVG and PNG visualizations, including:
--   TE_GO_Sankey.svg: Visualizes the flow from TE classes to functional gene groups.
--   Divergence_score_ridge_plot.svg: Shows the bimodal age distribution of TEs.
--   TE_Process_Hierarchical_Network_Refined.svg: The "Ring of Power" diagram illustrating the co-evolutionary functional network.
+    - TE_GO_Sankey.svg: Visualizes the flow from TE classes to functional gene groups.
+    - Divergence_score_ridge_plot.svg: Shows the bimodal age distribution of TEs.
+    - TE_Process_Hierarchical_Network_Refined.svg: The "Ring of Power" diagram illustrating the co-evolutionary functional network.
   ## Installation & Requirements
   The project utilizes a Python 3.11 environment.
   
   ### Key dependencies include:
   
-  Bioinformatics: bedtools , goatools
+  *Bioinformatics*: bedtools , goatools
   
-  Data Processing: pandas, numpy, scipy
+  *Data Processing*: pandas, numpy, scipy
   
-  Visualization: matplotlib, seaborn, networkx, pyvis, supervenn
+  *Visualization*: matplotlib, seaborn, networkx, pyvis, supervenn
   
-Author: Daniil Nikitin
-Affiliation: Institute of Molecular Biology, National Academy of Science of the Republic of Armenia 
+**Author**: Daniil Nikitin
+
+**Affiliation**: Institute of Molecular Biology, National Academy of Science of the Republic of Armenia 
