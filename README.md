@@ -43,7 +43,7 @@ The repository is organized into several key components: the core processing not
 
 **Affiliation**: Institute of Molecular Biology, National Academy of Science of the Republic of Armenia 
 
-**Earlier works**
+## Related publications
 
 - Nikitin D. Joint Analysis of Human Retroelements-Linked Histone Modification Profiles Reveals Quickly Evolving Molecular Processes Connected with Cancer. published online 27 Sep. 2025. https://doi.org/10.1101/2025.09.24.677146.
 - Nikitin D. Transposable element–host genome evolutionary arms race revealed by multi-modal epigenomic profiling in a telomere-to-telomere human genome reference. BioRxiv 23 Mar. 2026:2026.03.19.712972. https://doi.org/10.64898/2026.03.19.712972.
@@ -52,5 +52,4 @@ The repository is organized into several key components: the core processing not
 - Nikitin D, Kolosov N, Murzina A et al. Retroelement-Linked H3K4me1 Histone Tags Uncover Regulatory Evolution Trends of Gene Enhancers and Feature Quickly Evolving Molecular Processes in Human Physiology. Cells 2019, Vol 8, 2019;8(10). https://doi.org/10.3390/CELLS8101219.
 - Nikitin D, Penzar D, Garazha A et al. Profiling of Human Molecular Pathways Affected by Retrotransposons at the Level of Regulation by Transcription Factor Proteins. Front Immunol 2018;9(JAN). https://doi.org/10.3389/FIMMU.2018.00030.
 - Nikitin D, Sorokin M, Tkachev V et al. RetroSpect, a New Method of Measuring Gene Regulatory Evolution Rates Using Co-mapping of Genomic Functional Features with Transposable Elements. Evolution, Origin of Life, Concepts and Methods 1 Oct. 2019:85–111. https://doi.org/10.1007/978-3-030-30363-1_5.
-<img width="468" height="331" alt="image" src="https://github.com/user-attachments/assets/ef577ec9-d551-4c99-831d-eca9c8bc63a9" />
 
