@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0035455,response to interferon-alpha,BP,5.9838640574059735e-06,0.06853616861247191,522.5090909090909,2,10,"['IFITM1', 'IFITM3']","['ADAR', 'BST2', 'EIF2AK2', 'IFITM1', 'IFITM2', 'IFITM3', 'IFNAR2', 'KLHL20', 'LAMP3', 'MX2']",HERV3-int,LTR
+1,GO:0035456,response to interferon-beta,BP,7.312084563370523e-06,0.06853616861247191,475.00826446280996,2,11,"['IFITM1', 'IFITM3']","['BST2', 'GPR146', 'IFITM1', 'IFITM2', 'IFITM3', 'IFNAR2', 'IKBKE', 'PLSCR1', 'SHFL', 'STAT1', 'XAF1']",HERV3-int,LTR

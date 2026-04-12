@@ -1,0 +1,4 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0032787,monocarboxylic acid metabolic process,BP,3.28814548127484e-06,0.06163957519197815,101.9078014184397,3,18,"['AKR1C2', 'AKR1C3', 'CYP2C19']","['ACOT1', 'ACOT2', 'ACOT4', 'ADH7', 'AKR1C1', 'AKR1C2', 'AKR1C3', 'AKR1C4', 'AKR1C8', 'AKR1D1', 'BAAT', 'CYP1A2', 'CYP2C18', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'GLYAT', 'MCAT']",L1PA15-16,LINE
+1,GO:0071395,cellular response to jasmonic acid stimulus,BP,1.5674790682960226e-05,0.0979465420475908,305.72340425531917,2,4,"['AKR1C2', 'AKR1C3']","['AKR1C1', 'AKR1C2', 'AKR1C3', 'AKR1C4']",L1PA15-16,LINE
+2,GO:0140169,3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity,MF,1.5674790682960226e-05,0.0979465420475908,305.72340425531917,2,4,"['AKR1C2', 'AKR1C3']","['AKR1C1', 'AKR1C2', 'AKR1C3', 'AKR1C4']",L1PA15-16,LINE

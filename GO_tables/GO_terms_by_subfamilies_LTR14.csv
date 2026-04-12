@@ -1,0 +1,4 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+1,GO:0005601,classical-complement-pathway C3/C5 convertase complex,CC,3.048734633761024e-06,0.05715157944448415,684.2380952380952,2,4,"['C4A', 'C4B']","['C2', 'C3', 'C4A', 'C4B']",LTR14,LTR
+0,GO:2000427,positive regulation of apoptotic cell clearance,BP,7.615119227755442e-06,0.06658871689208937,456.1587301587301,2,6,"['C4A', 'C4B']","['C2', 'C3', 'C4A', 'C4B', 'CCL2', 'CD300LF']",LTR14,LTR
+2,GO:0001848,complement binding,MF,1.0656468082591919e-05,0.06658871689208937,390.99319727891157,2,7,"['C4A', 'C4B']","['C4A', 'C4B', 'C8A', 'CD59', 'CFB', 'CR1', 'CR2']",LTR14,LTR

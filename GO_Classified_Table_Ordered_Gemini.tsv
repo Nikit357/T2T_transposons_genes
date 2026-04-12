@@ -1,0 +1,479 @@
+Term ID	Term Name	Functional group	class_name	FDR	Fold Enrichment	Overlap Count
+GO:0050911	detection of chemical stimulus involved in sensory perception of smell	Sensory system	LINE	6.91e-10	2.97	59.0
+GO:0004984	olfactory receptor activity	Sensory system	LINE	6.91e-10	2.98	59.0
+GO:0007608	sensory perception of smell	Sensory system	LINE	3.06e-09	2.81	60.0
+GO:0045922	negative regulation of fatty acid metabolic process	Lipids metabolism	LINE	0.00099	12.74	7.0
+GO:0004930	G protein-coupled receptor activity	Signaling pathways	LINE	0.00145	1.85	74.0
+GO:0007186	G protein-coupled receptor signaling pathway	Signaling pathways	LINE	0.00392	1.68	85.0
+GO:0051552	flavone metabolic process	Carbohydrates metabolism	LINE	0.00516	36.17	3.0
+GO:0005515	protein binding	Too general	SINE	6.44e-12	1.24	548.0
+GO:0005737	cytoplasm	Too general	SINE	5.30e-11	1.21	586.0
+GO:0005654	nucleoplasm	Too general	SINE	2.91e-08	1.26	461.0
+GO:0016020	membrane	Too general	SINE	2.91e-08	1.17	589.0
+GO:0000785	chromatin	Chromatin structure	SINE	4.22e-07	1.37	274.0
+GO:0005886	plasma membrane	Too general	SINE	4.22e-07	1.19	497.0
+GO:0045944	positive regulation of transcription by RNA polymerase II	Transcription and its regulation	SINE	1.12e-06	1.33	297.0
+GO:0005829	cytosol	Too general	SINE	1.12e-06	1.27	386.0
+GO:0007165	signal transduction	Signaling pathways	SINE	1.26e-06	1.21	478.0
+GO:0030154	cell differentiation	Embryogenesis	SINE	1.26e-06	1.21	462.0
+GO:0003723	RNA binding	Transcription and its regulation	SINE	1.77e-06	1.26	394.0
+GO:0045893	positive regulation of DNA-templated transcription	Transcription and its regulation	SINE	1.77e-06	1.31	306.0
+GO:0042802	identical protein binding	Too general	SINE	3.44e-06	1.35	250.0
+GO:0045202	synapse	Nervous system	SINE	3.44e-06	1.26	377.0
+GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	Transcription and its regulation	SINE	3.63e-06	1.44	201.0
+GO:0005634	nucleus	Too general	SINE	6.11e-06	1.13	642.0
+GO:0005794	Golgi apparatus	Potential new group	SINE	6.11e-06	1.24	383.0
+GO:0006811	monoatomic ion transport	Potential new group	SINE	7.55e-06	1.32	276.0
+GO:0034220	monoatomic ion transmembrane transport	Potential new group	SINE	7.55e-06	1.33	274.0
+GO:0032991	protein-containing complex	Too general	SINE	1.17e-05	1.15	569.0
+GO:0070062	extracellular exosome	Too general	SINE	1.17e-05	1.18	471.0
+GO:1990837	sequence-specific double-stranded DNA binding	Transcription and its regulation	SINE	1.17e-05	1.42	193.0
+GO:0000166	nucleotide binding	Too general	SINE	2.18e-05	1.24	353.0
+GO:0031666	positive regulation of lipopolysaccharide-mediated signaling pathway	Other immune processes	SINE	2.18e-05	2.41	55.0
+GO:0098978	glutamatergic synapse	Nervous system	SINE	2.40e-05	1.48	158.0
+GO:0005515	protein binding	Too general	LTR	4.47e-13	1.28	434.0
+GO:0005737	cytoplasm	Too general	LTR	1.68e-11	1.23	459.0
+GO:0016020	membrane	Too general	LTR	4.54e-11	1.22	475.0
+GO:0005739	mitochondrion	Potential new group	LTR	1.97e-08	1.39	245.0
+GO:0005654	nucleoplasm	Too general	LTR	3.06e-08	1.29	365.0
+GO:0005743	mitochondrial inner membrane	Potential new group	LTR	3.29e-08	1.66	144.0
+GO:0005886	plasma membrane	Too general	LTR	3.29e-08	1.21	391.0
+GO:0005819	spindle	Cell cycle/cell division	LTR	4.60e-08	1.77	123.0
+GO:0005634	nucleus	Too general	LTR	8.90e-08	1.15	503.0
+GO:1990904	ribonucleoprotein complex	Too general	LTR	1.01e-07	1.40	218.0
+GO:0005829	cytosol	Too general	LTR	1.77e-07	1.31	307.0
+GO:0005794	Golgi apparatus	Potential new group	LTR	3.42e-07	1.30	311.0
+GO:0000387	spliceosomal snRNP assembly	RNA splicing and processing	LTR	4.22e-07	2.84	49.0
+GO:0003723	RNA binding	Transcription and its regulation	LTR	4.69e-07	1.31	314.0
+GO:0000398	mRNA splicing, via spliceosome	RNA splicing and processing	LTR	4.95e-07	1.81	103.0
+GO:0006412	translation	Ribosome biogenesis and translation itself	LTR	4.95e-07	1.60	138.0
+GO:0015031	protein transport	Too general	LTR	4.95e-07	1.42	194.0
+GO:0003677	DNA binding	Transcription and its regulation	LTR	5.85e-07	1.26	357.0
+GO:0032991	protein-containing complex	Too general	LTR	1.19e-06	1.16	440.0
+GO:0006298	mismatch repair	DNA repair	LTR	1.45e-06	4.15	29.0
+GO:0005874	microtubule	Cytoskeleton	LTR	1.51e-06	1.58	133.0
+GO:0016887	ATP hydrolysis activity	Potential new group	LTR	1.51e-06	1.85	89.0
+GO:0005524	ATP binding	Too general	LTR	2.16e-06	1.30	284.0
+GO:0071016	U12-type precatalytic spliceosome	RNA splicing and processing	LTR	2.16e-06	5.43	20.0
+GO:0005813	centrosome	Cell cycle/cell division	LTR	2.65e-06	1.54	143.0
+GO:0007144	female meiosis I	Cell cycle/cell division	LTR	3.29e-06	4.37	25.0
+GO:0000388	spliceosome conformational change to release U4 (or U4atac) and U1 (or U11)	RNA splicing and processing	LTR	4.21e-06	5.16	20.0
+GO:0005759	mitochondrial matrix	Too general	LTR	4.21e-06	1.54	139.0
+GO:0006352	DNA-templated transcription initiation	Transcription and its regulation	LTR	4.21e-06	1.86	82.0
+GO:0080025	phosphatidylinositol-3,5-bisphosphate binding	Signaling pathways	LTR	4.21e-06	10.60	9.0
+GO:0034719	SMN-Sm protein complex	RNA splicing and processing	LTR	4.88e-06	5.69	18.0
+GO:0016021	integral component of membrane	Too general	LTR	4.92e-06	1.14	483.0
+GO:0005730	nucleolus	Potential new group	LTR	5.27e-06	1.39	198.0
+GO:0006397	mRNA processing	RNA splicing and processing	LTR	5.27e-06	1.56	134.0
+GO:0006754	ATP biosynthetic process	Potential new group	LTR	5.27e-06	2.14	59.0
+GO:0071011	precatalytic spliceosome	RNA splicing and processing	LTR	5.27e-06	3.15	38.0
+GO:0016192	vesicle-mediated transport	Potential new group	LTR	5.36e-06	1.33	240.0
+GO:0000245	spliceosomal complex assembly	Other	LTR	5.54e-06	2.47	48.0
+GO:0001701	in utero embryonic development	Embryogenesis	LTR	6.60e-06	1.60	123.0
+GO:1990446	U1 snRNP binding	Signaling pathways	LTR	6.60e-06	11.33	8.0
+GO:0001181	RNA polymerase I general transcription initiation factor activity	Transcription and its regulation	LTR	7.41e-06	12.11	7.0
+GO:0051301	cell division	Cell cycle/cell division	LTR	7.55e-06	1.51	147.0
+GO:0005685	U1 snRNP	RNA splicing and processing	LTR	8.07e-06	3.44	32.0
+GO:0055102	lipase inhibitor activity	Lipids metabolism	LTR	8.07e-06	15.14	5.0
+GO:0140003	histone H3K36me3 reader activity	Chromatin structure	LTR	8.07e-06	15.14	5.0
+GO:0031966	mitochondrial membrane	Potential new group	LTR	9.02e-06	1.35	219.0
+GO:0006325	chromatin organization	Chromatin structure	LTR	1.05e-05	1.44	165.0
+GO:0005887	integral component of plasma membrane	Too general	LTR	1.19e-05	1.21	314.0
+GO:0003700	DNA-binding transcription factor activity	Transcription and its regulation	LTR	1.34e-05	1.34	226.0
+GO:0005740	mitochondrial envelope	Potential new group	LTR	1.34e-05	1.32	243.0
+GO:0006369	termination of RNA polymerase II transcription	Transcription and its regulation	LTR	1.34e-05	2.65	41.0
+GO:0019899	enzyme binding	Too general	LTR	1.46e-05	1.36	198.0
+GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	Transcription and its regulation	LTR	1.59e-05	1.37	189.0
+GO:0006355	regulation of DNA-templated transcription	Transcription and its regulation	LTR	1.68e-05	1.22	398.0
+GO:0016071	mRNA metabolic process	Transcription and its regulation	LTR	1.77e-05	1.34	212.0
+GO:0034641	cellular nucleobase-containing compound metabolic process	Transcription and its regulation	LTR	1.85e-05	1.22	400.0
+GO:0005515	protein binding	Too general	DNA	1.51e-13	1.28	467.0
+GO:0005737	cytoplasm	Too general	DNA	4.44e-12	1.23	494.0
+GO:0016020	membrane	Too general	DNA	1.69e-11	1.22	510.0
+GO:0005654	nucleoplasm	Too general	DNA	7.30e-09	1.30	396.0
+GO:0006281	DNA repair	DNA repair	DNA	9.45e-09	2.03	86.0
+GO:0036064	ciliary basal body	Cytoskeleton	DNA	1.01e-08	3.32	40.0
+GO:0005886	plasma membrane	Too general	DNA	1.13e-08	1.22	423.0
+GO:0005634	nucleus	Too general	DNA	1.36e-08	1.16	546.0
+GO:0006974	DNA damage response	DNA repair	DNA	1.36e-08	1.73	131.0
+GO:0004386	helicase activity	DNA replication	DNA	2.37e-08	2.18	67.0
+GO:0005819	spindle	Cell cycle/cell division	DNA	2.37e-08	1.79	131.0
+GO:0097190	apoptotic signaling pathway	Cell death	DNA	2.37e-08	1.96	91.0
+GO:0010759	positive regulation of macrophage chemotaxis	Cell migration	DNA	2.65e-08	11.38	10.0
+GO:0006310	DNA recombination	DNA recombination	DNA	3.29e-08	2.60	47.0
+GO:0060020	Bergmann glial cell differentiation	Nervous system	DNA	3.29e-08	11.04	10.0
+GO:0038127	ERBB signaling pathway	Signaling pathways	DNA	5.43e-08	3.24	38.0
+GO:0005684	U2-type spliceosomal complex	Other	DNA	5.85e-08	3.17	39.0
+GO:0000723	telomere maintenance	DNA replication	DNA	6.51e-08	3.01	42.0
+GO:0031663	lipopolysaccharide-mediated signaling pathway	Other immune processes	DNA	6.51e-08	2.46	62.0
+GO:0006312	mitotic recombination	DNA recombination	DNA	1.21e-07	4.48	23.0
+GO:0005829	cytosol	Too general	DNA	1.34e-07	1.31	330.0
+GO:0061514	interleukin-34-mediated signaling pathway	Signaling pathways	DNA	1.34e-07	10.15	10.0
+GO:0005794	Golgi apparatus	Potential new group	DNA	1.59e-07	1.31	332.0
+GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	Transcription and its regulation	DNA	1.96e-07	1.44	210.0
+GO:0003700	DNA-binding transcription factor activity	Transcription and its regulation	DNA	1.96e-07	1.42	225.0
+GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	Transcription and its regulation	DNA	2.29e-07	1.51	173.0
+GO:0006357	regulation of transcription by RNA polymerase II	Transcription and its regulation	DNA	2.29e-07	1.33	292.0
+GO:0006355	regulation of DNA-templated transcription	Transcription and its regulation	DNA	3.29e-07	1.23	427.0
+GO:0006412	translation	Ribosome biogenesis and translation itself	DNA	3.29e-07	1.64	148.0
+GO:0003677	DNA binding	Transcription and its regulation	DNA	4.01e-07	1.27	382.0
+GO:0043565	sequence-specific DNA binding	Transcription and its regulation	DNA	4.01e-07	1.42	215.0
+GO:0000122	negative regulation of transcription by RNA polymerase II	Transcription and its regulation	DNA	5.43e-07	1.48	178.0
+GO:0009952	anterior/posterior pattern specification	Embryogenesis	DNA	5.43e-07	2.03	78.0
+GO:0007399	nervous system development	Nervous system	DNA	5.85e-07	1.24	412.0
+GO:0048704	embryonic skeletal system morphogenesis	Embryogenesis	DNA	5.85e-07	2.65	42.0
+GO:0030182	neuron differentiation	Nervous system	DNA	6.51e-07	1.33	284.0
+GO:0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding	Transcription and its regulation	DNA	7.02e-07	1.49	171.0
+GO:0001227	DNA-binding transcription repressor activity, RNA polymerase II-specific	Transcription and its regulation	DNA	8.07e-07	1.61	133.0
+GO:0003723	RNA binding	Transcription and its regulation	DNA	8.07e-07	1.31	332.0
+GO:0005667	transcription regulator complex	Transcription and its regulation	DNA	8.07e-07	1.53	161.0
+GO:0048706	embryonic skeletal system development	Embryogenesis	DNA	8.07e-07	2.52	46.0
+GO:0009653	anatomical structure morphogenesis	Embryogenesis	DNA	8.51e-07	1.32	300.0
+GO:0001501	skeletal system development	Embryogenesis	DNA	9.31e-07	1.40	232.0
+GO:0030900	forebrain development	Nervous system	DNA	9.31e-07	1.77	115.0
+GO:0030326	embryonic limb morphogenesis	Embryogenesis	DNA	1.05e-06	2.81	37.0
+GO:0007411	axon guidance	Nervous system	DNA	1.12e-06	1.65	144.0
+GO:0007420	brain development	Nervous system	DNA	1.12e-06	1.43	225.0
+GO:0000976	transcription cis-regulatory region binding	Transcription and its regulation	DNA	1.19e-06	1.50	171.0
+GO:0009954	proximal/distal pattern formation	Embryogenesis	DNA	1.19e-06	4.15	22.0
+GO:0045892	negative regulation of DNA-templated transcription	Transcription and its regulation	DNA	1.19e-06	1.38	215.0
+GO:0009953	dorsal/ventral pattern formation	Embryogenesis	DNA	1.26e-06	2.91	34.0
+GO:0007389	pattern specification process	Embryogenesis	DNA	1.34e-06	1.62	147.0
+GO:0035115	embryonic forelimb morphogenesis	Embryogenesis	DNA	1.34e-06	3.88	23.0
+GO:0003682	chromatin binding	Transcription and its regulation	DNA	1.43e-06	1.58	139.0
+GO:0045165	cell fate commitment	Embryogenesis	DNA	1.43e-06	2.16	63.0
+GO:0048665	neuron fate specification	Nervous system	DNA	1.43e-06	3.01	32.0
+GO:0007506	gonadal mesoderm development	Embryogenesis	DNA	1.59e-06	5.54	15.0
+GO:0042472	inner ear morphogenesis	Sensory system	DNA	1.59e-06	3.88	22.0
+GO:0001709	cell fate determination	Embryogenesis	DNA	1.77e-06	2.22	58.0
+Term ID	Term Name	Functional group	class_name	FDR	Fold Enrichment	Overlap Count
+GO:0001656	metanephros development	Embryogenesis	DNA	1.81e-06	2.37	49.0
+GO:0051216	cartilage development	Embryogenesis	DNA	1.81e-06	2.11	67.0
+GO:0003151	outflow tract morphogenesis	Embryogenesis	DNA	2.11e-06	3.44	26.0
+GO:0060021	roof of mouth development	Embryogenesis	DNA	2.11e-06	8.43	9.0
+GO:0021772	olfactory bulb development	Nervous system	DNA	2.16e-06	4.15	19.0
+GO:0035116	embryonic hindlimb morphogenesis	Embryogenesis	DNA	2.16e-06	4.35	18.0
+GO:0048468	cell development	Embryogenesis	DNA	2.37e-06	1.26	372.0
+GO:0071837	HMG box domain binding	Transcription and its regulation	DNA	2.37e-06	3.44	26.0
+GO:0099560	synaptic membrane adhesion	Cell adhesion	DNA	2.37e-06	3.90	21.0
+GO:0045665	negative regulation of neuron differentiation	Nervous system	DNA	2.55e-06	1.85	86.0
+GO:0010468	regulation of gene expression	Transcription and its regulation	DNA	2.65e-06	1.22	459.0
+GO:0001708	cell fate specification	Embryogenesis	DNA	2.84e-06	2.46	43.0
+GO:0060037	pharyngeal system development	Embryogenesis	DNA	2.84e-06	3.05	30.0
+GO:0042733	embryonic digit morphogenesis	Embryogenesis	DNA	2.91e-06	3.83	21.0
+GO:0001764	neuron migration	Cell migration	DNA	3.15e-06	2.03	66.0
+GO:0042474	middle ear morphogenesis	Sensory system	DNA	3.15e-06	4.78	15.0
+GO:0045666	positive regulation of neuron differentiation	Nervous system	DNA	3.15e-06	1.77	101.0
+GO:0007409	axonogenesis	Nervous system	DNA	3.29e-06	1.64	129.0
+GO:0010628	positive regulation of gene expression	Embryogenesis	DNA	3.29e-06	1.27	330.0
+GO:0048935	peripheral nervous system neuron development	Nervous system	DNA	3.29e-06	3.44	25.0
+GO:0009887	animal organ morphogenesis	Embryogenesis	DNA	3.42e-06	1.44	196.0
+GO:0008045	motor neuron axon guidance	Nervous system	DNA	3.83e-06	3.97	20.0
+GO:0048663	neuron fate commitment	Nervous system	DNA	3.83e-06	3.83	21.0
+GO:0048701	embryonic cranial skeleton morphogenesis	Embryogenesis	DNA	3.83e-06	3.58	23.0
+GO:0007519	skeletal muscle tissue development	Embryogenesis	DNA	4.21e-06	2.01	65.0
+GO:0048731	system development	Embryogenesis	DNA	4.21e-06	1.19	503.0
+GO:0051965	positive regulation of synapse assembly	Nervous system	DNA	4.21e-06	4.05	19.0
+GO:0048839	inner ear development	Sensory system	DNA	4.48e-06	2.16	54.0
+GO:0007423	sensory organ development	Sensory system	DNA	4.69e-06	1.61	133.0
+GO:0000987	cis-regulatory region sequence-specific DNA binding	Transcription and its regulation	DNA	4.88e-06	1.51	158.0
+GO:0001655	urogenital system development	Embryogenesis	DNA	4.88e-06	1.73	107.0
+GO:0001657	ureteric bud development	Embryogenesis	DNA	4.88e-06	4.21	18.0
+GO:0007507	heart development	Embryogenesis	DNA	4.88e-06	1.60	134.0
+GO:0010467	gene expression	Transcription and its regulation	DNA	4.88e-06	1.18	539.0
+GO:0048646	anatomical structure formation involved in morphogenesis	Embryogenesis	DNA	4.88e-06	1.35	250.0
+GO:0043524	negative regulation of neuron apoptotic process	Nervous system	DNA	5.36e-06	2.41	43.0
+GO:0031016	pancreas development	Embryogenesis	DNA	5.36e-06	2.18	52.0
+GO:0021983	pituitary gland development	Embryogenesis	DNA	5.54e-06	3.24	26.0
+GO:0030902	hindbrain development	Nervous system	DNA	5.54e-06	2.03	61.0
+GO:0071542	dopaminergic neuron differentiation	Nervous system	DNA	5.54e-06	3.44	24.0
+GO:0001569	branching involved in blood vessel morphogenesis	Embryogenesis	DNA	5.85e-06	2.81	32.0
+GO:0001945	lymph vessel development	Embryogenesis	DNA	6.11e-06	3.10	27.0
+GO:0060272	embryonic skeletal joint morphogenesis	Embryogenesis	DNA	6.11e-06	5.43	13.0
+GO:0070888	E-box binding	Transcription and its regulation	DNA	6.11e-06	3.17	26.0
+GO:0002053	positive regulation of mesenchymal cell proliferation	Embryogenesis	DNA	6.60e-06	2.37	44.0
+GO:0042734	presynaptic membrane	Nervous system	DNA	6.60e-06	2.41	42.0
+GO:0030324	lung development	Embryogenesis	DNA	7.41e-06	2.03	59.0
+GO:0050679	positive regulation of epithelial cell proliferation	Embryogenesis	DNA	7.41e-06	2.11	53.0
+GO:0045597	positive regulation of cell differentiation	Embryogenesis	DNA	7.55e-06	1.44	181.0
+GO:0048485	sympathetic nervous system development	Nervous system	DNA	7.55e-06	3.17	25.0
+GO:0060412	ventricular septum morphogenesis	Embryogenesis	DNA	7.55e-06	3.88	19.0
+GO:0003357	noradrenergic neuron differentiation	Nervous system	DNA	8.07e-06	10.60	7.0
+GO:0021520	spinal cord motor neuron cell fate specification	Nervous system	DNA	8.07e-06	7.55	10.0
+GO:0032330	regulation of chondrocyte differentiation	Embryogenesis	DNA	8.07e-06	3.17	25.0
+GO:0090103	cochlea morphogenesis	Sensory system	DNA	8.07e-06	4.48	14.0
+GO:0048705	skeletal system morphogenesis	Embryogenesis	DNA	9.02e-06	1.96	63.0
+GO:0001756	somitogenesis	Embryogenesis	DNA	9.31e-06	2.65	35.0
+GO:0001221	transcription coregulator binding	Transcription and its regulation	DNA	9.71e-06	1.68	105.0
+GO:0001822	kidney development	Embryogenesis	DNA	9.71e-06	1.66	110.0
+GO:0003323	type B pancreatic cell development	Embryogenesis	DNA	9.84e-06	5.43	12.0
+GO:0035295	tube development	Embryogenesis	DNA	9.84e-06	1.58	129.0
+GO:0048557	embryonic digestive tract morphogenesis	Embryogenesis	DNA	1.05e-05	3.24	24.0
+GO:0035137	hindlimb morphogenesis	Embryogenesis	DNA	1.12e-05	2.65	34.0
+GO:0061549	sympathetic ganglion development	Embryogenesis	DNA	1.12e-05	5.16	13.0
+GO:0003007	heart morphogenesis	Embryogenesis	DNA	1.17e-05	2.41	41.0
+GO:0030878	thyroid gland development	Embryogenesis	DNA	1.17e-05	4.05	17.0
+GO:0061629	RNA polymerase II-specific DNA-binding transcription factor binding	Transcription and its regulation	DNA	1.17e-05	2.52	37.0
+GO:0016740	transferase activity	Too general	DNA	1.19e-05	1.17	369.0
+GO:0001658	branching involved in ureteric bud morphogenesis	Embryogenesis	DNA	1.26e-05	4.48	15.0
+GO:0035108	limb morphogenesis	Embryogenesis	DNA	1.26e-05	1.98	58.0
+GO:0005789	endoplasmic reticulum membrane	Too general	DNA	1.34e-05	1.37	171.0
+GO:0051145	smooth muscle cell differentiation	Embryogenesis	DNA	1.34e-05	2.18	47.0
+GO:0021889	olfactory bulb interneuron differentiation	Nervous system	DNA	1.43e-05	5.30	12.0
+GO:0030539	male genitalia development	Embryogenesis	DNA	1.43e-05	3.44	20.0
+GO:0021902	commitment of neuronal cell to specific neuron type in forebrain	Nervous system	DNA	1.51e-05	5.30	12.0
+GO:0099054	presynapse assembly	Nervous system	DNA	1.51e-05	3.90	17.0
+GO:0016567	protein ubiquitination	Protein ubiquitination and degradation	DNA	1.59e-05	1.48	138.0
+GO:0031018	endocrine pancreas development	Embryogenesis	DNA	1.59e-05	2.98	26.0
+GO:0050839	cell adhesion molecule binding	Cell adhesion	DNA	1.59e-05	1.54	115.0
+GO:0021766	hippocampus development	Nervous system	DNA	1.68e-05	2.55	34.0
+GO:0030850	prostate gland development	Embryogenesis	DNA	1.68e-05	3.58	19.0
+GO:0043010	camera-type eye development	Sensory system	DNA	1.68e-05	2.18	45.0
+GO:0043588	skin development	Embryogenesis	DNA	1.68e-05	1.77	81.0
+GO:0001843	neural tube closure	Embryogenesis	DNA	1.77e-05	4.05	16.0
+GO:0021522	spinal cord motor neuron differentiation	Nervous system	DNA	1.77e-05	4.15	15.0
+GO:0050767	regulation of neurogenesis	Nervous system	DNA	1.77e-05	1.41	165.0
+GO:0008285	negative regulation of cell population proliferation	Cell cycle/cell division	DNA	1.85e-05	1.46	139.0
+GO:0030514	negative regulation of BMP signaling pathway	Signaling pathways	DNA	1.85e-05	3.24	21.0
+GO:0003148	outflow tract septum morphogenesis	Embryogenesis	DNA	1.96e-05	5.30	11.0
+GO:0030879	mammary gland development	Embryogenesis	DNA	1.96e-05	2.46	36.0
+GO:0008406	gonad development	Embryogenesis	DNA	2.03e-05	1.93	56.0
+GO:0021978	telencephalon regionalization	Embryogenesis	DNA	2.03e-05	4.21	15.0
+GO:0021521	ventral spinal cord interneuron specification	Nervous system	DNA	2.11e-05	6.83	9.0
+GO:0060931	sinoatrial node cell development	Embryogenesis	DNA	2.11e-05	6.83	9.0
+GO:0048666	neuron development	Nervous system	DNA	2.16e-05	1.33	225.0
+GO:0048513	animal organ development	Too general	DNA	2.18e-05	1.17	448.0
+GO:0002062	chondrocyte differentiation	Embryogenesis	DNA	2.29e-05	2.37	38.0
+GO:0030534	adult behavior	Nervous system	DNA	2.29e-05	1.85	61.0
+GO:0060065	uterus development	Embryogenesis	DNA	2.29e-05	3.10	23.0
+GO:0001947	heart looping	Embryogenesis	DNA	2.40e-05	5.30	11.0
+GO:0098982	GABA-ergic synapse	Nervous system	DNA	2.40e-05	2.33	39.0
+GO:0007417	central nervous system development	Nervous system	DNA	2.55e-05	1.38	171.0
+GO:0003272	endocardial cushion formation	Embryogenesis	DNA	2.65e-05	4.35	14.0
+GO:0022008	neurogenesis	Nervous system	DNA	2.65e-05	1.31	243.0
+GO:0006629	lipid metabolic process	Lipids metabolism	DNA	2.70e-05	1.37	171.0
+GO:0007219	Notch signaling pathway	Signaling pathways	DNA	2.70e-05	2.22	42.0
+GO:0007605	sensory perception of sound	Sensory system	DNA	2.70e-05	1.91	56.0
+GO:0140297	DNA-binding transcription factor binding	Signaling pathways	DNA	2.70e-05	1.68	91.0
+GO:0060425	lung morphogenesis	Embryogenesis	DNA	2.84e-05	2.60	31.0
+GO:0021527	spinal cord association neuron differentiation	Nervous system	DNA	2.91e-05	3.44	20.0
+GO:0001823	mesonephros development	Embryogenesis	DNA	3.06e-05	3.58	18.0
+GO:0021846	cell proliferation in forebrain	Nervous system	DNA	3.06e-05	2.75	27.0
+GO:0071300	cellular response to retinoic acid	Signaling pathways	DNA	3.06e-05	2.37	35.0
+GO:0045638	negative regulation of myeloid cell differentiation	Other immune processes	DNA	3.15e-05	2.70	28.0
+GO:0001755	neural crest cell migration	Cell migration	DNA	3.29e-05	2.18	42.0
+GO:0090090	negative regulation of canonical Wnt signaling pathway	Signaling pathways	DNA	3.29e-05	2.29	38.0
+GO:0050804	modulation of chemical synaptic transmission	Nervous system	DNA	3.42e-05	1.73	72.0
+GO:0001707	mesoderm development	Embryogenesis	DNA	3.56e-05	1.91	54.0
+GO:0045211	postsynaptic density membrane	Nervous system	DNA	3.56e-05	3.32	21.0
+GO:0007510	embryonic heart tube development	Embryogenesis	DNA	3.63e-05	5.16	11.0
+GO:0001710	mesodermal cell fate specification	Embryogenesis	DNA	3.83e-05	4.15	14.0
+GO:0001825	nephric duct morphogenesis	Embryogenesis	DNA	3.83e-05	5.30	10.0
+GO:0035144	outer ear morphogenesis	Sensory system	DNA	3.83e-05	4.78	11.0
+GO:0021591	facial nerve structural organization	Embryogenesis	DNA	4.05e-05	12.11	5.0
+GO:0060970	coronary artery morphogenesis	Embryogenesis	DNA	4.05e-05	4.21	13.0
+GO:0035114	forelimb morphogenesis	Embryogenesis	DNA	4.21e-05	2.33	34.0
+GO:0030901	midbrain development	Nervous system	DNA	4.48e-05	2.41	31.0
+GO:0021703	cerebellar Purkinje cell differentiation	Nervous system	DNA	4.69e-05	4.48	12.0
+GO:0001706	endoderm formation	Embryogenesis	DNA	4.88e-05	4.21	13.0
+GO:0001654	eye development	Sensory system	DNA	5.02e-05	1.64	81.0
+GO:0010718	positive regulation of epithelial to mesenchymal transition	Embryogenesis	DNA	5.02e-05	2.33	32.0
+GO:0035904	artery morphogenesis	Embryogenesis	DNA	5.16e-05	2.55	28.0
+GO:0007517	muscle organ development	Embryogenesis	DNA	5.27e-05	1.58	91.0
+GO:0001568	blood vessel development	Embryogenesis	DNA	5.36e-05	1.44	133.0
+GO:0035176	social behavior	Nervous system	DNA	5.54e-05	2.60	27.0
+GO:0043113	receptor clustering	Signaling pathways	DNA	5.85e-05	3.44	18.0
+GO:0045213	postsynaptic membrane	Nervous system	DNA	5.85e-05	2.18	38.0
+GO:0042127	positive regulation of cell population proliferation	Cell cycle/cell division	DNA	6.11e-05	1.24	263.0
+GO:0042127	regulation of cell population proliferation	Cell cycle/cell division	DNA	6.11e-05	1.23	272.0
+GO:0001649	osteoblast differentiation	Embryogenesis	DNA	6.60e-05	1.93	50.0
+GO:0070857	odontogenesis of dentin-containing tooth	Embryogenesis	DNA	6.83e-05	6.41	7.0
+GO:0021537	cerebellum development	Nervous system	DNA	7.02e-05	1.85	56.0
+GO:0021885	layer formation in cerebral cortex	Nervous system	DNA	7.02e-05	5.16	9.0
+GO:0060070	canonical Wnt signaling pathway	Signaling pathways	DNA	7.02e-05	1.96	48.0
+GO:0031647	regulation of protein stability	Protein ubiquitination and degradation	DNA	7.41e-05	1.82	59.0
+GO:0048669	collateral sprouting	Nervous system	DNA	7.41e-05	8.43	6.0
+GO:0051963	regulation of presynapse assembly	Nervous system	DNA	7.41e-05	4.05	13.0
+GO:0042633	hair follicle development	Embryogenesis	DNA	7.55e-05	2.46	29.0
+Term ID	Term Name	Functional group	class_name	FDR	Fold Enrichment	Overlap Count
+GO:0042692	skeletal muscle cell differentiation	Embryogenesis	DNA	7.55e-05	2.18	39.0
+GO:0016787	hydrolase activity	Too general	DNA	7.71e-05	1.13	342.0
+GO:0048339	paraxial mesoderm formation	Embryogenesis	DNA	8.07e-05	5.30	8.0
+GO:0048665	forebrain neuron development	Nervous system	DNA	8.07e-05	2.41	30.0
+GO:0048664	neuron fate determination	Embryogenesis	DNA	8.07e-05	3.24	18.0
+GO:0098977	gephyrin clustering involved in postsynaptic density assembly	Nervous system	DNA	8.07e-05	12.11	4.0
+GO:0051964	negative regulation of synapse assembly	Nervous system	DNA	8.32e-05	5.43	8.0
+GO:0060370	soft palate development	Embryogenesis	DNA	8.32e-05	6.83	6.0
+GO:0097119	postsynaptic density protein 95 clustering	Nervous system	DNA	8.32e-05	10.60	4.0
+GO:0060041	retina development in camera-type eye	Sensory system	DNA	8.51e-05	2.11	43.0
+GO:0021987	cerebral cortex development	Nervous system	DNA	9.31e-05	1.77	66.0
+GO:0071773	cellular response to BMP stimulus	Signaling pathways	DNA	9.31e-05	1.93	48.0
+GO:0021530	central nervous system neuron differentiation	Nervous system	DNA	9.71e-05	1.91	49.0
+GO:0021794	thalamus development	Nervous system	DNA	9.71e-05	4.05	12.0
+GO:0001702	primitive streak formation	Embryogenesis	DNA	9.84e-05	5.16	8.0
+GO:0005768	endosome	Potential new group	DNA	9.98e-05	1.33	165.0
+GO:0021757	habenula development	Nervous system	DNA	9.98e-05	10.60	4.0
+GO:0048596	neural crest cell development	Embryogenesis	DNA	9.98e-05	1.91	49.0
+GO:0021617	rhombomere 3 development	Nervous system	DNA	0.00011	11.04	4.0
+GO:0007421	sensory system development	Sensory system	DNA	0.00011	1.51	122.0
+GO:0034449	protein kinase 5 complex	Other	DNA	0.00011	15.14	3.0
+GO:0060933	positive regulation of secondary heart field cardioblast proliferation	Embryogenesis	DNA	0.00011	9.08	5.0
+GO:0060157	mammary placode formation	Embryogenesis	DNA	0.00011	8.43	5.0
+GO:0021535	cell differentiation in hindbrain	Embryogenesis	DNA	0.00011	4.15	11.0
+GO:0060273	embryonic skeletal limb joint morphogenesis	Embryogenesis	DNA	0.00012	4.78	9.0
+GO:0030098	definitive hemopoiesis	Other immune processes	DNA	0.00012	2.65	24.0
+GO:0045618	positive regulation of neuroblast proliferation	Cell cycle/cell division	DNA	0.00012	4.21	11.0
+GO:0097127	beta-catenin-TCF7L2 complex	Signaling pathways	DNA	0.00012	13.46	3.0
+GO:0070498	atrioventricular bundle cell differentiation	Embryogenesis	DNA	0.00013	10.60	4.0
+GO:0035080	somatic stem cell population maintenance	Cell cycle/cell division	DNA	0.00013	2.70	23.0
+GO:0009880	embryonic pattern specification	Embryogenesis	DNA	0.00013	1.82	56.0
+GO:0048709	oligodendrocyte differentiation	Embryogenesis	DNA	0.00014	2.37	31.0
+GO:0045444	fat cell differentiation	Embryogenesis	DNA	0.00015	1.84	53.0
+GO:0016579	protein deubiquitination	Protein ubiquitination and degradation	DNA	0.00015	1.96	42.0
+GO:0031103	positive regulation of neuron projection development	Nervous system	DNA	0.00015	1.44	129.0
+GO:0061050	positive regulation of cardiac muscle cell proliferation	Embryogenesis	DNA	0.00015	4.05	12.0
+GO:0090280	positive regulation of brown fat cell differentiation	Embryogenesis	DNA	0.00015	5.16	8.0
+GO:0035903	aorta morphogenesis	Embryogenesis	DNA	0.00016	3.17	18.0
+GO:0060325	face morphogenesis	Embryogenesis	DNA	0.00016	2.29	34.0
+GO:0060930	cardiac neural crest cell migration involved in outflow tract morphogenesis	Embryogenesis	DNA	0.00016	6.83	6.0
+GO:0021503	forebrain dorsal/ventral pattern formation	Embryogenesis	DNA	0.00016	4.35	11.0
+GO:0005730	nucleolus	Potential new group	DNA	0.00016	1.37	131.0
+GO:0061386	neural crest cell migration involved in autonomic nervous system development	Nervous system	DNA	0.00017	12.11	4.0
+GO:0099119	excitatory synapse assembly	Nervous system	DNA	0.00017	3.58	14.0
+GO:0033235	type B pancreatic cell differentiation	Embryogenesis	DNA	0.00017	6.06	7.0
+GO:0060485	ureter development	Embryogenesis	DNA	0.00017	5.16	8.0
+GO:0048914	trigeminal nerve development	Nervous system	DNA	0.00017	4.21	11.0
+GO:0048793	pronephros development	Embryogenesis	DNA	0.00018	5.30	8.0
+GO:0060538	muscle tissue morphogenesis	Embryogenesis	DNA	0.00018	1.85	50.0
+GO:0072205	vocal learning	Nervous system	DNA	0.00018	12.11	4.0
+GO:0072044	metanephric mesenchyme development	Embryogenesis	DNA	0.00019	3.88	12.0
+GO:0030507	positive regulation of gastrulation	Embryogenesis	DNA	0.00019	5.43	8.0
+GO:0003204	atrial cardiac muscle tissue morphogenesis	Embryogenesis	DNA	0.00019	4.48	10.0
+GO:0001759	organ induction	Embryogenesis	DNA	0.00021	3.32	16.0
+GO:0001704	anterior/posterior axis specification, embryo	Embryogenesis	DNA	0.00021	3.44	15.0
+GO:0071330	cellular response to follicle-stimulating hormone stimulus	Other	DNA	0.00022	9.08	5.0
+GO:0016491	oxidoreductase activity	Too general	DNA	0.00024	1.13	314.0
+GO:0045087	innate immune response	Other immune processes	DNA	0.00024	1.44	122.0
+GO:0004879	nuclear receptor activity	Transcription and its regulation	DNA	0.00024	2.29	32.0
+GO:0045775	negative regulation of osteoblast differentiation	Embryogenesis	DNA	0.00024	3.24	17.0
+GO:0005765	lysosomal membrane	Potential new group	DNA	0.00024	1.58	81.0
+GO:0006955	immune response	Other immune processes	DNA	0.00024	1.38	147.0
+GO:0044057	signal transduction involved in regulation of gene expression	Signaling pathways	DNA	0.00025	1.86	47.0
+GO:0071625	vocalization behavior	Sensory system	DNA	0.00025	4.05	12.0
+GO:0031555	histone deacetylase binding	Transcription and its regulation	DNA	0.00025	2.41	28.0
+GO:0010629	negative regulation of gene expression	Transcription and its regulation	DNA	0.00025	1.21	255.0
+GO:0030154	cell maturation	Embryogenesis	DNA	0.00026	1.21	250.0
+GO:0021541	dentate gyrus development	Nervous system	DNA	0.00027	5.16	8.0
+GO:0097125	beta-catenin-TCF complex	Signaling pathways	DNA	0.00027	8.09	5.0
+GO:0003201	endocardial cushion development	Embryogenesis	DNA	0.00027	4.35	10.0
+GO:0004970	glutamate receptor activity	Nervous system	DNA	0.0003	3.24	16.0
+GO:0045596	negative regulation of cell differentiation	Embryogenesis	DNA	0.00032	1.31	171.0
+GO:0001570	vasculogenesis	Embryogenesis	DNA	0.00034	2.18	33.0
+GO:0048699	generation of neurons	Nervous system	DNA	0.00034	1.29	189.0
+GO:0060443	epithelial tube branching involved in lung morphogenesis	Embryogenesis	DNA	0.00034	4.15	11.0
+GO:0007416	axonal fasciculation	Nervous system	DNA	0.00035	4.05	11.0
+GO:0042476	odontogenesis	Embryogenesis	DNA	0.00035	2.11	35.0
+GO:0003682	chromatin DNA binding	Transcription and its regulation	DNA	0.00036	1.71	55.0
+GO:0004851	cysteine-type deubiquitinase activity	Protein ubiquitination and degradation	DNA	0.00038	2.11	34.0
+GO:0008013	beta-catenin binding	Embryogenesis	DNA	0.00038	1.79	46.0
+GO:0021702	cerebellar granule cell differentiation	Nervous system	DNA	0.00038	5.16	8.0
+GO:0021879	forebrain neuron differentiation	Nervous system	DNA	0.00038	1.85	42.0
+GO:0022416	semicircular canal morphogenesis	Sensory system	DNA	0.00038	4.05	11.0
+GO:0003194	sinoatrial node development	Embryogenesis	DNA	0.0004	8.09	5.0
+GO:0021516	dorsal spinal cord development	Nervous system	DNA	0.0004	4.48	9.0
+GO:0051056	small GTPase binding	Other	DNA	0.0004	1.44	97.0
+GO:0008289	lipid binding	Signaling pathways	DNA	0.00041	1.44	96.0
+GO:0031901	early endosome membrane	Potential new group	DNA	0.00041	2.55	21.0
+GO:0003176	aortic valve morphogenesis	Embryogenesis	DNA	0.00042	5.43	7.0
+GO:0001702	mesoderm formation	Embryogenesis	DNA	0.00043	4.35	9.0
+GO:0045786	negative regulation of cell cycle	Cell cycle/cell division	DNA	0.00044	1.41	105.0
+GO:0006511	ubiquitin-dependent protein catabolic process	Protein ubiquitination and degradation	DNA	0.00045	1.48	85.0
+GO:0060045	eyelid development in camera-type eye	Sensory system	DNA	0.00045	5.30	7.0
+GO:0021762	midbrain dopaminergic neuron differentiation	Nervous system	DNA	0.00045	4.78	8.0
+GO:0050839	regulation of cell-cell adhesion	Cell adhesion	DNA	0.00047	1.73	51.0
+GO:0031290	retinal ganglion cell axon guidance	Sensory system	DNA	0.00047	5.16	7.0
+GO:0045664	regulation of neuron differentiation	Nervous system	DNA	0.00047	1.37	123.0
+GO:0021537	telencephalon development	Embryogenesis	DNA	0.00048	1.51	78.0
+GO:0021612	glossopharyngeal nerve morphogenesis	Nervous system	DNA	0.00049	12.11	3.0
+GO:0061051	regulation of secondary heart field cardioblast proliferation	Embryogenesis	DNA	0.00049	8.43	5.0
+GO:0021501	trachea morphogenesis	Embryogenesis	DNA	0.00049	4.48	9.0
+GO:0021501	forebrain anterior/posterior pattern specification	Embryogenesis	DNA	0.0005	5.16	7.0
+GO:0072231	specification of loop of Henle identity	Embryogenesis	DNA	0.0005	13.46	3.0
+GO:0021528	midbrain-hindbrain boundary development	Nervous system	DNA	0.00052	4.05	10.0
+GO:0007626	adult locomotory behavior	Nervous system	DNA	0.00054	1.96	33.0
+GO:0060419	epithelial cell differentiation involved in mammary gland alveolus development	Embryogenesis	DNA	0.00054	8.09	5.0
+GO:0007416	synapse assembly	Nervous system	DNA	0.00056	1.85	40.0
+GO:0060427	mesenchymal cell proliferation involved in lung development	Embryogenesis	DNA	0.00056	6.83	6.0
+GO:0003007	sympathetic neuron projection guidance	Nervous system	DNA	0.00058	5.43	7.0
+GO:0002376	immune system process	Other immune processes	DNA	0.00059	1.18	237.0
+GO:0009792	embryo development ending in birth or egg hatching	Embryogenesis	DNA	0.00059	1.31	153.0
+GO:0002088	lens morphogenesis in camera-type eye	Sensory system	DNA	0.00059	5.30	7.0
+GO:0043434	homophilic cell-cell adhesion	Cell adhesion	DNA	0.00059	2.18	31.0
+GO:0042426	norepinephrine biosynthetic process	Carbohydrates metabolism	DNA	0.00063	10.60	4.0
+GO:0048842	negative regulation of axon extension involved in axon guidance	Nervous system	DNA	0.00065	3.24	14.0
+GO:0061030	tongue development	Embryogenesis	DNA	0.00067	3.32	13.0
+GO:0048598	embryonic organ development	Embryogenesis	DNA	0.00068	1.51	74.0
+GO:0046983	protein dimerization activity	Too general	DNA	0.0007	1.53	67.0
+GO:0021510	spinal cord development	Embryogenesis	DNA	0.00074	1.77	43.0
+GO:0001958	endochondral ossification	Embryogenesis	DNA	0.00077	1.84	39.0
+GO:0035019	neuronal stem cell population maintenance	Nervous system	DNA	0.00077	5.30	7.0
+GO:0009891	thymus development	Embryogenesis	DNA	0.0008	2.84	17.0
+GO:0021782	positive regulation of neural precursor cell proliferation	Nervous system	DNA	0.0008	2.22	27.0
+GO:0005007	insulin receptor binding	Signaling pathways	DNA	0.00081	3.32	12.0
+GO:0007267	cell-cell signaling	Signaling pathways	DNA	0.00081	1.21	210.0
+GO:0071560	cellular response to transforming growth factor beta stimulus	Other	DNA	0.00081	1.82	40.0
+GO:0006352	positive regulation of cell cycle	Cell cycle/cell division	DNA	0.00081	1.35	115.0
+GO:0001649	osteoblast development	Embryogenesis	DNA	0.00084	2.60	20.0
+GO:0001707	somite development	Embryogenesis	DNA	0.00084	3.17	14.0
+GO:0060079	positive regulation of excitatory postsynaptic potential	Nervous system	DNA	0.00087	4.48	8.0
+GO:0009409	response to cold	Other	DNA	0.00089	3.44	11.0
+GO:0003713	transcription coactivator binding	Transcription and its regulation	DNA	0.00091	1.73	51.0
+GO:0009888	tissue development	Too general	DNA	0.00091	1.16	245.0
+GO:0030141	axon	Nervous system	DNA	0.00092	1.44	85.0
+GO:0051321	meiotic cell cycle	Cell cycle/cell division	DNA	0.00095	1.81	38.0
+GO:0021724	ventricular cardiac muscle tissue morphogenesis	Embryogenesis	DNA	0.00098	4.78	7.0
+GO:0010975	regulation of neuron projection development	Nervous system	DNA	0.00099	1.33	139.0
+GO:0005963	extracellular matrix structural constituent conferring tensile strength	Too general	DNA	0.00102	10.15	4.0
+GO:0046676	positive regulation of insulin secretion	Other	DNA	0.00104	2.52	20.0
+GO:0055013	cardiac muscle cell myoblast differentiation	Other	DNA	0.0011	6.06	5.0
+GO:0014009	glial cell proliferation	Cell cycle/cell division	DNA	0.00111	2.29	24.0
+GO:0042735	embryonic viscerocranium morphogenesis	Embryogenesis	DNA	0.00111	4.21	8.0
+GO:0035082	somatic stem cell division	Cell cycle/cell division	DNA	0.00114	4.15	8.0
+GO:0001968	suckling behavior	Nervous system	DNA	0.00117	12.11	3.0
+GO:0001706	endoderm development	Embryogenesis	DNA	0.00122	2.37	22.0
+GO:0010977	axon midline choice point recognition	Nervous system	DNA	0.00122	5.43	6.0
+GO:0021543	subpallium development	Other	DNA	0.00122	4.48	8.0
+GO:0001659	metanephric epithelium development	Embryogenesis	DNA	0.0013	4.05	9.0
+GO:0032993	protein-DNA complex	Too general	DNA	0.0013	1.86	34.0
+GO:0043583	tongue morphogenesis	Embryogenesis	DNA	0.0013	5.69	5.0
+GO:0045596	cell dedifferentiation	Other	DNA	0.00134	3.88	10.0
+GO:0046545	development of primary male sexual characteristics	Other	DNA	0.00134	3.83	10.0
+GO:0010703	positive regulation of cartilage development	Embryogenesis	DNA	0.00142	3.10	14.0
+GO:0017154	neuroligin family protein binding	Other	DNA	0.00142	15.14	2.0
+GO:0004556	alpha-amylase activity	Carbohydrates metabolism	DNA	0.00147	15.14	2.0
+GO:0003384	convergent extension involved in axis elongation	Other	DNA	0.00147	6.83	5.0
+GO:0007422	peripheral nervous system development	Nervous system	DNA	0.0015	1.68	47.0
+GO:0005179	hormone activity	Signaling pathways	DNA	0.00155	2.18	24.0
+GO:0033574	response to testosterone	Other	DNA	0.00155	4.78	7.0
+GO:0060076	excitatory synapse	Nervous system	DNA	0.00161	2.03	28.0
+GO:0009611	response to wounding	Other	DNA	0.00164	1.37	85.0
+GO:0006338	chromatin remodeling	Chromatin structure	DNA	0.00164	1.91	32.0
+GO:0005783	endoplasmic reticulum	Potential new group	DNA	0.00169	1.19	153.0
+GO:0060074	Schaffer collateral - CA1 synapse	Nervous system	DNA	0.00174	12.11	3.0
+GO:0007413	regulation of neuron migration	Nervous system	DNA	0.00184	1.96	28.0
+GO:0007548	sex differentiation	Other	DNA	0.00184	1.86	32.0
+GO:0045662	negative regulation of myoblast differentiation	Other	DNA	0.00184	5.69	5.0
+GO:0048701	ventricular septum development	Other	DNA	0.00184	3.17	12.0
+GO:0005161	platelet-derived growth factor binding	Other	DNA	0.00193	4.48	7.0
+GO:0008584	male gonad development	Embryogenesis	DNA	0.00193	2.70	16.0
+GO:0001703	dorsal/ventral axis specification	Other	DNA	0.00216	3.10	12.0
+GO:0003337	mesenchymal to epithelial transition	Other	DNA	0.00223	3.58	9.0
+GO:0003180	pulmonary valve morphogenesis	Embryogenesis	DNA	0.00231	6.06	5.0
+GO:0048659	regulation of neural precursor cell proliferation	Nervous system	DNA	0.00231	1.88	28.0
+GO:0045681	positive regulation of endothelial cell differentiation	Embryogenesis	DNA	0.00244	4.15	7.0
+GO:0090190	positive regulation of branching involved in ureteric bud morphogenesis	Embryogenesis	DNA	0.00244	9.08	3.0
+GO:0021915	neural tube development	Embryogenesis	DNA	0.00253	1.82	29.0
+GO:0043552	positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	Signaling pathways	DNA	0.00253	2.46	16.0
+GO:0001228	RNA polymerase II transcription regulator complex	Transcription and its regulation	DNA	0.00253	2.03	23.0
+GO:0043204	perikaryon	Too general	DNA	0.00267	1.96	24.0
+GO:0003273	endocardial cushion morphogenesis	Embryogenesis	DNA	0.00277	6.83	4.0

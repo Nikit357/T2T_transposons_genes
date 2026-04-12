@@ -1,0 +1,4 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+1,GO:0102354,11-cis-retinol dehydrogenase (NADP+) activity,MF,3.2687761776790944e-07,0.00612764782267723,1915.8666666666668,2,3,"['RDH11', 'RDH12']","['RDH11', 'RDH12', 'RDH14']",LTR47B2,LTR
+0,GO:0110095,cellular detoxification of aldehyde,BP,2.286445089093024e-06,0.021430849820068914,821.0857142857144,2,7,"['RDH11', 'RDH12']","['AKR1A1', 'AKR1B10', 'ALDH1A1', 'ALDH2', 'PARK7', 'RDH11', 'RDH12']",LTR47B2,LTR
+2,GO:0052650,all-trans-retinol dehydrogenase (NADP+) activity,MF,8.483057374912684e-06,0.05300779785003772,442.12307692307695,2,13,"['RDH11', 'RDH12']","['AKR1B1', 'AKR1B10', 'AKR1B15', 'AKR1C3', 'DHRS3', 'DHRS4', 'DHRS7', 'RDH10', 'RDH11', 'RDH12', 'RDH13', 'RDH14', 'RDH8']",LTR47B2,LTR
