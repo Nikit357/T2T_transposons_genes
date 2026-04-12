@@ -1,6 +1,7 @@
 # T2T_transposons_genes. Supplementary repository for the article:
 
-## Transposable element–human genome evolutionary arms race revealed by co-mapping in the vicinity of genes in a telomere-to-telomere human genome
+## Evolutionary arms race between transposable elements and human genes: telomere-to-telomere genome co-mapping identifies young L1 clusters in the interferon-alpha domain
+
 
 Data and code for the T2T-CHM13 analysis of TE-gene proximity. Features proximity mapping for 3.7M TEs across 28k genes, enrichment statistics for 44 families, and GO functional networks. Includes Jupyter notebooks for the IFNA cluster arms race and regulatory innovation analysis.
 
