@@ -30,9 +30,13 @@ The repository is organized into several key components: the core processing not
 -   TE_Process_Hierarchical_Network_Refined.svg: The "Ring of Power" diagram illustrating the co-evolutionary functional network.
   ## Installation & Requirements
   The project utilizes a Python 3.11 environment.
-  Key dependencies include:
+  
+  ### Key dependencies include:
+  
   Bioinformatics: bedtools , goatools
+  
   Data Processing: pandas, numpy, scipy
+  
   Visualization: matplotlib, seaborn, networkx, pyvis, supervenn
   
 Author: Daniil Nikitin
