@@ -1,5 +1,11 @@
-# T2T_transposons_genes
+# T2T_transposons_genes. Supplementary repository for the article:
+
+# Transposable element–human genome evolutionary arms race revealed by co-mapping in the vicinity of genes in a telomere-to-telomere human genome
+
 Data and code for the T2T-CHM13 analysis of TE-gene proximity. Features proximity mapping for 3.7M TEs across 28k genes, enrichment statistics for 44 families, and GO functional networks. Includes Jupyter notebooks for the IFNA cluster arms race and regulatory innovation analysis.
+
+## Abstract
+Transposable elements (TEs) have played a central role in major evolutionary transitions across the human lineage, from eukaryogenesis to the emergence of the eutherian placenta, and are currently reactivated in cancer and autoimmune diseases. The availability of the complete telomere-to-telomere (T2T) human genome assembly enables comprehensive investigation of TE contributions to gene regulation. Using a 10 kb window in the T2T genome, we performed proximity mapping of 3,709,429 human TEs to 28,738 genes and assessed the enrichment and functional associations of six TE classes and 44 families. We identified a 220 kb interferon-alpha genomic domain enriched with evolutionarily young L1 elements, suggesting a recent evolutionary arms race influencing innate immune responses. Distinct TE classes exhibited specific functional associations: SVA elements were enriched near genes involved in transcription termination; Alu elements were linked to RNA processing and splicing; MIR elements were associated with genes involved in zinc, copper, and cadmium detoxification; LINE elements were enriched near genes related to lipid metabolism and olfactory perception; and LTR elements were potentially associated with potassium ion channel function. This proximity-based analysis provides a foundational framework for evaluating the functional impact of transposable elements on human gene regulation and their role in driving regulatory innovation.
 
 ## Repository Structure
 
