@@ -1,0 +1,93 @@
+Base pairs covered by each window set (merged union):
+  5kb     144,952,895 bp
+  10kb    272,233,268 bp   published N_TSS = 272,233,268 -> match
+  20kb    494,969,139 bp
+
+=== classes ===
+observed/random OR by window:
+window        5kb   10kb   20kb
+class_name                     
+DNA         0.825  0.938  0.993
+LINE        0.811  0.877  0.922
+LTR         0.566  0.667  0.726
+RC          0.684  0.661  0.716
+Retroposon  1.075  1.368  1.665
+SINE        1.237  1.468  1.744
+
+concordance (classes):
+window_a window_b  n  spearman_rho  pearson_r  concordance_permutation_p  bland_altman_mean_diff
+     5kb     10kb  6        0.9429      0.979                   0.008999                  0.1303
+     5kb     20kb  6        0.9429     0.9664                   0.008099                  0.2615
+    10kb     20kb  6             1     0.9953                     0.0015                  0.1312
+significance flips: 1
+     level class_name  10kb  20kb   5kb
+class_name         RC False  True False
+
+=== families ===
+observed/random OR by window:
+window           5kb   10kb   20kb
+family_name                       
+5S-Deu-L2      1.113  1.186  1.019
+Alu            1.186  1.513  1.941
+CR1            0.996  1.051  1.075
+Crypton        0.385  0.614  0.511
+Crypton-A      0.580  0.578  0.476
+Dong-R4        0.666  0.759  0.637
+ERV1           0.864  0.902  0.927
+ERVK           0.819  1.097  1.312
+ERVL           0.468  0.576  0.654
+ERVL-MaLR      0.451  0.587  0.662
+Gypsy          0.533  0.592  0.614
+Helitron       0.684  0.661  0.716
+I-Jockey       0.745  1.044  1.204
+Kolobok        0.707  0.594  0.588
+L1             0.623  0.684  0.738
+L1-Tx1         0.471  0.564  0.452
+L2             1.178  1.230  1.252
+MIR            1.352  1.377  1.376
+MULE-MuDR      0.398  0.532  0.638
+Merlin         0.181  0.301  0.218
+PIF-Harbinger  0.276  0.262  0.249
+Penelope       1.456  1.141  1.108
+PiggyBac       0.523  0.627  0.809
+RTE-BovB       0.910  0.921  0.965
+RTE-X          0.717  0.765  0.811
+SVA            1.075  1.368  1.665
+TcMar          0.438  0.516  0.314
+TcMar-Mariner  0.693  0.725  0.778
+TcMar-Pogo     0.759  0.563  0.406
+TcMar-Tc1      1.465  1.548  1.434
+TcMar-Tc2      0.721  0.819  0.925
+TcMar-Tigger   0.641  0.786  0.888
+hAT            0.632  0.673  0.615
+hAT-Ac         0.960  0.943  0.946
+hAT-Blackjack  0.904  0.938  0.932
+hAT-Charlie    0.910  1.041  1.093
+hAT-Tag1       0.950  1.051  1.305
+hAT-Tip100     0.926  0.989  1.006
+hAT-Tip100?      NaN  0.369  0.463
+hAT-hAT19      0.748  0.360  0.132
+hAT?           0.619  0.507  0.852
+tRNA           1.149  1.138  0.963
+tRNA-Deu       0.837  0.934  0.909
+tRNA-RTE       0.832  0.996  1.033
+
+concordance (families):
+window_a window_b  n  spearman_rho  pearson_r  concordance_permutation_p  bland_altman_mean_diff
+     5kb     10kb 43        0.8905     0.8987                  9.999e-05                 0.05841
+     5kb     20kb 43         0.828     0.7722                  9.999e-05                 0.08385
+    10kb     20kb 44        0.9412      0.934                  9.999e-05                 0.02699
+significance flips: 10
+      level   family_name  10kb 20kb   5kb
+family_name          ERVL False True  True
+family_name         Gypsy False True  True
+family_name      Helitron False True False
+family_name      I-Jockey False True False
+family_name     MULE-MuDR False True  True
+family_name      PiggyBac False True False
+family_name         TcMar False True False
+family_name TcMar-Mariner  True True False
+family_name           hAT False True False
+family_name      tRNA-Deu  True True False
+
+Wrote window_sensitivity_{classes,families,concordance,flips}.csv and window_sensitivity_ntss.json

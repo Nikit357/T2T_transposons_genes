@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Embryogenesis</title>
+  <desc>An embryo in the curled fetal posture: large head and a trunk tapering into a curled tail.</desc>
+  <g fill="#000000" stroke="none">
+    <!-- head -->
+    <circle cx="25" cy="19" r="12"/>
+    <!-- trunk: wide at the head, tapering to a curled tail tip at the lower left -->
+    <path d="M31 28 C 45 32, 49 48, 40 56 C 32 62, 18 59, 14 50
+             C 19 54, 27 55, 31 50 C 36 44, 35 34, 31 28 Z"/>
+  </g>
+  <!-- limb buds in front of the trunk -->
+  <g fill="none" stroke="#000000" stroke-linecap="round">
+    <path d="M33 34 L25 40" stroke-width="6"/>
+    <path d="M36 48 L27 52" stroke-width="7"/>
+  </g>
+  <!-- eye -->
+  <circle cx="18" cy="17" r="2.3" fill="#ffffff" stroke="none"/>
+</svg>

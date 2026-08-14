@@ -1,0 +1,4 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+1,GO:0016213,acyl-CoA 6-desaturase activity,MF,3.2936006190012374e-07,0.006174183720379719,1690.4705882352941,2,2,"['FADS1', 'FADS2']","['FADS1', 'FADS2']",LTR12B,LTR
+2,GO:0016717,"oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water",MF,4.9335277468641616e-06,0.04624195557135779,563.4901960784314,2,6,"['FADS1', 'FADS2']","['FADS1', 'FADS2', 'FADS3', 'FADS6', 'SCD', 'SCD5']",LTR12B,LTR
+0,GO:0036109,alpha-linolenic acid metabolic process,BP,1.4779993817666952e-05,0.09235525470199489,338.09411764705885,2,10,"['FADS1', 'FADS2']","['ABCD1', 'ACAA1', 'ACOT8', 'ELOVL1', 'ELOVL2', 'ELOVL3', 'ELOVL5', 'FADS1', 'FADS2', 'SCP2']",LTR12B,LTR

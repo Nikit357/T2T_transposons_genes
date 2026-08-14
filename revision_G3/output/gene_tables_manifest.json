@@ -1,0 +1,30 @@
+{
+  "5kb": {
+    "rows": 38704,
+    "genes": 28738,
+    "empty_windows": 1039,
+    "total_elements": 293652,
+    "per_class": {
+      "LINE": 105405,
+      "LTR": 23464,
+      "SINE": 136966,
+      "DNA": 27179,
+      "Retroposon": 545,
+      "RC": 93
+    }
+  },
+  "20kb": {
+    "rows": 38704,
+    "genes": 28738,
+    "empty_windows": 152,
+    "total_elements": 1157235,
+    "per_class": {
+      "LINE": 296734,
+      "LTR": 108792,
+      "SINE": 631660,
+      "DNA": 117300,
+      "Retroposon": 2377,
+      "RC": 372
+    }
+  }
+}

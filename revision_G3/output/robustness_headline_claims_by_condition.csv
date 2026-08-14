@@ -1,0 +1,16 @@
+claim,evidence,5kb,10kb,20kb,percentile_10,n_conditions_survived
+SINE enrichment near TSS,enrichment,enriched 1.24x,enriched 1.47x,enriched 1.74x,,
+SVA (Retroposon) enrichment near TSS,enrichment,enriched 1.07x,enriched 1.37x,enriched 1.67x,,
+LINE depletion near TSS,enrichment,depleted 0.81x,depleted 0.88x,depleted 0.92x,,
+Alu enrichment near TSS,enrichment,enriched 1.19x,enriched 1.51x,enriched 1.94x,,
+L1 depletion near TSS,enrichment,depleted 0.62x,depleted 0.68x,depleted 0.74x,,
+SVA family enrichment near TSS,enrichment,enriched 1.07x,enriched 1.37x,enriched 1.67x,,
+LINE: type I interferon receptor binding,GO,lost at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,5.0
+LINE: olfactory receptor activity,GO,survives at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,6.0
+SVA: termination of RNA polymerase II transcription,GO,lost at 5 % genes,survives at 5 % genes,lost at 5 % genes,survives at 10 % genes,2.0
+L1: flavone metabolic process,GO,survives at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,6.0
+MIR: cellular response to zinc ion,GO,lost at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,4.0
+MIR: intracellular zinc ion homeostasis,GO,lost at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,4.0
+hAT-Charlie: MHC class I protein complex,GO,lost at 5 % genes,survives at 5 % genes,lost at 5 % genes,lost at 10 % genes,1.0
+LINE: olfactory receptor activity,GO,survives at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,6.0
+"SINE: mRNA splicing, via spliceosome",GO,lost at 5 % genes,survives at 5 % genes,survives at 5 % genes,survives at 10 % genes,5.0

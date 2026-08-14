@@ -1,0 +1,4 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0075733,intracellular transport of virus,BP,8.186507442546628e-06,0.0511547561726597,399.13888888888886,2,3,"['CD209', 'CLEC4M']","['CD209', 'CLEC4M', 'NMT2']",MER66C,LTR
+1,GO:0046968,peptide antigen transport,BP,8.186507442546628e-06,0.0511547561726597,399.13888888888886,2,3,"['CD209', 'CLEC4M']","['CD209', 'CLEC4M', 'TAP2']",MER66C,LTR
+2,GO:0019062,virion attachment to host cell,BP,8.186507442546628e-06,0.0511547561726597,399.13888888888886,2,3,"['CD209', 'CLEC4M']","['CD209', 'CLEC4M', 'HSP90AB1']",MER66C,LTR

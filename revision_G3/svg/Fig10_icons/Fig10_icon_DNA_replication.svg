@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     fill="none" stroke="#000000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>DNA replication</title>
+  <desc>A replication fork: the parent duplex unwinds and each strand templates a new strand.</desc>
+  <!-- parent duplex -->
+  <path d="M2 26 H 22"/>
+  <path d="M2 38 H 22"/>
+  <path d="M8 26 V 38" stroke-width="2.5"/>
+  <path d="M15 26 V 38" stroke-width="2.5"/>
+  <!-- parent strands separating at the fork -->
+  <path d="M22 26 C 34 23, 42 13, 62 9"/>
+  <path d="M22 38 C 34 41, 42 51, 62 55"/>
+  <!-- newly synthesised strands -->
+  <path d="M27 31 C 39 29, 47 19, 60 16"/>
+  <path d="M27 33 C 39 35, 47 45, 60 48"/>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="290" viewBox="25 0 300 290">
+  <title>A TE inserting near a gene brings its own epigenetic marks and changes the gene's chromatin profile and expression</title>
+  <desc>Three-row mechanism schematic. Row 1: a mobile transposable element (blue duplex) carrying
+        its own histone marks. Row 2: the host gene locus before insertion — a repressive mark and
+        DNA methylation at the promoter, weak transcription from the TSS. Row 3: after insertion the
+        TE sits inside the 10 kb window around the TSS, its active marks spread to the promoter, the
+        methylation is gone and transcription is strong. Colours and symbols follow the central
+        schematic of Figure 10: blue = TE, orange = host gene, pentagons on stalks = histone marks
+        (blue/green active, red repressive), yellow lollipops = DNA methylation, bent arrow = the
+        TSS and the transcription it fires.</desc>
+
+  <!-- ============ ROW 1 — the mobile element, with its own epigenetic marks ============ -->
+  <g id="TE-own-marks">
+    <g stroke="#000000" stroke-width="1.5" stroke-linecap="round">
+      <path d="M105 26 V 40"/>
+      <path d="M135 26 V 40"/>
+      <path d="M165 26 V 40"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M98 26 L98 15 L105 10 L112 15 L112 26 Z"  fill="#0046a1"/>
+      <path d="M128 26 L128 15 L135 10 L142 15 L142 26 Z" fill="#00a100"/>
+      <path d="M158 26 L158 15 L165 10 L172 15 L172 26 Z" fill="#0046a1"/>
+    </g>
+  </g>
+  <g id="TE-duplex" fill="none" stroke-linecap="round">
+    <path d="M85 48 Q 97.5 34, 110 48 Q 122.5 62, 135 48 Q 147.5 34, 160 48 Q 172.5 62, 185 48"
+          stroke="#1a7fc1" stroke-width="5.5"/>
+    <path d="M85 48 Q 97.5 62, 110 48 Q 122.5 34, 135 48 Q 147.5 62, 160 48 Q 172.5 34, 185 48"
+          stroke="#0e5f94" stroke-width="5.5"/>
+  </g>
+  <g id="insertion" fill="#1a7fc1">
+    <rect x="130.5" y="64" width="9" height="40"/>
+    <path d="M126 103 L135 122 L144 103 Z"/>
+  </g>
+
+  <!-- ============ ROW 2 — the host gene locus before insertion: weak expression ============ -->
+  <g id="promoter-repressed">
+    <path d="M150 120 V 127" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M143 120 L143 109 L150 104 L157 109 L157 120 Z"
+          fill="#d90202" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+  <g id="DNA-methylation">
+    <g stroke="#000000" stroke-width="1.5" stroke-linecap="round">
+      <path d="M120 141 V 152"/>
+      <path d="M140 141 V 152"/>
+    </g>
+    <circle cx="120" cy="157" r="5.5" fill="#ffcc00" stroke="#000000" stroke-width="1.2"/>
+    <circle cx="140" cy="157" r="5.5" fill="#ffcc00" stroke="#000000" stroke-width="1.2"/>
+  </g>
+  <path id="locus-before" d="M40 134 H 322" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <path id="target-site" d="M135 128 V 140" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  <g id="gene-before" fill="#e0822f" stroke="#8a4a13" stroke-width="1.5">
+    <rect x="170" y="127" width="22" height="14"/>
+    <rect x="206" y="127" width="20" height="14"/>
+    <rect x="240" y="127" width="60" height="14"/>
+  </g>
+  <g id="transcription-weak">
+    <path d="M170 127 V 110 H 184" fill="none" stroke="#7f0404" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M182 104.5 L192 110 L182 115.5 Z" fill="#7f0404"/>
+  </g>
+
+  <!-- ============ ROW 3 — after insertion: marks spread, expression rises ============ -->
+  <g id="mark-spreading">
+    <path d="M130 200 C 136 186, 152 186, 158 199" fill="none" stroke="#00a100"
+          stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+    <path d="M153 196 L158 208 L163 196 Z" fill="#00a100"/>
+  </g>
+  <g id="marks-after">
+    <g stroke="#000000" stroke-width="1.5" stroke-linecap="round">
+      <path d="M124 234 V 246"/>
+      <path d="M142 234 V 246"/>
+      <path d="M158 234 V 248"/>
+      <path d="M190 234 V 248"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M117 234 L117 223 L124 218 L131 223 L131 234 Z" fill="#00a100"/>
+      <path d="M135 234 L135 223 L142 218 L149 223 L149 234 Z" fill="#0046a1"/>
+      <path d="M151 234 L151 223 L158 218 L165 223 L165 234 Z" fill="#00a100"/>
+      <path d="M183 234 L183 223 L190 218 L197 223 L197 234 Z" fill="#00a100"/>
+    </g>
+  </g>
+  <path id="locus-after" d="M40 255 H 322" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <g id="inserted-TE">
+    <rect x="118" y="246" width="34" height="18" rx="3" fill="#1a7fc1" stroke="#0e5f94" stroke-width="1.5"/>
+    <path d="M131 249 L139 255 L131 261" fill="none" stroke="#ffffff" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="gene-after" fill="#e0822f" stroke="#8a4a13" stroke-width="1.5">
+    <rect x="170" y="248" width="22" height="14"/>
+    <rect x="206" y="248" width="20" height="14"/>
+    <rect x="240" y="248" width="60" height="14"/>
+  </g>
+  <g id="transcription-strong">
+    <path d="M170 248 V 210 H 216" fill="none" stroke="#2f7f04" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M213 201 L229 210 L213 219 Z" fill="#2f7f04"/>
+  </g>
+  <g id="TSS-window">
+    <path d="M170 264 V 272" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <path d="M118 272 V 280 H 222 V 272" fill="none" stroke="#333333" stroke-width="2"
+          stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M170 276 V 280" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

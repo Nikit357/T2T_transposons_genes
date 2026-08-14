@@ -1,0 +1,10 @@
+level,group,term_name,fdr_5kb_p5,survives_5kb_p5,fdr_5kb_p10,survives_5kb_p10,fdr_10kb_p5,survives_10kb_p5,fdr_10kb_p10,survives_10kb_p10,fdr_20kb_p5,survives_20kb_p5,fdr_20kb_p10,survives_20kb_p10,n_conditions_survived,survives_published,verdict
+classes_divergence,LINE,type I interferon receptor binding,0.0623004171663713,False,0.0428962931419055,True,0.0005028581468689,True,0.0068224750187664,True,0.0005296822568106,True,0.0057957717475033,True,5,True,survives 5 of 6
+classes_divergence,LINE,olfactory receptor activity,1.0874532925033836e-06,True,8.8218846666754e-14,True,4.755612362386049e-15,True,3.656926874459842e-31,True,2.024801669986284e-41,True,1.5261151176337485e-74,True,6,True,robust across all six
+families,SVA,termination of RNA polymerase II transcription,,False,,False,0.0202647454872782,True,0.0202647454872782,True,,False,,False,2,True,survives 2 of 6
+families,L1,flavone metabolic process,0.0363031080631614,True,0.0315051142828936,True,0.0308576418536871,True,0.0272089623352263,True,0.0293882303368449,True,0.0399064780916653,True,6,True,robust across all six
+families,MIR,cellular response to zinc ion,,False,,False,0.0056447500549249,True,0.0178932213193779,True,0.0004988682042205,True,6.36222767941975e-05,True,4,True,survives 4 of 6
+families,MIR,intracellular zinc ion homeostasis,,False,,False,0.014418368904208,True,0.0032997045412475,True,0.0453215677317893,True,0.0050373604782535,True,4,True,survives 4 of 6
+families,hAT-Charlie,MHC class I protein complex,,False,,False,0.0254881874152267,True,,False,,False,,False,1,True,survives 1 of 6
+classes_count,LINE,olfactory receptor activity,3.205781926507877e-05,True,3.7942088211391564e-10,True,6.911334305508483e-10,True,1.8305651637432896e-12,True,4.462723280581949e-19,True,6.201678899609408e-22,True,6,True,robust across all six
+classes_count,SINE,"mRNA splicing, via spliceosome",0.0932678894249597,False,8.019564960482941e-05,True,0.002501456379493,True,6.088011599826534e-08,True,0.0007211046083817,True,2.4620706060449207e-05,True,5,True,survives 5 of 6

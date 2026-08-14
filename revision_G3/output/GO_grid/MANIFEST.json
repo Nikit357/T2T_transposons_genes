@@ -1,0 +1,119 @@
+{
+  "script": "07b_go_grid.py",
+  "created": "2026-08-05T06:29:04",
+  "retrieval_fdr": 0.1,
+  "published_fdr": 0.05,
+  "builders": {
+    "5pct/classes_count": "06_go_rerun_fdr005.run_level_classes_count",
+    "5pct/classes_divergence": "06_go_rerun_fdr005.run_level_classes_divergence",
+    "5pct/families": "06_go_rerun_fdr005.run_level_families",
+    "10pct/classes_count": "05c_percentile_sensitivity.build_classes_count",
+    "10pct/classes_divergence": "05c_percentile_sensitivity.build_classes_divergence",
+    "10pct/families": "05c_percentile_sensitivity.build_families"
+  },
+  "class_top_n": {
+    "5pct": 1436,
+    "10pct": 2872
+  },
+  "percentile_invariant_groups": [
+    "Helitron",
+    "SVA"
+  ],
+  "gene_table_md5": {
+    "5kb": "6554fe5adbbd97856a84b866b541923c",
+    "10kb": "d4abf4f85ab561e155e325915f51530a",
+    "20kb": "11ef7e30395a0046a8eac569d5bfdf31"
+  },
+  "cells": {
+    "classes_count/10kb/p5": {
+      "source": "reused from GO_classes_count_*.csv",
+      "n_terms_005": 425,
+      "n_terms_01": 504
+    },
+    "classes_divergence/10kb/p5": {
+      "source": "reused from GO_classes_divergence_*.csv",
+      "n_terms_005": 414,
+      "n_terms_01": 516
+    },
+    "families/10kb/p5": {
+      "source": "reused from GO_families_*.csv",
+      "n_terms_005": 140,
+      "n_terms_01": 195
+    },
+    "classes_count/10kb/p10": {
+      "source": "reused from GO_classes_count_p10_*.csv",
+      "n_terms_005": 779,
+      "n_terms_01": 1020
+    },
+    "classes_divergence/10kb/p10": {
+      "source": "reused from GO_classes_divergence_p10_*.csv",
+      "n_terms_005": 632,
+      "n_terms_01": 856
+    },
+    "families/10kb/p10": {
+      "source": "reused from GO_families_p10_*.csv",
+      "n_terms_005": 321,
+      "n_terms_01": 407
+    },
+    "classes_count/5kb/p5": {
+      "source": "computed",
+      "n_terms_005": 510,
+      "n_terms_01": 690
+    },
+    "classes_divergence/5kb/p5": {
+      "source": "computed",
+      "n_terms_005": 209,
+      "n_terms_01": 289
+    },
+    "families/5kb/p5": {
+      "source": "computed",
+      "n_terms_005": 137,
+      "n_terms_01": 159
+    },
+    "classes_count/5kb/p10": {
+      "source": "computed",
+      "n_terms_005": 822,
+      "n_terms_01": 1028
+    },
+    "classes_divergence/5kb/p10": {
+      "source": "computed",
+      "n_terms_005": 402,
+      "n_terms_01": 541
+    },
+    "families/5kb/p10": {
+      "source": "computed",
+      "n_terms_005": 282,
+      "n_terms_01": 363
+    },
+    "classes_count/20kb/p5": {
+      "source": "computed",
+      "n_terms_005": 299,
+      "n_terms_01": 385
+    },
+    "classes_divergence/20kb/p5": {
+      "source": "computed",
+      "n_terms_005": 303,
+      "n_terms_01": 444
+    },
+    "families/20kb/p5": {
+      "source": "computed",
+      "n_terms_005": 201,
+      "n_terms_01": 274
+    },
+    "classes_count/20kb/p10": {
+      "source": "computed",
+      "n_terms_005": 544,
+      "n_terms_01": 712
+    },
+    "classes_divergence/20kb/p10": {
+      "source": "computed",
+      "n_terms_005": 608,
+      "n_terms_01": 802
+    },
+    "families/20kb/p10": {
+      "source": "computed",
+      "n_terms_005": 402,
+      "n_terms_01": 553
+    }
+  }
+}

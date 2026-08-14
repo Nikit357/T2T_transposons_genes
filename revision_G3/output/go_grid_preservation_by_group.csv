@@ -1,0 +1,180 @@
+level,window,percentile,group,n_terms_published,n_terms,n_shared,jaccard,fraction_of_published_preserved
+classes_count,5kb,5,LINE,6,6,5,0.7142857142857143,0.8333333333333334
+classes_count,5kb,5,LTR,22,40,21,0.5121951219512195,0.9545454545454546
+classes_count,5kb,5,SINE,32,24,15,0.36585365853658536,0.46875
+classes_count,5kb,5,SVA,5,0,0,0.0,0.0
+classes_count,5kb,5,TE_bottom,345,438,275,0.5413385826771654,0.7971014492753623
+classes_count,5kb,5,TE_top,15,2,1,0.0625,0.06666666666666667
+classes_count,5kb,10,DNA,0,2,0,0.0,
+classes_count,5kb,10,LINE,6,10,6,0.6,1.0
+classes_count,5kb,10,LTR,22,50,21,0.4117647058823529,0.9545454545454546
+classes_count,5kb,10,SINE,32,73,27,0.34615384615384615,0.84375
+classes_count,5kb,10,SVA,5,0,0,0.0,0.0
+classes_count,5kb,10,TE_bottom,345,666,304,0.42998585572843,0.881159420289855
+classes_count,5kb,10,TE_top,15,21,3,0.09090909090909091,0.2
+classes_count,10kb,5,LINE,6,6,6,1.0,1.0
+classes_count,10kb,5,LTR,22,22,22,1.0,1.0
+classes_count,10kb,5,SINE,32,32,32,1.0,1.0
+classes_count,10kb,5,SVA,5,5,5,1.0,1.0
+classes_count,10kb,5,TE_bottom,345,345,345,1.0,1.0
+classes_count,10kb,5,TE_top,15,15,15,1.0,1.0
+classes_count,10kb,10,LINE,6,12,6,0.5,1.0
+classes_count,10kb,10,LTR,22,51,20,0.37735849056603776,0.9090909090909091
+classes_count,10kb,10,SINE,32,93,30,0.3157894736842105,0.9375
+classes_count,10kb,10,SVA,5,0,0,0.0,0.0
+classes_count,10kb,10,TE_bottom,345,579,309,0.5024390243902439,0.8956521739130435
+classes_count,10kb,10,TE_top,15,44,14,0.3111111111111111,0.9333333333333333
+classes_count,20kb,5,LINE,6,10,5,0.45454545454545453,0.8333333333333334
+classes_count,20kb,5,LTR,22,18,14,0.5384615384615384,0.6363636363636364
+classes_count,20kb,5,SINE,32,44,20,0.35714285714285715,0.625
+classes_count,20kb,5,SVA,5,7,3,0.3333333333333333,0.6
+classes_count,20kb,5,TE_bottom,345,202,187,0.5194444444444445,0.5420289855072464
+classes_count,20kb,5,TE_top,15,18,9,0.375,0.6
+classes_count,20kb,10,DNA,0,4,0,0.0,
+classes_count,20kb,10,LINE,6,8,5,0.5555555555555556,0.8333333333333334
+classes_count,20kb,10,LTR,22,39,18,0.4186046511627907,0.8181818181818182
+classes_count,20kb,10,SINE,32,126,29,0.2248062015503876,0.90625
+classes_count,20kb,10,SVA,5,0,0,0.0,0.0
+classes_count,20kb,10,TE_bottom,345,306,226,0.5317647058823529,0.6550724637681159
+classes_count,20kb,10,TE_top,15,61,12,0.1875,0.8
+classes_divergence,5kb,5,LINE / highest,9,6,2,0.15384615384615385,0.2222222222222222
+classes_divergence,5kb,5,LINE / lowest,16,11,8,0.42105263157894735,0.5
+classes_divergence,5kb,5,LTR / highest,9,4,3,0.3,0.3333333333333333
+classes_divergence,5kb,5,LTR / lowest,1,1,0,0.0,0.0
+classes_divergence,5kb,5,SINE / highest,148,19,16,0.10596026490066225,0.10810810810810811
+classes_divergence,5kb,5,SINE / lowest,2,0,0,0.0,0.0
+classes_divergence,5kb,5,TE_all / highest,214,167,102,0.3655913978494624,0.4766355140186916
+classes_divergence,5kb,5,TE_all / lowest,15,1,1,0.06666666666666667,0.06666666666666667
+classes_divergence,5kb,10,LINE / highest,9,17,5,0.23809523809523808,0.5555555555555556
+classes_divergence,5kb,10,LINE / lowest,16,12,10,0.5555555555555556,0.625
+classes_divergence,5kb,10,LTR / highest,9,13,6,0.375,0.6666666666666666
+classes_divergence,5kb,10,LTR / lowest,1,0,0,0.0,0.0
+classes_divergence,5kb,10,SINE / highest,148,61,39,0.22941176470588234,0.2635135135135135
+classes_divergence,5kb,10,SINE / lowest,2,1,0,0.0,0.0
+classes_divergence,5kb,10,TE_all / highest,214,279,130,0.3581267217630854,0.6074766355140186
+classes_divergence,5kb,10,TE_all / lowest,15,19,11,0.4782608695652174,0.7333333333333333
+classes_divergence,10kb,5,LINE / highest,9,9,9,1.0,1.0
+classes_divergence,10kb,5,LINE / lowest,16,16,16,1.0,1.0
+classes_divergence,10kb,5,LTR / highest,9,9,9,1.0,1.0
+classes_divergence,10kb,5,LTR / lowest,1,1,1,1.0,1.0
+classes_divergence,10kb,5,SINE / highest,148,148,148,1.0,1.0
+classes_divergence,10kb,5,SINE / lowest,2,2,2,1.0,1.0
+classes_divergence,10kb,5,TE_all / highest,214,214,214,1.0,1.0
+classes_divergence,10kb,5,TE_all / lowest,15,15,15,1.0,1.0
+classes_divergence,10kb,10,DNA / highest,0,1,0,0.0,
+classes_divergence,10kb,10,LINE / highest,9,28,8,0.27586206896551724,0.8888888888888888
+classes_divergence,10kb,10,LINE / lowest,16,27,14,0.4827586206896552,0.875
+classes_divergence,10kb,10,LTR / highest,9,8,8,0.8888888888888888,0.8888888888888888
+classes_divergence,10kb,10,LTR / lowest,1,2,0,0.0,0.0
+classes_divergence,10kb,10,SINE / highest,148,211,118,0.4896265560165975,0.7972972972972973
+classes_divergence,10kb,10,SINE / lowest,2,11,0,0.0,0.0
+classes_divergence,10kb,10,TE_all / highest,214,312,175,0.4985754985754986,0.8177570093457944
+classes_divergence,10kb,10,TE_all / lowest,15,32,14,0.42424242424242425,0.9333333333333333
+classes_divergence,20kb,5,DNA / highest,0,1,0,0.0,
+classes_divergence,20kb,5,LINE / highest,9,9,5,0.38461538461538464,0.5555555555555556
+classes_divergence,20kb,5,LINE / lowest,16,27,14,0.4827586206896552,0.875
+classes_divergence,20kb,5,LTR / highest,9,4,2,0.18181818181818182,0.2222222222222222
+classes_divergence,20kb,5,LTR / lowest,1,3,0,0.0,0.0
+classes_divergence,20kb,5,SINE / highest,148,80,59,0.34911242603550297,0.39864864864864863
+classes_divergence,20kb,5,SINE / lowest,2,8,0,0.0,0.0
+classes_divergence,20kb,5,TE_all / highest,214,152,92,0.3357664233576642,0.42990654205607476
+classes_divergence,20kb,5,TE_all / lowest,15,19,11,0.4782608695652174,0.7333333333333333
+classes_divergence,20kb,10,DNA / highest,0,2,0,0.0,
+classes_divergence,20kb,10,LINE / highest,9,39,5,0.11627906976744186,0.5555555555555556
+classes_divergence,20kb,10,LINE / lowest,16,37,15,0.39473684210526316,0.9375
+classes_divergence,20kb,10,LTR / highest,9,10,3,0.1875,0.3333333333333333
+classes_divergence,20kb,10,LTR / lowest,1,3,0,0.0,0.0
+classes_divergence,20kb,10,SINE / highest,148,201,92,0.35797665369649806,0.6216216216216216
+classes_divergence,20kb,10,SINE / lowest,2,14,0,0.0,0.0
+classes_divergence,20kb,10,TE_all / highest,214,264,135,0.3935860058309038,0.6308411214953271
+classes_divergence,20kb,10,TE_all / lowest,15,38,14,0.358974358974359,0.9333333333333333
+families,5kb,5,Alu,31,27,18,0.45,0.5806451612903226
+families,5kb,5,CR1,6,0,0,0.0,0.0
+families,5kb,5,ERV1,16,21,11,0.4230769230769231,0.6875
+families,5kb,5,ERVK,3,2,2,0.6666666666666666,0.6666666666666666
+families,5kb,5,ERVL,12,16,9,0.47368421052631576,0.75
+families,5kb,5,ERVL-MaLR,12,35,11,0.3055555555555556,0.9166666666666666
+families,5kb,5,Gypsy,6,0,0,0.0,0.0
+families,5kb,5,L1,22,18,13,0.48148148148148145,0.5909090909090909
+families,5kb,5,L2,1,2,1,0.5,1.0
+families,5kb,5,MIR,23,8,5,0.19230769230769232,0.21739130434782608
+families,5kb,5,SVA,5,0,0,0.0,0.0
+families,5kb,5,TcMar-Tc1,0,2,0,0.0,
+families,5kb,5,hAT-Charlie,2,0,0,0.0,0.0
+families,5kb,5,hAT-Tip100,1,6,0,0.0,0.0
+families,5kb,10,Alu,31,92,24,0.24242424242424243,0.7741935483870968
+families,5kb,10,CR1,6,8,3,0.2727272727272727,0.5
+families,5kb,10,ERV1,16,33,10,0.2564102564102564,0.625
+families,5kb,10,ERVK,3,2,2,0.6666666666666666,0.6666666666666666
+families,5kb,10,ERVL,12,41,11,0.2619047619047619,0.9166666666666666
+families,5kb,10,ERVL-MaLR,12,25,12,0.48,1.0
+families,5kb,10,Gypsy,6,0,0,0.0,0.0
+families,5kb,10,L1,22,38,18,0.42857142857142855,0.8181818181818182
+families,5kb,10,L2,1,9,1,0.1111111111111111,1.0
+families,5kb,10,MIR,23,22,8,0.21621621621621623,0.34782608695652173
+families,5kb,10,SVA,5,0,0,0.0,0.0
+families,5kb,10,TcMar-Tc1,0,2,0,0.0,
+families,5kb,10,hAT-Charlie,2,3,0,0.0,0.0
+families,5kb,10,hAT-Tip100,1,7,0,0.0,0.0
+families,10kb,5,Alu,31,31,31,1.0,1.0
+families,10kb,5,CR1,6,6,6,1.0,1.0
+families,10kb,5,ERV1,16,16,16,1.0,1.0
+families,10kb,5,ERVK,3,3,3,1.0,1.0
+families,10kb,5,ERVL,12,12,12,1.0,1.0
+families,10kb,5,ERVL-MaLR,12,12,12,1.0,1.0
+families,10kb,5,Gypsy,6,6,6,1.0,1.0
+families,10kb,5,L1,22,22,22,1.0,1.0
+families,10kb,5,L2,1,1,1,1.0,1.0
+families,10kb,5,MIR,23,23,23,1.0,1.0
+families,10kb,5,SVA,5,5,5,1.0,1.0
+families,10kb,5,hAT-Charlie,2,2,2,1.0,1.0
+families,10kb,5,hAT-Tip100,1,1,1,1.0,1.0
+families,10kb,10,Alu,31,126,28,0.21705426356589147,0.9032258064516129
+families,10kb,10,CR1,6,23,6,0.2608695652173913,1.0
+families,10kb,10,ERV1,16,31,9,0.23684210526315788,0.5625
+families,10kb,10,ERVK,3,3,3,1.0,1.0
+families,10kb,10,ERVL,12,22,11,0.4782608695652174,0.9166666666666666
+families,10kb,10,ERVL-MaLR,12,24,10,0.38461538461538464,0.8333333333333334
+families,10kb,10,Gypsy,6,6,6,1.0,1.0
+families,10kb,10,L1,22,46,22,0.4782608695652174,1.0
+families,10kb,10,L2,1,2,1,0.5,1.0
+families,10kb,10,MIR,23,26,12,0.32432432432432434,0.5217391304347826
+families,10kb,10,SVA,5,5,5,1.0,1.0
+families,10kb,10,hAT-Charlie,2,4,1,0.2,0.5
+families,10kb,10,hAT-Tip100,1,3,0,0.0,0.0
+families,20kb,5,Alu,31,59,22,0.3235294117647059,0.7096774193548387
+families,20kb,5,CR1,6,9,3,0.25,0.5
+families,20kb,5,Dong-R4,0,1,0,0.0,
+families,20kb,5,ERV1,16,17,10,0.43478260869565216,0.625
+families,20kb,5,ERVK,3,6,3,0.5,1.0
+families,20kb,5,ERVL,12,9,7,0.5,0.5833333333333334
+families,20kb,5,ERVL-MaLR,12,8,6,0.42857142857142855,0.5
+families,20kb,5,Gypsy,6,7,3,0.3,0.5
+families,20kb,5,L1,22,24,17,0.5862068965517241,0.7727272727272727
+families,20kb,5,L2,1,2,1,0.5,1.0
+families,20kb,5,MIR,23,37,17,0.3953488372093023,0.7391304347826086
+families,20kb,5,Penelope,0,1,0,0.0,
+families,20kb,5,RTE-BovB,0,3,0,0.0,
+families,20kb,5,SVA,5,5,3,0.42857142857142855,0.6
+families,20kb,5,TcMar-Tc1,0,1,0,0.0,
+families,20kb,5,TcMar-Tigger,0,5,0,0.0,
+families,20kb,5,hAT-Charlie,2,4,1,0.2,0.5
+families,20kb,5,hAT-Tip100,1,3,0,0.0,0.0
+families,20kb,10,Alu,31,139,26,0.18055555555555555,0.8387096774193549
+families,20kb,10,CR1,6,24,3,0.1111111111111111,0.5
+families,20kb,10,Dong-R4,0,1,0,0.0,
+families,20kb,10,ERV1,16,37,11,0.2619047619047619,0.6875
+families,20kb,10,ERVK,3,10,3,0.3,1.0
+families,20kb,10,ERVL,12,31,11,0.34375,0.9166666666666666
+families,20kb,10,ERVL-MaLR,12,22,8,0.3076923076923077,0.6666666666666666
+families,20kb,10,Gypsy,6,13,5,0.35714285714285715,0.8333333333333334
+families,20kb,10,L1,22,33,18,0.4864864864864865,0.8181818181818182
+families,20kb,10,L2,1,8,1,0.125,1.0
+families,20kb,10,MIR,23,59,17,0.26153846153846155,0.7391304347826086
+families,20kb,10,Penelope,0,1,0,0.0,
+families,20kb,10,RTE-BovB,0,3,0,0.0,
+families,20kb,10,SVA,5,7,3,0.3333333333333333,0.6
+families,20kb,10,TcMar-Tc1,0,1,0,0.0,
+families,20kb,10,TcMar-Tigger,0,1,0,0.0,
+families,20kb,10,hAT-Charlie,2,6,1,0.14285714285714285,0.5
+families,20kb,10,hAT-Tip100,1,6,0,0.0,0.0

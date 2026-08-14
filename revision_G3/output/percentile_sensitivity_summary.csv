@@ -1,0 +1,29 @@
+level,group,percentile_dependent,n_foreground_genes_5pct,n_foreground_genes_10pct,foreground_changed,n_terms_5pct,n_terms_10pct,n_shared,n_lost_at_10pct,n_gained_at_10pct,jaccard,fraction_of_5pct_preserved
+classes_count,LINE,True,1436,2872,True,6,12,6,0,6,0.5,1.0
+classes_count,LTR,True,1436,2872,True,22,51,20,2,31,0.37735849056603776,0.9090909090909091
+classes_count,SINE,True,1436,2872,True,32,93,30,2,63,0.3157894736842105,0.9375
+classes_count,SVA,False,962,962,False,5,5,5,0,0,1.0,1.0
+classes_count,TE_bottom,True,1436,2872,True,345,579,309,36,270,0.5024390243902439,0.8956521739130435
+classes_count,TE_top,True,1436,2872,True,15,44,14,1,30,0.3111111111111111,0.9333333333333333
+classes_divergence,DNA / highest,True,0,2030,True,0,1,0,0,1,0.0,
+classes_divergence,LINE / highest,True,1372,2745,True,9,28,8,1,20,0.27586206896551724,0.8888888888888888
+classes_divergence,LINE / lowest,True,1372,2745,True,16,27,14,2,13,0.4827586206896552,0.875
+classes_divergence,LTR / highest,True,905,1811,True,9,8,8,1,0,0.8888888888888888,0.8888888888888888
+classes_divergence,LTR / lowest,True,905,1811,True,1,2,0,1,2,0.0,0.0
+classes_divergence,SINE / highest,True,1396,2792,True,148,211,118,30,93,0.4896265560165975,0.7972972972972973
+classes_divergence,SINE / lowest,True,1396,2792,True,2,11,0,2,11,0.0,0.0
+classes_divergence,TE_all / highest,True,1425,2850,True,214,312,175,39,137,0.4985754985754986,0.8177570093457944
+classes_divergence,TE_all / lowest,True,1425,2850,True,15,32,14,1,18,0.42424242424242425,0.9333333333333333
+families,Alu,True,1436,2873,True,31,126,28,3,98,0.21705426356589147,0.9032258064516129
+families,CR1,True,1436,2873,True,6,23,6,0,17,0.2608695652173913,1.0
+families,ERV1,True,1436,2873,True,16,31,9,7,22,0.23684210526315788,0.5625
+families,ERVK,True,906,906,False,3,3,3,0,0,1.0,1.0
+families,ERVL,True,1436,2873,True,12,22,11,1,11,0.4782608695652174,0.9166666666666666
+families,ERVL-MaLR,True,1436,2873,True,12,24,10,2,14,0.38461538461538464,0.8333333333333334
+families,Gypsy,True,1205,1205,False,6,6,6,0,0,1.0,1.0
+families,L1,True,1436,2873,True,22,46,22,0,24,0.4782608695652174,1.0
+families,L2,True,1436,2873,True,1,2,1,0,1,0.5,1.0
+families,MIR,True,1436,2873,True,23,26,12,11,14,0.32432432432432434,0.5217391304347826
+families,SVA,False,962,962,False,5,5,5,0,0,1.0,1.0
+families,hAT-Charlie,True,1436,2873,True,2,4,1,1,3,0.2,0.5
+families,hAT-Tip100,True,1436,2873,True,1,3,0,1,3,0.0,0.0

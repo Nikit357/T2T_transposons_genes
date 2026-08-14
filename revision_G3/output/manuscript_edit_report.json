@@ -1,0 +1,444 @@
+{
+  "target": "T2T_genes_article_G3_revision_260804_manual.docx",
+  "in_place": true,
+  "dry_run": false,
+  "outcomes": {
+    "applied": 23,
+    "already present": 49,
+    "not found": 0
+  },
+  "edits": [
+    {
+      "stage": "H",
+      "edit": "replace: Evolutionary arms race between transposable elements and human genes: ",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "H",
+      "edit": "replace: The availability of the complete telomere-to-telomere (T2T) human geno",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "H",
+      "edit": "replace: We identified a 220 kb interferon-alpha genomic domain enriched with e",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "H",
+      "edit": "replace: MIR elements were associated with genes involved in zinc, copper, and ",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "H",
+      "edit": "replace: and LTR elements were potentially associated with potassium ion channe",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "I",
+      "edit": "replace: they are in a continuous evolutionary arms race against the host defen",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "I",
+      "edit": "replace: . During this process TEs insert their transcription factor binding si",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "I",
+      "edit": "replace: The unified approach utilizing the most up to date T2T human genome as",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "I",
+      "edit": "replace: LINE elements in general could impact lipid metabolism and sensory per",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "I",
+      "edit": "replace: We showed that the 220 kb interferon alpha domain is uniquely enriched",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "insert 1 paragraph(s) after: In this study, we adopted the RepeatMasker classification as",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "insert 2 paragraph(s) after: The mapping of TE coordinates with their divergence onto gen",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "replace: we performed 1000 random permutations of TEs coordinates by the bedtoo",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "replace: depending on whether the observed OR was below or above the median acr",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "replace: where N was the permutations number (1000)",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "insert 2 paragraph(s) after: An enrichment score was calculated as a fold change of obser",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "replace: FDR-corrected Fisher exact test p-value 0.1 was selected as a threshol",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "insert 1 paragraph(s) after: FDR-corrected p-value 0.05 was selected as a threshold value",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "D",
+      "edit": "insert 1 paragraph(s) after: Distributions were compared by Kolmogorov-Smirnov test",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "E",
+      "edit": "replace: Table 1 shows assessment of TE enrichment in genes TSS 10 kb neighborh",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "E",
+      "edit": "locate Table 1 caption and table",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "E",
+      "edit": "insert Tables 1 and 2 and tracked-delete the original",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: (FDR threshold of 0.1 was applied, Supplementary File 4)",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: Moreover, the three all TEs depleted terms with the lowest FDR-correct",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: The rest classes with significant GO terms based on genes with highest",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: into 25 major groups",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: While there was no systematic co-clustering of molecular processes met",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: having average divergence of intersecting LINE elements at the level o",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: LTR elements of lowest divergence demonstrated a single term of flavin",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: GO analysis for each family resulted in only 14 families having statis",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: L1 elements, as it was previously shown for LINEs, were connected with",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: LTR families demonstrated 44 unique GO terms compared to 25 ones in LT",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: ERVL elements were connected with bitter taste receptors and with kera",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: ERV1 elements showed the most diverse set of GO terms and were inserte",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: MIR elements were inserted in the vicinity of genes of voltage-gated p",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: The former was associated with a single significant GO term of cystein",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: Among 22 functional groups (including the \u201cToo general\u201d and \u201cOther\u201d gr",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: There were 26 functional groups extracted in this analysis (Supplement",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: Both RNA processing and DNA repair terms were enriched for Alu element",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "F",
+      "edit": "replace: We found no significant correlation with enrichment level of TEs in th",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "G",
+      "edit": "insert 3 paragraph(s) after: Finally, DNA elements of highest and lowest divergence",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "G",
+      "edit": "insert 1 paragraph(s) after: The overall comparison of functional groups enrichment at th",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "G",
+      "edit": "insert the Lu et al. overlap paragraph",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "J",
+      "edit": "replace: The current article is meant to establish a baseline for these studies",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "J",
+      "edit": "insert 4 new Discussion subsections",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "K",
+      "edit": "correct the repository URL (paragraph replaced, hyperlink deleted)",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "K",
+      "edit": "replace: Tables of TE-gene intersections, including divergence and family-level",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "K",
+      "edit": "insert 2 paragraph(s) after: Tables of TE-gene intersections, including divergence and fa",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "K",
+      "edit": "Zenodo DOI placeholder note",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "M",
+      "edit": "M1 replace 8 File Sn captions with 5 workbook captions",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S1 -> File S1, sheet TSS_TE_intersections @ The complete set of TSS 10 kb neighborho",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S1 -> File S1, sheet TSS_TE_intersections @ Lists of TEs mapped on each gene TSS, th",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S2 -> File S1, sheet enrichment_families @ whereas LINEs and LTRs were less deplete",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S3 -> File S2, sheet by_TE_group @ There were 1436 genes for each of the ma",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S4 -> File S3, sheet GO_TE_groups @ significant terms were extracted (FDR th",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S5 -> File S2, sheet by_divergence @ genes of top and bottom divergence for a",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S6 -> File S3, sheet GO_by_divergence @ We visualized top 30 GO terms of each TE",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S1 -> File S1, sheet TSS_TE_intersections @ We visualized top 30 GO terms of each TE",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S7 -> File S2, sheet by_family @ whereas for the less numerous and/or enr",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S8 -> File S3, sheet GO_by_family @ 2 DNA families (hAT-Charlie and hAT-Tip1",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "renumber: File S8 -> File S3, sheet GO_by_family @ functional groups extracted in this anal",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: TableS_class_enrichment_full.csv holds the unadjusted Fisher",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: The supplementary items are as follows. File S1: genomic coo",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: the unadjusted Fisher p-values moved to TableS_class_enrichm",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: Up to nine terms by enrichment p-value were selected for eac",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: the Fisher exact stars in (H) are FDR-corrected.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: Figure S5C",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: Figure S5B",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "replace: and TE families.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: The Gene Ontology analysis was repeated with the top and bot",
+      "applied": true,
+      "outcome": "already present"
+    },
+    {
+      "stage": "M",
+      "edit": "ins-replace: All comparisons are given in Figure S13 and the accompanying",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "M2 insert 6 new captions (Figures S9 to S14)",
+      "applied": true,
+      "outcome": "applied"
+    }
+  ]
+}

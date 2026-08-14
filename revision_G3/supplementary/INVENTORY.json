@@ -1,0 +1,559 @@
+{
+  "File_S1_TE_TSS_map_and_enrichment.xlsx": {
+    "subject": "The TE-TSS map and the enrichment statistics",
+    "size_bytes": 6958259,
+    "sheets": {
+      "TSS_TE_intersections": {
+        "rows": 38704,
+        "columns": [
+          "Chromosome",
+          "Start",
+          "End",
+          "Gene_name",
+          "Divergence_scores",
+          "TE_subfamilies",
+          "TE_families",
+          "TE_classes",
+          "Average_Divergence_Score",
+          "LINE_number",
+          "LTR_number",
+          "SINE_number",
+          "DNA_number",
+          "Retroposon_number",
+          "RC_number",
+          "TE_number",
+          "Divergence_Avg_LINE",
+          "Divergence_Avg_LTR",
+          "Divergence_Avg_SINE",
+          "Divergence_Avg_DNA",
+          "Divergence_Avg_Retroposon",
+          "Divergence_Avg_RC"
+        ],
+        "description": "every TSS window with the transposable elements within 10 kb of it: counts and mean divergence per class, and the comma-joined element lists. Counts are per TSS window, not per gene, so a gene with several annotated TSS contributes several rows"
+      },
+      "enrichment_classes": {
+        "rows": 6,
+        "columns": [
+          "class_name",
+          "class_label",
+          "observed_tes",
+          "total_tes",
+          "observed_or",
+          "fisher_p_raw",
+          "fisher_p_adjusted",
+          "random_or_mean",
+          "random_or_sd",
+          "n_permutations",
+          "or_observed_to_random",
+          "random_or_quantile_of_observed",
+          "empirical_p_raw_unclamped",
+          "empirical_p_raw",
+          "empirical_p_adjusted",
+          "fisher_p_raw_formatted",
+          "fisher_p_adjusted_formatted"
+        ],
+        "description": "the six TE classes: observed and random odds ratios, raw AND adjusted Fisher p, and the empirical permutation p (N = 500)"
+      },
+      "enrichment_families": {
+        "rows": 44,
+        "columns": [
+          "family_name",
+          "class_name",
+          "Observed_TEs_number",
+          "Total_TEs_number",
+          "Observed_Odds_Ratio",
+          "Enrichment_p_value",
+          "Enrichment_p_value_adjusted",
+          "Average_divergence_genes",
+          "Average_divergence_all",
+          "Observed_TEs_number_log",
+          "Total_TEs_number_log",
+          "Random_Odds_Ratio_Mean",
+          "Random_Odds_Ratio_SD",
+          "Random_Odds_Ratio_Quantile_Of_Observed",
+          "p_raw_empirical",
+          "p_raw_empirical_clamped",
+          "p_adjusted_empirical_bh",
+          "family_label",
+          "neg_log10_adj_p",
+          "OR_Observed_to_Random"
+        ],
+        "description": "the 44 TE families, same columns"
+      },
+      "enrichment_subfamilies": {
+        "rows": 1143,
+        "columns": [
+          "subfamily_name",
+          "class_name",
+          "Observed_TEs_number",
+          "Total_TEs_number",
+          "Observed_Odds_Ratio",
+          "Enrichment_p_value",
+          "Enrichment_p_value_adjusted",
+          "Average_divergence_genes",
+          "Average_divergence_all",
+          "Observed_TEs_number_log",
+          "Total_TEs_number_log",
+          "Random_Odds_Ratio_Mean",
+          "Random_Odds_Ratio_SD",
+          "Random_Odds_Ratio_Quantile_Of_Observed",
+          "p_raw_empirical",
+          "p_raw_empirical_clamped",
+          "p_adjusted_empirical_bh"
+        ],
+        "description": "all 1,143 TE subfamilies, same columns \u2014 this is the table the File S2 caption described"
+      }
+    },
+    "columns_dropped_for_excel": {}
+  },
+  "File_S2_gene_sets.xlsx": {
+    "subject": "The foreground gene sets used for GO enrichment",
+    "size_bytes": 930526,
+    "sheets": {
+      "by_TE_group": {
+        "rows": 9708,
+        "columns": [
+          "TE_group",
+          "gene",
+          "rank"
+        ],
+        "description": "top 5 % of genes by element count for each TE group, plus the TE-top and TE-bottom sets (was File S3, 8 sheets)"
+      },
+      "by_divergence": {
+        "rows": 12226,
+        "columns": [
+          "divergence_group",
+          "gene",
+          "rank"
+        ],
+        "description": "highest- and lowest-divergence 5 % of genes per class (was File S5, 10 sheets)"
+      },
+      "by_family": {
+        "rows": 26551,
+        "columns": [
+          "family_name",
+          "gene",
+          "rank"
+        ],
+        "description": "top 5 % of genes by element count for each of the 44 families (was File S7, 44 sheets; the hAT? and hAT-Tip100? names are restored here \u2014 Excel had mangled them into sheet names)"
+      }
+    },
+    "columns_dropped_for_excel": {}
+  },
+  "File_S3_gene_ontology.xlsx": {
+    "subject": "Gene Ontology enrichment at FDR < 0.05",
+    "size_bytes": 226792,
+    "sheets": {
+      "GO_TE_groups": {
+        "rows": 425,
+        "columns": [
+          "Term ID",
+          "Term Name",
+          "Term Database",
+          "P-value",
+          "FDR",
+          "Fold Enrichment",
+          "Overlap Count",
+          "Total Term Genes (Human)",
+          "Overlapping Genes",
+          "class_name",
+          "n_foreground_genes",
+          "Functional Group"
+        ],
+        "description": "GO terms enriched in each TE group's gene set, with the manual functional-group classification (was File S4, at FDR 0.1)"
+      },
+      "GO_by_divergence": {
+        "rows": 414,
+        "columns": [
+          "Term ID",
+          "Term Name",
+          "Term Database",
+          "P-value",
+          "FDR",
+          "Fold Enrichment",
+          "Overlap Count",
+          "Total Term Genes (Human)",
+          "Overlapping Genes",
+          "class_name",
+          "divergence_group",
+          "n_foreground_genes",
+          "Functional Group"
+        ],
+        "description": "GO terms for the highest- and lowest-divergence gene sets (was File S6, at FDR 0.1)"
+      },
+      "GO_by_family": {
+        "rows": 140,
+        "columns": [
+          "Term ID",
+          "Term Name",
+          "Term Database",
+          "P-value",
+          "FDR",
+          "Fold Enrichment",
+          "Overlap Count",
+          "Total Term Genes (Human)",
+          "Overlapping Genes",
+          "family_name",
+          "class_name",
+          "n_foreground_genes",
+          "Functional Group"
+        ],
+        "description": "GO terms per TE family (was File S8, at FDR 0.1)"
+      }
+    },
+    "columns_dropped_for_excel": {
+      "GO_TE_groups": [
+        "Full Term Gene List"
+      ],
+      "GO_by_divergence": [
+        "Full Term Gene List"
+      ],
+      "GO_by_family": [
+        "Full Term Gene List"
+      ]
+    }
+  },
+  "File_S4_IFNA_domain_and_prior_work.xlsx": {
+    "subject": "The interferon-alpha domain, the assembly bound, and the overlap with prior work",
+    "size_bytes": 217768,
+    "sheets": {
+      "IFNA_elements": {
+        "rows": 175,
+        "columns": [
+          "chrom",
+          "start",
+          "end",
+          "score",
+          "subfamily_name",
+          "family_name",
+          "class_name",
+          "length"
+        ],
+        "description": "all 175 transposable elements in the 220 kb interferon-alpha domain (chr9:21,150,692-21,370,055)"
+      },
+      "IFNA_tests": {
+        "rows": 4,
+        "columns": [
+          "test",
+          "description",
+          "observed",
+          "n_null_windows",
+          "n_qualifying_in_pool",
+          "pool_size",
+          "null_mean",
+          "null_sd",
+          "null_median",
+          "null_q025",
+          "null_q975",
+          "z_score",
+          "n_null_at_least_as_low",
+          "empirical_p_two_sided",
+          "empirical_p_floor",
+          "at_floor",
+          "statistic",
+          "window_young",
+          "window_old",
+          "genome_young",
+          "genome_old"
+        ],
+        "description": "the four domain tests: observed value, null mean and SD, and the empirical p-value"
+      },
+      "IFNA_subfamily_composition": {
+        "rows": 36,
+        "columns": [
+          "subfamily_name",
+          "age_group",
+          "n",
+          "mean_divergence",
+          "min_divergence",
+          "max_divergence"
+        ],
+        "description": "the L1 subfamilies represented in the domain and their divergence"
+      },
+      "assembly_bound": {
+        "rows": 75,
+        "columns": [
+          "grouping",
+          "class_name",
+          "n_total",
+          "n_newly_resolved",
+          "fraction_newly_resolved",
+          "family_name",
+          "chrom",
+          "chrom_bp",
+          "newly_resolved_bp"
+        ],
+        "description": "newly resolved T2T sequence and the share of elements, windows and genes it contributes, by TE class, family and chromosome"
+      },
+      "prior_work_overlap_matrix": {
+        "rows": 33,
+        "columns": [
+          "our_set",
+          "their_category",
+          "n_ours_in_universe",
+          "n_theirs_in_universe",
+          "n_shared",
+          "n_expected_by_chance",
+          "fold_over_expected",
+          "jaccard",
+          "overlap_coefficient",
+          "fisher_odds_ratio",
+          "fisher_p_raw",
+          "fisher_p_adjusted",
+          "significant",
+          "direction"
+        ],
+        "description": "Lu et al. 2020 category x TE group: overlap size, Fisher p and Jaccard"
+      },
+      "prior_work_categories": {
+        "rows": 5960,
+        "columns": [
+          "category",
+          "mouse_symbol",
+          "human_symbol",
+          "mapping_path",
+          "in_our_background"
+        ],
+        "description": "Lu et al.'s mouse categories mapped to human genes through MGI orthology"
+      },
+      "prior_work_shared_genes": {
+        "rows": 2195,
+        "columns": [
+          "our_set",
+          "their_category",
+          "gene"
+        ],
+        "description": "the individual genes shared between each category and each group"
+      }
+    },
+    "columns_dropped_for_excel": {}
+  },
+  "File_S5_sensitivity_and_robustness.xlsx": {
+    "subject": "Window-size, percentile and GO-grid sensitivity analyses",
+    "size_bytes": 391046,
+    "sheets": {
+      "window_classes": {
+        "rows": 18,
+        "columns": [
+          "window",
+          "class_name",
+          "observed_tes",
+          "total_tes",
+          "observed_or",
+          "fisher_p_raw",
+          "random_or_mean",
+          "random_or_sd",
+          "random_or_quantile_of_observed",
+          "or_observed_to_random",
+          "empirical_p_raw",
+          "n_permutations",
+          "fisher_p_adjusted",
+          "empirical_p_adjusted",
+          "significant"
+        ],
+        "description": "class-level enrichment at 5, 10 and 20 kb"
+      },
+      "window_families": {
+        "rows": 131,
+        "columns": [
+          "window",
+          "family_name",
+          "observed_tes",
+          "total_tes",
+          "observed_or",
+          "fisher_p_raw",
+          "random_or_mean",
+          "random_or_sd",
+          "random_or_quantile_of_observed",
+          "or_observed_to_random",
+          "empirical_p_raw",
+          "n_permutations",
+          "fisher_p_adjusted",
+          "empirical_p_adjusted",
+          "significant"
+        ],
+        "description": "family-level enrichment at 5, 10 and 20 kb"
+      },
+      "window_concordance": {
+        "rows": 6,
+        "columns": [
+          "level",
+          "window_a",
+          "window_b",
+          "n",
+          "spearman_rho",
+          "spearman_p",
+          "pearson_r",
+          "pearson_p",
+          "concordance_permutation_p",
+          "bland_altman_mean_diff",
+          "bland_altman_sd_diff",
+          "bland_altman_loa_lower",
+          "bland_altman_loa_upper"
+        ],
+        "description": "Spearman rho per window pair with a label-shuffling permutation test"
+      },
+      "window_flips": {
+        "rows": 11,
+        "columns": [
+          "level",
+          "class_name",
+          "10kb",
+          "20kb",
+          "5kb"
+        ],
+        "description": "every group whose significance call changes between windows"
+      },
+      "percentile_summary": {
+        "rows": 28,
+        "columns": [
+          "level",
+          "group",
+          "percentile_dependent",
+          "n_foreground_genes_5pct",
+          "n_foreground_genes_10pct",
+          "foreground_changed",
+          "n_terms_5pct",
+          "n_terms_10pct",
+          "n_shared",
+          "n_lost_at_10pct",
+          "n_gained_at_10pct",
+          "jaccard",
+          "fraction_of_5pct_preserved"
+        ],
+        "description": "GO term counts and stability per group, top/bottom 5 % vs 10 %"
+      },
+      "percentile_terms": {
+        "rows": 1046,
+        "columns": [
+          "level",
+          "group",
+          "term_id",
+          "term_name",
+          "status",
+          "fdr_5pct",
+          "fdr_10pct"
+        ],
+        "description": "every GO term gained or lost at 10 %, named"
+      },
+      "geneset_stability": {
+        "rows": 21,
+        "columns": [
+          "set",
+          "window_a",
+          "window_b",
+          "n_a",
+          "n_b",
+          "n_shared",
+          "expected_shared",
+          "jaccard",
+          "overlap_coefficient",
+          "hypergeometric_p"
+        ],
+        "description": "overlap of the top-5 % gene sets between windows, with a hypergeometric p-value"
+      },
+      "rank_stability": {
+        "rows": 21,
+        "columns": [
+          "set",
+          "window_a",
+          "window_b",
+          "n_genes",
+          "kendall_tau",
+          "ci_lower_2.5",
+          "ci_upper_97.5"
+        ],
+        "description": "Kendall tau of the per-gene ranking between windows, bootstrap CI"
+      },
+      "GO_grid_index": {
+        "rows": 18,
+        "columns": [
+          "level",
+          "window",
+          "percentile",
+          "is_published_cell",
+          "source",
+          "n_groups",
+          "foreground_cut_size",
+          "n_terms_01",
+          "n_terms_005",
+          "n_groups_with_terms",
+          "path"
+        ],
+        "description": "one row per cell of the 3 windows x 2 percentiles GO grid"
+      },
+      "GO_grid_preservation": {
+        "rows": 18,
+        "columns": [
+          "level",
+          "window",
+          "percentile",
+          "is_published",
+          "n_terms",
+          "n_terms_published",
+          "n_shared",
+          "n_lost",
+          "n_gained",
+          "jaccard",
+          "fraction_of_published_preserved"
+        ],
+        "description": "Jaccard and fraction of published terms preserved, per cell and level"
+      },
+      "GO_grid_terms": {
+        "rows": 4996,
+        "columns": [
+          "level",
+          "window",
+          "percentile",
+          "group",
+          "term_id",
+          "term_name",
+          "status",
+          "fdr_published",
+          "fdr_cell"
+        ],
+        "description": "every GO term gained or lost in each cell relative to 10 kb / 5 %"
+      },
+      "GO_grid_concordance": {
+        "rows": 15,
+        "columns": [
+          "level",
+          "window",
+          "percentile",
+          "n_groups",
+          "spearman_rho",
+          "spearman_p",
+          "concordance_permutation_p",
+          "mean_term_count_published",
+          "mean_term_count_cell"
+        ],
+        "description": "Spearman of per-group term counts against the published cell, with a label-shuffling permutation test"
+      },
+      "headline_by_condition": {
+        "rows": 9,
+        "columns": [
+          "level",
+          "group",
+          "term_name",
+          "fdr_5kb_p5",
+          "survives_5kb_p5",
+          "fdr_5kb_p10",
+          "survives_5kb_p10",
+          "fdr_10kb_p5",
+          "survives_10kb_p5",
+          "fdr_10kb_p10",
+          "survives_10kb_p10",
+          "fdr_20kb_p5",
+          "survives_20kb_p5",
+          "fdr_20kb_p10",
+          "survives_20kb_p10",
+          "n_conditions_survived",
+          "survives_published",
+          "verdict"
+        ],
+        "description": "each headline claim under all six conditions"
+      }
+    },
+    "columns_dropped_for_excel": {}
+  }
+}

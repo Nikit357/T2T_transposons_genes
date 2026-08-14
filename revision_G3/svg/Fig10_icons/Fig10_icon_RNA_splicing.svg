@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     fill="none" stroke="#000000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>RNA splicing and processing</title>
+  <desc>Pre-mRNA with two exons and an intron looped out, spliced into a shorter mature mRNA.</desc>
+  <!-- pre-mRNA: two exons (solid blocks), intron looped out above -->
+  <rect x="2" y="20" width="19" height="8" fill="#000000" stroke="none"/>
+  <rect x="43" y="20" width="19" height="8" fill="#000000" stroke="none"/>
+  <path d="M21 24 C 18 4, 46 4, 43 24" stroke-width="3"/>
+  <!-- splicing step -->
+  <path d="M32 34 V 42"/>
+  <path d="M27.5 38 L32 43.5 L36.5 38"/>
+  <!-- mature mRNA: the two exons joined, intron gone -->
+  <rect x="13" y="50" width="38" height="8" fill="#000000" stroke="none"/>
+</svg>

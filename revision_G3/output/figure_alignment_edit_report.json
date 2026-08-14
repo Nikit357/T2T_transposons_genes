@@ -1,0 +1,272 @@
+{
+  "source": "T2T_genes_article_G3_revision_260804_manual.docx",
+  "target": "T2T_genes_article_G3_revision_260807.docx",
+  "dry_run": false,
+  "outcomes": {
+    "applied": 43,
+    "already present": 0,
+    "not found": 0
+  },
+  "sdt_before": 129,
+  "sdt_after": 129,
+  "edits": [
+    {
+      "stage": "R",
+      "edit": "C-7 delete the old Figure S6 caption (its figure is now Figure 8A)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figures S12 and S13 -> Figures S11 and S12 (1 of 1)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S8A -> Figure S7A (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S8B -> Figure S7B (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S8C -> Figure S7C (1 of 1)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S10 -> Figure S9 (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S11 -> Figure S10 (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S12 -> Figure S11 (1 of 1)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S13 -> Figure S12 (1 of 1)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S14 -> Figure S13 (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S7 -> Figure S6 (2 of 2)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S8 -> Figure S7 (1 of 1)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "R",
+      "edit": "renumber Figure S9 -> Figure S8 (4 of 4)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: The integrative network visualization of top 30 the most significant t",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: We visualized top 30 GO terms of each TE-divergence groups",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: filtered by no more than 1000 genes per term to avoid too general clas",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: Visualization of top 30 GO terms by family in Figure 6A showed a high ",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: The null distributions and the subfamily composition are shown in Figu",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: The convergence trajectories are shown in Figure S13 and the checkpoin",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: the gene rankings agree with Kendall tau between 0.48 and 0.79.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: All comparisons are given in Figures S11 and S12 and in File S5.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: which is significant only in the 5 % set.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: The same pattern was observed for individual TE classes (Figure 3B), w",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: or gene density (p = 0.002).",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "T",
+      "edit": "replace: matched for L1 count and for gene density.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: Pearson correlation p-values on scatterplots are not corrected for mul",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: GO terms with more than 500 genes were excluded to avoid overly genera",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: the full network is Figure S10.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: (G) Mann-Whitney U, raw p < 0.001;",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: (A) for all classes and (B) for individual classes.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: with edges drawn at a Jaccard index of at least 0.1 and terms of at mo",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: Up to 29 terms per group are shown",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: the label field is saturated and some labels overlap",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace:  (E) Overlap coefficient of the top 5 % gene sets and Kendall correlat",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: Convergence of the permutation background at 500 permutations.",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: (A) Running mean of the random odds ratio for each TE class as permuta",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: for the worst class and within 0.10 for the worst family",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "replace: is developed in the extended discussion provided as supplementary mate",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "C",
+      "edit": "C-13 add the File S6 entry",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "T-5b split the Figure 5A paragraph (33 tail elements tracked-deleted)",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "T-5 remove the run-in lead now that it is a heading",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "M",
+      "edit": "T-5 move the interferon-alpha block to a closing Results subsection",
+      "applied": true,
+      "outcome": "applied"
+    },
+    {
+      "stage": "verify",
+      "edit": "Mendeley content controls 129 -> 129",
+      "applied": true,
+      "outcome": "applied"
+    }
+  ]
+}

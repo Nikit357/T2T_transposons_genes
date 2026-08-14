@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0160063,multi-pass transmembrane protein insertion into ER membrane,BP,5.225857737295079e-07,0.004898196457166677,177.39506172839506,3,9,"['NOMO1', 'NOMO2', 'NOMO3']","['CCDC47', 'NCLN', 'NOMO1', 'NOMO2', 'NOMO3', 'RAB5IF', 'TMCO1', 'TMEM147', 'WDR83OS']",X9_LINE,LINE
+1,GO:0160064,multi-pass translocon complex,CC,5.225857737295079e-07,0.004898196457166677,177.39506172839506,3,9,"['NOMO1', 'NOMO2', 'NOMO3']","['CCDC47', 'NCLN', 'NOMO1', 'NOMO2', 'NOMO3', 'RAB5IF', 'TMCO1', 'TMEM147', 'WDR83OS']",X9_LINE,LINE

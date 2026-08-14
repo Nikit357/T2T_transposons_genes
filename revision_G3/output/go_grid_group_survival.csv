@@ -1,0 +1,35 @@
+level,group,5kb_p5,5kb_p10,10kb_p5,10kb_p10,20kb_p5,20kb_p10,n_conditions
+classes_count,DNA,False,True,False,False,False,True,2
+classes_count,LINE,True,True,True,True,True,True,6
+classes_count,LTR,True,True,True,True,True,True,6
+classes_count,SINE,True,True,True,True,True,True,6
+classes_count,SVA,False,False,True,False,True,False,2
+classes_count,TE_bottom,True,True,True,True,True,True,6
+classes_count,TE_top,True,True,True,True,True,True,6
+classes_divergence,DNA / highest,False,False,False,True,True,True,3
+classes_divergence,LINE / highest,True,True,True,True,True,True,6
+classes_divergence,LINE / lowest,True,True,True,True,True,True,6
+classes_divergence,LTR / highest,True,True,True,True,True,True,6
+classes_divergence,LTR / lowest,True,False,True,True,True,True,5
+classes_divergence,SINE / highest,True,True,True,True,True,True,6
+classes_divergence,SINE / lowest,False,True,True,True,True,True,5
+classes_divergence,TE_all / highest,True,True,True,True,True,True,6
+classes_divergence,TE_all / lowest,True,True,True,True,True,True,6
+families,Alu,True,True,True,True,True,True,6
+families,CR1,False,True,True,True,True,True,5
+families,Dong-R4,False,False,False,False,True,True,2
+families,ERV1,True,True,True,True,True,True,6
+families,ERVK,True,True,True,True,True,True,6
+families,ERVL,True,True,True,True,True,True,6
+families,ERVL-MaLR,True,True,True,True,True,True,6
+families,Gypsy,False,False,True,True,True,True,4
+families,L1,True,True,True,True,True,True,6
+families,L2,True,True,True,True,True,True,6
+families,MIR,True,True,True,True,True,True,6
+families,Penelope,False,False,False,False,True,True,2
+families,RTE-BovB,False,False,False,False,True,True,2
+families,SVA,False,False,True,True,True,True,4
+families,TcMar-Tc1,True,True,False,False,True,True,4
+families,TcMar-Tigger,False,False,False,False,True,True,2
+families,hAT-Charlie,False,True,True,True,True,True,5
+families,hAT-Tip100,True,True,True,True,True,True,6

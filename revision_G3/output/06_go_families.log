@@ -1,0 +1,188 @@
+Loaded TEs_on_genes.csv: 38,704 TSS windows, 28,738 distinct genes
+Deriving per-family counts from TE_families ...
+
+=== level: families ===
+Loading GO DAG from /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/go-basic.obo ...
+/home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/go-basic.obo: fmt(1.2) rel(2025-10-10) 42,666 Terms
+Loading human GO annotations from /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/goa_human.gaf ...
+HMS:0:00:29.807962 972,437 annotations READ: /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/goa_human.gaf 
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  I-Jockey / LINE                  15 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (42.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tigger / DNA            1,436 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (12.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Kolobok / DNA                    26 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT / DNA                       220 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tag1 / DNA                  225 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.3 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  MULE-MuDR / DNA                 156 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVL / LTR                    1,436 genes ->   16 terms at FDR<0.1,   12 at FDR<0.05   (12.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA-RTE / SINE                 437 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (10.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Pogo / DNA                  3 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tip100 / DNA              1,436 genes ->    1 terms at FDR<0.1,    1 at FDR<0.05   (13.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVK / LTR                      906 genes ->    3 terms at FDR<0.1,    3 at FDR<0.05   (11.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Penelope / LINE                 103 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L1-Tx1 / LINE                    12 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVL-MaLR / LTR               1,436 genes ->   13 terms at FDR<0.1,   12 at FDR<0.05   (12.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Gypsy / LTR                   1,205 genes ->    6 terms at FDR<0.1,    6 at FDR<0.05   (11.3 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  PiggyBac / DNA                  150 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (12.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Mariner / DNA           1,219 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (12.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  RTE-BovB / LINE                 659 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (11.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-hAT19 / DNA                   1 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L2 / LINE                     1,436 genes ->    1 terms at FDR<0.1,    1 at FDR<0.05   (11.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT? / DNA                        3 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Crypton-A / DNA                   8 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA-Deu / SINE                  47 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tc1 / DNA                  96 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  CR1 / LINE                    1,436 genes ->    9 terms at FDR<0.1,    6 at FDR<0.05   (11.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tip100? / DNA                 4 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Ac / DNA                    425 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Alu / SINE                    1,436 genes ->   52 terms at FDR<0.1,   31 at FDR<0.05   (11.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Charlie / DNA             1,436 genes ->    7 terms at FDR<0.1,    2 at FDR<0.05   (11.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  5S-Deu-L2 / SINE                246 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Crypton / DNA                    18 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  PIF-Harbinger / DNA              14 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  MIR / SINE                    1,436 genes ->   33 terms at FDR<0.1,   23 at FDR<0.05   (12.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  RTE-X / LINE                  1,204 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (12.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L1 / LINE                     1,436 genes ->   22 terms at FDR<0.1,   22 at FDR<0.05   (12.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERV1 / LTR                    1,436 genes ->   25 terms at FDR<0.1,   16 at FDR<0.05   (12.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Merlin / DNA                      9 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (10.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Helitron / RC                   130 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (10.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  SVA / Retroposon                962 genes ->    6 terms at FDR<0.1,    5 at FDR<0.05   (13.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA / SINE                     182 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (10.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Dong-R4 / LINE                   57 genes ->    1 terms at FDR<0.1,    0 at FDR<0.05   (9.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tc2 / DNA                 563 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (11.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar / DNA                      14 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (9.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Blackjack / DNA           1,436 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (11.4 s)
+
+families: 195 terms at FDR<0.1 -> 140 at FDR<0.05 (-28.2 %)
+  wrote GO_families_fdr01_reference.csv (reference, NOT for publication)
+  wrote GO_families_fdr005.csv (this is what ships)

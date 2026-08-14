@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0036221,UTP diphosphatase activity,MF,9.877363381969955e-07,0.01851610539584088,1126.9803921568628,2,3,"['ASMTL', 'ENPP3']","['ASMTL', 'ENPP1', 'ENPP3']",PABL_A-int,LTR
+1,GO:0047429,nucleoside triphosphate diphosphatase activity,MF,6.904535429226625e-06,0.06471621057814116,482.99159663865544,2,7,"['ASMTL', 'ENPP3']","['ASMTL', 'DCTPP1', 'DHX9', 'ENPP1', 'ENPP3', 'ITPA', 'NUDT15']",PABL_A-int,LTR

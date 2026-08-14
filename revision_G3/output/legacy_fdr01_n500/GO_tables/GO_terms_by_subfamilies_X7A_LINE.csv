@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+1,GO:0005131,growth hormone receptor binding,MF,1.8462783722088652e-07,0.0034610334365427387,72.29685534591195,4,10,"['CSH2', 'CSHL1', 'GH1', 'GH2']","['CSH1', 'CSH2', 'CSHL1', 'GH1', 'GH2', 'JAK1', 'JAK2', 'JAK3', 'SOCS2', 'TYK2']",X7A_LINE,LINE
+0,GO:0060396,growth hormone receptor signaling pathway,BP,1.1744400668742464e-06,0.011008026746812312,48.197903563941296,4,15,"['CSH2', 'CSHL1', 'GH1', 'GH2']","['A1BG', 'CSF2RA', 'CSH1', 'CSH2', 'CSHL1', 'GH1', 'GH2', 'GHR', 'IGF1', 'JAK2', 'PIK3R1', 'PTK2', 'PXN', 'SOCS2', 'STAT3']",X7A_LINE,LINE

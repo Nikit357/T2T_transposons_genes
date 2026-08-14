@@ -1,0 +1,19 @@
+level,window,percentile,is_published_cell,source,n_groups,foreground_cut_size,n_terms_01,n_terms_005,n_groups_with_terms,path
+classes_count,10kb,5,True,reused from GO_classes_count_*.csv,6,1436,504,425,6,output/GO_grid/GO_classes_count_10kb_p5_fdr005.csv
+classes_count,10kb,10,False,reused from GO_classes_count_p10_*.csv,5,2872,1020,779,5,output/GO_grid/GO_classes_count_10kb_p10_fdr005.csv
+classes_count,20kb,5,False,computed,7,1862,385,299,6,output/GO_grid/GO_classes_count_20kb_p5_fdr005.csv
+classes_count,20kb,10,False,computed,6,2872,712,544,6,output/GO_grid/GO_classes_count_20kb_p10_fdr005.csv
+classes_count,5kb,5,False,computed,5,1436,690,510,5,output/GO_grid/GO_classes_count_5kb_p5_fdr005.csv
+classes_count,5kb,10,False,computed,6,2872,1028,822,6,output/GO_grid/GO_classes_count_5kb_p10_fdr005.csv
+classes_divergence,10kb,5,True,reused from GO_classes_divergence_*.csv,4,1425,516,414,4,output/GO_grid/GO_classes_divergence_10kb_p5_fdr005.csv
+classes_divergence,10kb,10,False,reused from GO_classes_divergence_p10_*.csv,5,2850,856,632,5,output/GO_grid/GO_classes_divergence_10kb_p10_fdr005.csv
+classes_divergence,20kb,5,False,computed,5,1431,444,303,5,output/GO_grid/GO_classes_divergence_20kb_p5_fdr005.csv
+classes_divergence,20kb,10,False,computed,5,2863,802,608,5,output/GO_grid/GO_classes_divergence_20kb_p10_fdr005.csv
+classes_divergence,5kb,5,False,computed,5,1405,289,209,4,output/GO_grid/GO_classes_divergence_5kb_p5_fdr005.csv
+classes_divergence,5kb,10,False,computed,4,2811,541,402,4,output/GO_grid/GO_classes_divergence_5kb_p10_fdr005.csv
+families,10kb,5,True,reused from GO_families_*.csv,14,1436,195,140,13,output/GO_grid/GO_families_10kb_p5_fdr005.csv
+families,10kb,10,False,reused from GO_families_p10_*.csv,14,2873,407,321,13,output/GO_grid/GO_families_10kb_p10_fdr005.csv
+families,20kb,5,False,computed,21,1436,274,201,18,output/GO_grid/GO_families_20kb_p5_fdr005.csv
+families,20kb,10,False,computed,21,2873,553,402,18,output/GO_grid/GO_families_20kb_p10_fdr005.csv
+families,5kb,5,False,computed,11,1436,159,137,10,output/GO_grid/GO_families_5kb_p5_fdr005.csv
+families,5kb,10,False,computed,13,2873,363,282,12,output/GO_grid/GO_families_5kb_p10_fdr005.csv

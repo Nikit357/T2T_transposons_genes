@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0120094,negative regulation of peptidyl-lysine crotonylation,BP,1.1111775919088665e-06,0.020830135137923613,1064.3703703703704,2,3,"['CDY1', 'CDY2A']","['CDY1', 'CDY2A', 'CDYL']",LTR25-int,LTR
+1,GO:0004556,alpha-amylase activity,MF,3.701176141557105e-06,0.03469112397481475,638.6222222222221,2,5,"['AMY1A', 'AMY1C']","['AMY1A', 'AMY1B', 'AMY1C', 'AMY2A', 'AMY2B']",LTR25-int,LTR

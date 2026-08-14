@@ -1,0 +1,164 @@
+{
+  "Fig4A_simplified.svg": {
+    "label_collisions": 0,
+    "n_texts": 35,
+    "figsize_in": [
+      13.75,
+      11.25
+    ],
+    "layout_k": 0.6,
+    "label_expand": [
+      1.15,
+      1.25
+    ],
+    "fdr_colour_range": [
+      1.301,
+      50.586
+    ],
+    "canvas_area_vs_baseline": 1.562,
+    "fallback_rung": "full labels, x1.25 k=0.6 expand=1.15",
+    "top_n": 10,
+    "compaction_target_met": false,
+    "best_compaction_attempt": {
+      "rung": "short labels, x0.90 k=0.45 expand=1.02",
+      "collisions": 3
+    }
+  },
+  "Fig5A_simplified.svg": {
+    "label_collisions": 0,
+    "n_texts": 42,
+    "figsize_in": [
+      16.5,
+      13.5
+    ],
+    "layout_k": 0.6,
+    "label_expand": [
+      1.15,
+      1.25
+    ],
+    "fdr_colour_range": [
+      1.301,
+      15.525
+    ],
+    "canvas_area_vs_baseline": 2.25,
+    "fallback_rung": "short labels, x1.50 k=0.6 expand=1.15",
+    "top_n": 10,
+    "compaction_target_met": false,
+    "best_compaction_attempt": {
+      "rung": "short labels, x0.90 k=0.45 expand=1.15",
+      "collisions": 8
+    }
+  },
+  "Fig6A_simplified.svg": {
+    "label_collisions": 0,
+    "n_texts": 42,
+    "figsize_in": [
+      19.5,
+      16.5
+    ],
+    "layout_k": 0.6,
+    "label_expand": [
+      1.15,
+      1.25
+    ],
+    "fdr_colour_range": [
+      1.301,
+      40.192
+    ],
+    "canvas_area_vs_baseline": 2.25,
+    "fallback_rung": "short labels, x1.50 k=0.6 expand=1.15, top_n=5",
+    "top_n": 5,
+    "compaction_target_met": false,
+    "best_compaction_attempt": {
+      "rung": "short labels, x0.90 k=0.45 expand=1.15",
+      "collisions": 9
+    }
+  },
+  "S9_full.svg": {
+    "label_collisions": 0,
+    "n_texts": 72,
+    "figsize_in": [
+      11.32,
+      22.34
+    ],
+    "layout_k": 0.9,
+    "label_expand": [
+      1.02,
+      1.05
+    ],
+    "fdr_colour_range": [
+      1.301,
+      80.573
+    ],
+    "canvas_area_vs_baseline": 1.0,
+    "svg_pt": [
+      815.04,
+      1608.48
+    ],
+    "aspect": 0.507,
+    "fallback_rung": "short labels, pinned canvas, wrap=None k=0.9 expand=1.02",
+    "top_n": 30,
+    "label_wrap": null,
+    "pinned": true,
+    "compaction_target_met": false,
+    "best_compaction_attempt": null
+  },
+  "S10_full.svg": {
+    "label_collisions": 0,
+    "n_texts": 71,
+    "figsize_in": [
+      11.32,
+      22.34
+    ],
+    "layout_k": 1.2,
+    "label_expand": [
+      1.02,
+      1.05
+    ],
+    "fdr_colour_range": [
+      1.301,
+      16.734
+    ],
+    "canvas_area_vs_baseline": 1.0,
+    "svg_pt": [
+      815.04,
+      1608.48
+    ],
+    "aspect": 0.507,
+    "fallback_rung": "short labels, pinned canvas, wrap=None k=1.2 expand=1.02",
+    "top_n": 30,
+    "label_wrap": null,
+    "pinned": true,
+    "compaction_target_met": false,
+    "best_compaction_attempt": null
+  },
+  "S11_full.svg": {
+    "figsize_in": [
+      11.17,
+      17.61
+    ],
+    "layout_k": 1.2,
+    "label_expand": [
+      1.02,
+      1.05
+    ],
+    "fdr_colour_range": [
+      1.301,
+      40.192
+    ],
+    "canvas_area_vs_baseline": 1.0,
+    "svg_pt": [
+      804.24,
+      1267.92
+    ],
+    "aspect": 0.634,
+    "fallback_rung": "collision check waived at the best rung the ladder reached (short labels, pinned canvas, wrap=18 k=1.2 expand=1.02); supplementary full version, structure only",
+    "top_n": 30,
+    "label_wrap": 18,
+    "pinned": true,
+    "label_collisions": "waived",
+    "collisions_at_waived_rung": 7,
+    "compaction_target_met": false,
+    "best_compaction_attempt": null
+  }
+}

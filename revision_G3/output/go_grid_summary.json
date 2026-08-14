@@ -1,0 +1,52 @@
+{
+  "cells": 18,
+  "window_trend_at_5pct": {
+    "classes_count": "falls with window width (510 -> 425 -> 299)",
+    "classes_divergence": "peaks at 10kb (209 / 414 / 303)",
+    "families": "rises with window width (137 -> 140 -> 201)"
+  },
+  "percentile_always_increases": true,
+  "term_counts": {
+    "classes_count": {
+      "5kb/5%": 510,
+      "5kb/10%": 822,
+      "10kb/5%": 425,
+      "10kb/10%": 779,
+      "20kb/5%": 299,
+      "20kb/10%": 544
+    },
+    "classes_divergence": {
+      "5kb/5%": 209,
+      "5kb/10%": 402,
+      "10kb/5%": 414,
+      "10kb/10%": 632,
+      "20kb/5%": 303,
+      "20kb/10%": 608
+    },
+    "families": {
+      "5kb/5%": 137,
+      "5kb/10%": 282,
+      "10kb/5%": 140,
+      "10kb/10%": 321,
+      "20kb/5%": 201,
+      "20kb/10%": 402
+    }
+  },
+  "min_fraction_published_preserved": 0.4397163120567376,
+  "median_fraction_published_preserved": 0.6773333333333333,
+  "min_spearman_rho": 0.6137083760407277,
+  "max_concordance_permutation_p": 0.02197802197802198,
+  "headline_claims_total": 9,
+  "headline_claims_robust_all_six": 3,
+  "headline_claims_surviving_published": 9,
+  "groups_surviving_all_six": {
+    "classes_count": 5,
+    "classes_divergence": 6,
+    "families": 9
+  },
+  "groups_total": {
+    "classes_count": 7,
+    "classes_divergence": 9,
+    "families": 18
+  }
+}

@@ -1,0 +1,517 @@
+,Term Name,Term ID,class_name,divergence_group
+0,protein binding,GO:0005515,LINE,lowest
+1,detection of chemical stimulus involved in sensory perception of smell,GO:0050911,LINE,lowest
+2,olfactory receptor activity,GO:0004984,LINE,lowest
+3,sensory perception of smell,GO:0007608,LINE,lowest
+4,cytoplasm,GO:0005737,LINE,lowest
+5,G protein-coupled receptor activity,GO:0004930,LINE,lowest
+6,cytosol,GO:0005829,LINE,lowest
+7,G protein-coupled receptor signaling pathway,GO:0007186,LINE,lowest
+8,type I interferon receptor binding,GO:0005132,LINE,lowest
+9,B cell activation involved in immune response,GO:0002312,LINE,lowest
+10,natural killer cell activation involved in immune response,GO:0002323,LINE,lowest
+11,nucleoplasm,GO:0005654,LINE,lowest
+12,terpenoid metabolic process,GO:0006721,LINE,lowest
+13,T cell activation involved in immune response,GO:0002286,LINE,lowest
+14,extracellular exosome,GO:0070062,LINE,lowest
+15,protein transport,GO:0015031,LINE,lowest
+16,DNA damage response,GO:0006974,LINE,lowest
+17,potassium ion transport,GO:0006813,LINE,highest
+18,voltage-gated potassium channel complex,GO:0008076,LINE,highest
+19,protein kinase binding,GO:0019901,LINE,highest
+20,potassium ion transmembrane transport,GO:0071805,LINE,highest
+21,ventricular cardiac muscle cell differentiation,GO:0055012,LINE,highest
+22,protein binding,GO:0005515,LINE,highest
+23,monoatomic ion channel complex,GO:0034702,LINE,highest
+24,inward rectifier potassium channel activity,GO:0005242,LINE,highest
+25,extracellular matrix structural constituent conferring tensile strength,GO:0030020,LINE,highest
+26,cell population proliferation,GO:0008283,LINE,highest
+27,very-low-density lipoprotein particle,GO:0034361,LINE,highest
+28,outflow tract septum morphogenesis,GO:0003148,LINE,highest
+29,cell-cell adhesion,GO:0098609,LINE,highest
+30,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",GO:0016712,LTR,lowest
+31,mitochondrion,GO:0005739,LTR,lowest
+32,signal transduction,GO:0007165,LTR,highest
+33,G protein-coupled receptor signaling pathway,GO:0007186,LTR,highest
+34,G protein-coupled receptor activity,GO:0004930,LTR,highest
+35,detection of chemical stimulus involved in sensory perception of smell,GO:0050911,LTR,highest
+36,olfactory receptor activity,GO:0004984,LTR,highest
+37,sensory perception of smell,GO:0007608,LTR,highest
+38,nucleus,GO:0005634,LTR,highest
+39,plasma membrane,GO:0005886,LTR,highest
+40,calcium-dependent cell-cell adhesion,GO:0016339,LTR,highest
+41,cell adhesion,GO:0007155,LTR,highest
+42,extracellular exosome,GO:0070062,SINE,lowest
+43,protein binding,GO:0005515,SINE,lowest
+44,cytoplasm,GO:0005737,SINE,lowest
+45,plasma membrane,GO:0005886,SINE,highest
+46,nervous system development,GO:0007399,SINE,highest
+47,G protein-coupled receptor activity,GO:0004930,SINE,highest
+48,postsynaptic membrane,GO:0045211,SINE,highest
+49,G protein-coupled receptor signaling pathway,GO:0007186,SINE,highest
+50,signal transduction,GO:0007165,SINE,highest
+51,olfactory receptor activity,GO:0004984,SINE,highest
+52,detection of chemical stimulus involved in sensory perception of smell,GO:0050911,SINE,highest
+53,sensory perception of smell,GO:0007608,SINE,highest
+54,chemical synaptic transmission,GO:0007268,SINE,highest
+55,neuronal cell body,GO:0043025,SINE,highest
+56,RNA binding,GO:0003723,SINE,highest
+57,extracellular region,GO:0005576,SINE,highest
+58,mitochondrion,GO:0005739,SINE,highest
+59,glutamatergic synapse,GO:0098978,SINE,highest
+60,cytosol,GO:0005829,SINE,highest
+61,nucleolus,GO:0005730,SINE,highest
+62,nucleus,GO:0005634,SINE,highest
+63,inhibitory synapse assembly,GO:1904862,SINE,highest
+64,outflow tract septum morphogenesis,GO:0003148,SINE,highest
+65,extracellular space,GO:0005615,SINE,highest
+66,axon guidance,GO:0007411,SINE,highest
+67,telencephalon development,GO:0021537,SINE,highest
+68,positive regulation of MAPK cascade,GO:0043410,SINE,highest
+69,growth factor activity,GO:0008083,SINE,highest
+70,cell differentiation,GO:0030154,SINE,highest
+71,dendrite,GO:0030425,SINE,highest
+72,potassium ion transmembrane transport,GO:0071805,SINE,highest
+73,axon,GO:0030424,SINE,highest
+74,synapse,GO:0045202,SINE,highest
+75,monoatomic ion transport,GO:0006811,SINE,highest
+76,voltage-gated potassium channel activity,GO:0005249,SINE,highest
+77,monoatomic ion channel activity,GO:0005216,SINE,highest
+78,presynaptic membrane,GO:0042734,SINE,highest
+79,cell adhesion,GO:0007155,SINE,highest
+80,voltage-gated potassium channel complex,GO:0008076,SINE,highest
+81,dendritic spine,GO:0043197,SINE,highest
+82,GABA-gated chloride ion channel activity,GO:0022851,SINE,highest
+83,axonogenesis,GO:0007409,SINE,highest
+84,gamma-aminobutyric acid signaling pathway,GO:0007214,SINE,highest
+85,GABA-A receptor activity,GO:0004890,SINE,highest
+86,GABA-A receptor complex,GO:1902711,SINE,highest
+87,chloride transport,GO:0006821,SINE,highest
+88,positive regulation of neuron differentiation,GO:0045666,SINE,highest
+89,negative chemotaxis,GO:0050919,SINE,highest
+90,regulation of postsynapse organization,GO:0099175,SINE,highest
+91,transferase activity,GO:0016740,SINE,highest
+92,potassium ion transport,GO:0006813,SINE,highest
+93,embryonic hindlimb morphogenesis,GO:0035116,SINE,highest
+94,postsynaptic density membrane,GO:0098839,SINE,highest
+95,positive regulation of cell differentiation,GO:0045597,SINE,highest
+96,adrenergic receptor signaling pathway,GO:0071875,SINE,highest
+97,presynaptic active zone membrane,GO:0048787,SINE,highest
+98,neuron migration,GO:0001764,SINE,highest
+99,Schaffer collateral - CA1 synapse,GO:0098685,SINE,highest
+100,DNA damage response,GO:0006974,SINE,highest
+101,GABA-ergic synapse,GO:0098982,SINE,highest
+102,extracellular matrix,GO:0031012,SINE,highest
+103,aortic valve morphogenesis,GO:0003180,SINE,highest
+104,nucleoplasm,GO:0005654,SINE,highest
+105,positive regulation of cartilage development,GO:0061036,SINE,highest
+106,intercalated disc,GO:0014704,SINE,highest
+107,chloride transmembrane transport,GO:1902476,SINE,highest
+108,cell-cell signaling,GO:0007267,SINE,highest
+109,monoatomic ion transmembrane transport,GO:0034220,SINE,highest
+110,positive regulation of cell population proliferation,GO:0008284,SINE,highest
+111,positive regulation of cell-substrate adhesion,GO:0010811,SINE,highest
+112,dendritic spine morphogenesis,GO:0060997,SINE,highest
+113,action potential,GO:0001508,SINE,highest
+114,pulmonary valve morphogenesis,GO:0003184,SINE,highest
+115,neuron projection,GO:0043005,SINE,highest
+116,dendrite membrane,GO:0032590,SINE,highest
+117,epithelial to mesenchymal transition involved in endocardial cushion formation,GO:0003198,SINE,highest
+118,positive regulation of synapse assembly,GO:0051965,SINE,highest
+119,regulation of postsynaptic membrane potential,GO:0060078,SINE,highest
+120,heparin binding,GO:0008201,SINE,highest
+121,cytoplasm,GO:0005737,SINE,highest
+122,positive regulation of bone mineralization,GO:0030501,SINE,highest
+123,adrenergic receptor activity,GO:0004935,SINE,highest
+124,regulation of heart rate by cardiac conduction,GO:0086091,SINE,highest
+125,neurogenesis,GO:0022008,SINE,highest
+126,chondrocyte differentiation,GO:0002062,SINE,highest
+127,cell surface,GO:0009986,SINE,highest
+128,cytokine activity,GO:0005125,SINE,highest
+129,membrane,GO:0016020,SINE,highest
+130,nucleotide binding,GO:0000166,SINE,highest
+131,hippocampus development,GO:0021766,SINE,highest
+132,synapse organization,GO:0050808,SINE,highest
+133,lung development,GO:0030324,SINE,highest
+134,sequence-specific DNA binding,GO:0043565,SINE,highest
+135,peptidase inhibitor activity,GO:0030414,SINE,highest
+136,chloride channel complex,GO:0034707,SINE,highest
+137,transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential,GO:1904315,SINE,highest
+138,ATP binding,GO:0005524,SINE,highest
+139,modulation of chemical synaptic transmission,GO:0050804,SINE,highest
+140,neurotransmitter secretion,GO:0007269,SINE,highest
+141,cardiac muscle cell differentiation,GO:0055007,SINE,highest
+142,"regulation of synaptic transmission, GABAergic",GO:0032228,SINE,highest
+143,"synaptic transmission, GABAergic",GO:0051932,SINE,highest
+144,translation,GO:0006412,SINE,highest
+145,regulation of vasoconstriction,GO:0019229,SINE,highest
+146,neurotransmitter transport,GO:0006836,SINE,highest
+147,transmembrane signaling receptor activity,GO:0004888,SINE,highest
+148,potassium channel activity,GO:0005267,SINE,highest
+149,positive regulation of Notch signaling pathway,GO:0045747,SINE,highest
+150,centrosome,GO:0005813,SINE,highest
+151,mitochondrial matrix,GO:0005759,SINE,highest
+152,chloride channel activity,GO:0005254,SINE,highest
+153,benzodiazepine receptor activity,GO:0008503,SINE,highest
+154,alpha2-adrenergic receptor activity,GO:0004938,SINE,highest
+155,negative regulation of negative chemotaxis,GO:0050925,SINE,highest
+156,protein folding,GO:0006457,SINE,highest
+157,sequence-specific double-stranded DNA binding,GO:1990837,SINE,highest
+158,delayed rectifier potassium channel activity,GO:0005251,SINE,highest
+159,mitochondrial inner membrane,GO:0005743,SINE,highest
+160,ribonucleoprotein complex,GO:1990904,SINE,highest
+161,outflow tract morphogenesis,GO:0003151,SINE,highest
+162,keratinization,GO:0031424,SINE,highest
+163,interleukin-1 binding,GO:0019966,SINE,highest
+164,heart looping,GO:0001947,SINE,highest
+165,cardiac muscle contraction,GO:0060048,SINE,highest
+166,neuron cell-cell adhesion,GO:0007158,SINE,highest
+167,inner ear development,GO:0048839,SINE,highest
+168,brain development,GO:0007420,SINE,highest
+169,postsynaptic specialization membrane,GO:0099634,SINE,highest
+170,negative regulation of cell differentiation,GO:0045596,SINE,highest
+171,DNA-binding transcription factor activity,GO:0003700,SINE,highest
+172,spinal cord association neuron differentiation,GO:0021527,SINE,highest
+173,endocardial cushion development,GO:0003197,SINE,highest
+174,atrial septum morphogenesis,GO:0060413,SINE,highest
+175,odontogenesis,GO:0042476,SINE,highest
+176,learning,GO:0007612,SINE,highest
+177,heart development,GO:0007507,SINE,highest
+178,receptor clustering,GO:0043113,SINE,highest
+179,semaphorin-plexin signaling pathway,GO:0071526,SINE,highest
+180,extrasynaptic signaling via GABA,GO:0160001,SINE,highest
+181,trans-synaptic protein complex,GO:0098820,SINE,highest
+182,heart induction,GO:0003129,SINE,highest
+183,positive regulation of cell migration,GO:0030335,SINE,highest
+184,epidermis development,GO:0008544,SINE,highest
+185,positive regulation of DNA-templated transcription,GO:0045893,SINE,highest
+186,secondary palate development,GO:0062009,SINE,highest
+187,neuron development,GO:0048666,SINE,highest
+188,extracellular ligand-gated monoatomic ion channel activity,GO:0005230,SINE,highest
+189,positive regulation of axonogenesis,GO:0050772,SINE,highest
+190,regulation of presynapse assembly,GO:1905606,SINE,highest
+191,regulation of cardiac muscle cell contraction,GO:0086004,SINE,highest
+192,nervous system process,GO:0050877,SINE,highest
+193,zinc ion binding,GO:0008270,SINE,highest
+194,negative regulation of inner ear auditory receptor cell differentiation,GO:0045608,SINE,highest
+195,embryonic limb morphogenesis,GO:0030326,SINE,highest
+196,pituitary gland development,GO:0021983,SINE,highest
+197,chromosome,GO:0005694,SINE,highest
+198,regulation of cardiac muscle contraction,GO:0055117,SINE,highest
+199,central nervous system neuron development,GO:0021954,SINE,highest
+200,odorant binding,GO:0005549,SINE,highest
+201,signaling receptor activity,GO:0038023,SINE,highest
+202,positive regulation of gene expression,GO:0010628,SINE,highest
+203,potassium channel activator activity,GO:0099104,SINE,highest
+204,catenin complex,GO:0016342,SINE,highest
+205,limb morphogenesis,GO:0035108,SINE,highest
+206,DNA repair,GO:0006281,SINE,highest
+207,positive regulation of ERK1 and ERK2 cascade,GO:0070374,SINE,highest
+208,hydrolase activity,GO:0016787,SINE,highest
+209,social behavior,GO:0035176,SINE,highest
+210,extracellular matrix structural constituent,GO:0005201,SINE,highest
+211,blood vessel remodeling,GO:0001974,SINE,highest
+212,oligodendrocyte differentiation,GO:0048709,SINE,highest
+213,positive regulation of excitatory postsynaptic potential,GO:2000463,SINE,highest
+214,RNA polymerase II transcription regulatory region sequence-specific DNA binding,GO:0000977,SINE,highest
+215,parallel fiber to Purkinje cell synapse,GO:0098688,SINE,highest
+216,beta-catenin binding,GO:0008013,SINE,highest
+217,cell-cell adhesion,GO:0098609,SINE,highest
+218,motor neuron axon guidance,GO:0008045,SINE,highest
+219,"regulation of synaptic transmission, glutamatergic",GO:0051966,SINE,highest
+220,transmembrane transporter binding,GO:0044325,SINE,highest
+221,junctional sarcoplasmic reticulum membrane,GO:0014701,SINE,highest
+222,muscle organ morphogenesis,GO:0048644,SINE,highest
+223,membrane repolarization during cardiac muscle cell action potential,GO:0086013,SINE,highest
+224,somatic stem cell division,GO:0048103,SINE,highest
+225,glutamate-gated receptor activity,GO:0004970,SINE,highest
+226,regulation of cell migration,GO:0030334,SINE,highest
+227,nucleus,GO:0005634,TE_all,lowest
+228,regulation of DNA-templated transcription,GO:0006355,TE_all,lowest
+229,RNA binding,GO:0003723,TE_all,lowest
+230,nucleoplasm,GO:0005654,TE_all,lowest
+231,ribonucleoprotein complex,GO:1990904,TE_all,lowest
+232,DNA binding,GO:0003677,TE_all,lowest
+233,zinc ion binding,GO:0008270,TE_all,lowest
+234,plasma membrane,GO:0005886,TE_all,lowest
+235,extracellular region,GO:0005576,TE_all,lowest
+236,"DNA-binding transcription factor activity, RNA polymerase II-specific",GO:0000981,TE_all,lowest
+237,subcortical maternal complex,GO:0106333,TE_all,lowest
+238,extracellular space,GO:0005615,TE_all,lowest
+239,establishment of Sertoli cell barrier,GO:0097368,TE_all,lowest
+240,rRNA binding,GO:0019843,TE_all,lowest
+241,signal transduction,GO:0007165,TE_all,lowest
+242,establishment of spindle localization,GO:0051293,TE_all,lowest
+243,structural constituent of ribosome,GO:0003735,TE_all,lowest
+244,fatty acid catabolic process,GO:0009062,TE_all,lowest
+245,nervous system development,GO:0007399,TE_all,highest
+246,postsynaptic membrane,GO:0045211,TE_all,highest
+247,plasma membrane,GO:0005886,TE_all,highest
+248,chemical synaptic transmission,GO:0007268,TE_all,highest
+249,axon guidance,GO:0007411,TE_all,highest
+250,synapse,GO:0045202,TE_all,highest
+251,dendrite,GO:0030425,TE_all,highest
+252,postsynaptic density membrane,GO:0098839,TE_all,highest
+253,glutamatergic synapse,GO:0098978,TE_all,highest
+254,DNA-binding transcription factor activity,GO:0003700,TE_all,highest
+255,chromatin,GO:0000785,TE_all,highest
+256,cell differentiation,GO:0030154,TE_all,highest
+257,extracellular region,GO:0005576,TE_all,highest
+258,neuronal cell body,GO:0043025,TE_all,highest
+259,mitochondrion,GO:0005739,TE_all,highest
+260,presynaptic membrane,GO:0042734,TE_all,highest
+261,dendritic spine,GO:0043197,TE_all,highest
+262,sequence-specific DNA binding,GO:0043565,TE_all,highest
+263,glutamate-gated receptor activity,GO:0004970,TE_all,highest
+264,axon,GO:0030424,TE_all,highest
+265,modulation of chemical synaptic transmission,GO:0050804,TE_all,highest
+266,RNA binding,GO:0003723,TE_all,highest
+267,sequence-specific double-stranded DNA binding,GO:1990837,TE_all,highest
+268,positive regulation of transcription by RNA polymerase II,GO:0045944,TE_all,highest
+269,lung development,GO:0030324,TE_all,highest
+270,extracellular matrix,GO:0031012,TE_all,highest
+271,RNA polymerase II cis-regulatory region sequence-specific DNA binding,GO:0000978,TE_all,highest
+272,animal organ development,GO:0048513,TE_all,highest
+273,"synaptic transmission, glutamatergic",GO:0035249,TE_all,highest
+274,cell fate commitment,GO:0045165,TE_all,highest
+275,synapse organization,GO:0050808,TE_all,highest
+276,vocalization behavior,GO:0071625,TE_all,highest
+277,"DNA-binding transcription factor activity, RNA polymerase II-specific",GO:0000981,TE_all,highest
+278,inhibitory synapse assembly,GO:1904862,TE_all,highest
+279,transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential,GO:1904315,TE_all,highest
+280,negative chemotaxis,GO:0050919,TE_all,highest
+281,potassium ion transport,GO:0006813,TE_all,highest
+282,positive regulation of neuron differentiation,GO:0045666,TE_all,highest
+283,monoatomic ion transport,GO:0006811,TE_all,highest
+284,cytosol,GO:0005829,TE_all,highest
+285,cell adhesion,GO:0007155,TE_all,highest
+286,cell-cell adhesion,GO:0098609,TE_all,highest
+287,monoatomic ion channel activity,GO:0005216,TE_all,highest
+288,voltage-gated potassium channel complex,GO:0008076,TE_all,highest
+289,glutamate receptor activity,GO:0008066,TE_all,highest
+290,sympathetic ganglion development,GO:0061549,TE_all,highest
+291,motor neuron axon guidance,GO:0008045,TE_all,highest
+292,monoatomic ion transmembrane transport,GO:0034220,TE_all,highest
+293,social behavior,GO:0035176,TE_all,highest
+294,muscle cell fate commitment,GO:0042693,TE_all,highest
+295,presynapse assembly,GO:0099054,TE_all,highest
+296,collagen fibril organization,GO:0030199,TE_all,highest
+297,regulation of transcription by RNA polymerase II,GO:0006357,TE_all,highest
+298,positive regulation of mesenchymal cell proliferation,GO:0002053,TE_all,highest
+299,learning,GO:0007612,TE_all,highest
+300,chloride transmembrane transport,GO:1902476,TE_all,highest
+301,potassium ion transmembrane transport,GO:0071805,TE_all,highest
+302,adherens junction organization,GO:0034332,TE_all,highest
+303,regulation of postsynaptic membrane potential,GO:0060078,TE_all,highest
+304,cartilage condensation,GO:0001502,TE_all,highest
+305,positive regulation of synapse assembly,GO:0051965,TE_all,highest
+306,signaling receptor activity,GO:0038023,TE_all,highest
+307,benzodiazepine receptor activity,GO:0008503,TE_all,highest
+308,extracellular space,GO:0005615,TE_all,highest
+309,synapse assembly,GO:0007416,TE_all,highest
+310,negative regulation of inner ear auditory receptor cell differentiation,GO:0045608,TE_all,highest
+311,telencephalon development,GO:0021537,TE_all,highest
+312,postsynaptic density,GO:0014069,TE_all,highest
+313,cellular response to transforming growth factor beta stimulus,GO:0071560,TE_all,highest
+314,Schaffer collateral - CA1 synapse,GO:0098685,TE_all,highest
+315,positive regulation of DNA-templated transcription,GO:0045893,TE_all,highest
+316,GABA-ergic synapse,GO:0098982,TE_all,highest
+317,ionotropic glutamate receptor signaling pathway,GO:0035235,TE_all,highest
+318,positive regulation of neural precursor cell proliferation,GO:2000179,TE_all,highest
+319,neuron projection,GO:0043005,TE_all,highest
+320,neurotransmitter secretion,GO:0007269,TE_all,highest
+321,positive regulation of cell population proliferation,GO:0008284,TE_all,highest
+322,semaphorin-plexin signaling pathway,GO:0071526,TE_all,highest
+323,"DNA-binding transcription activator activity, RNA polymerase II-specific",GO:0001228,TE_all,highest
+324,catenin complex,GO:0016342,TE_all,highest
+325,GABA-gated chloride ion channel activity,GO:0022851,TE_all,highest
+326,axon extension involved in axon guidance,GO:0048846,TE_all,highest
+327,oligodendrocyte differentiation,GO:0048709,TE_all,highest
+328,dendrite membrane,GO:0032590,TE_all,highest
+329,positive regulation of Notch signaling pathway,GO:0045747,TE_all,highest
+330,neurotransmitter transport,GO:0006836,TE_all,highest
+331,semaphorin receptor activity,GO:0017154,TE_all,highest
+332,growth factor activity,GO:0008083,TE_all,highest
+333,GABA-A receptor complex,GO:1902711,TE_all,highest
+334,cell-cell signaling,GO:0007267,TE_all,highest
+335,cell fate determination,GO:0001709,TE_all,highest
+336,neural crest cell migration,GO:0001755,TE_all,highest
+337,lung alveolus development,GO:0048286,TE_all,highest
+338,GABA-A receptor activity,GO:0004890,TE_all,highest
+339,phosphoric diester hydrolase activity,GO:0008081,TE_all,highest
+340,positive regulation of cell differentiation,GO:0045597,TE_all,highest
+341,pattern specification process,GO:0007389,TE_all,highest
+342,protein transport,GO:0015031,TE_all,highest
+343,neuron migration,GO:0001764,TE_all,highest
+344,signal transduction,GO:0007165,TE_all,highest
+345,glutamate-gated calcium ion channel activity,GO:0022849,TE_all,highest
+346,semaphorin receptor complex,GO:0002116,TE_all,highest
+347,ligand-gated monoatomic ion channel activity,GO:0015276,TE_all,highest
+348,excitatory synapse,GO:0060076,TE_all,highest
+349,adenylate cyclase-inhibiting G protein-coupled glutamate receptor signaling pathway,GO:0007196,TE_all,highest
+350,secondary palate development,GO:0062009,TE_all,highest
+351,facial nerve structural organization,GO:0021612,TE_all,highest
+352,negative regulation of neuron differentiation,GO:0045665,TE_all,highest
+353,calcium ion binding,GO:0005509,TE_all,highest
+354,ribonucleoprotein complex,GO:1990904,TE_all,highest
+355,neuron differentiation,GO:0030182,TE_all,highest
+356,postsynaptic specialization membrane,GO:0099634,TE_all,highest
+357,chloride transport,GO:0006821,TE_all,highest
+358,postsynapse,GO:0098794,TE_all,highest
+359,neuron fate specification,GO:0048665,TE_all,highest
+360,DNA damage response,GO:0006974,TE_all,highest
+361,presynaptic active zone membrane,GO:0048787,TE_all,highest
+362,layer formation in cerebral cortex,GO:0021819,TE_all,highest
+363,transmembrane signaling receptor activity,GO:0004888,TE_all,highest
+364,regulation of presynaptic membrane potential,GO:0099505,TE_all,highest
+365,regulation of presynapse assembly,GO:1905606,TE_all,highest
+366,"3',5'-cyclic-AMP phosphodiesterase activity",GO:0004115,TE_all,highest
+367,mitochondrial matrix,GO:0005759,TE_all,highest
+368,skeletal muscle cell differentiation,GO:0035914,TE_all,highest
+369,calcium-dependent cell-cell adhesion,GO:0016339,TE_all,highest
+370,chloride channel complex,GO:0034707,TE_all,highest
+371,RNA polymerase II transcription regulatory region sequence-specific DNA binding,GO:0000977,TE_all,highest
+372,mitochondrial inner membrane,GO:0005743,TE_all,highest
+373,translation,GO:0006412,TE_all,highest
+374,cell surface,GO:0009986,TE_all,highest
+375,inner ear morphogenesis,GO:0042472,TE_all,highest
+376,system development,GO:0048731,TE_all,highest
+377,ligand-gated monoatomic ion channel activity involved in regulation of presynaptic membrane potential,GO:0099507,TE_all,highest
+378,AMPA glutamate receptor complex,GO:0032281,TE_all,highest
+379,trigeminal nerve structural organization,GO:0021637,TE_all,highest
+380,gonadotrophin-releasing hormone neuronal migration to the hypothalamus,GO:0021828,TE_all,highest
+381,mesenchymal-epithelial cell signaling,GO:0060638,TE_all,highest
+382,AMPA glutamate receptor activity,GO:0004971,TE_all,highest
+383,brain development,GO:0007420,TE_all,highest
+384,"3',5'-cyclic-GMP phosphodiesterase activity",GO:0047555,TE_all,highest
+385,"3',5'-cyclic-nucleotide phosphodiesterase activity",GO:0004114,TE_all,highest
+386,extracellular matrix structural constituent,GO:0005201,TE_all,highest
+387,gamma-aminobutyric acid signaling pathway,GO:0007214,TE_all,highest
+388,potassium channel activity,GO:0005267,TE_all,highest
+389,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,GO:0051897,TE_all,highest
+390,chloride channel activity,GO:0005254,TE_all,highest
+391,neuron development,GO:0048666,TE_all,highest
+392,muscle organ development,GO:0007517,TE_all,highest
+393,cell-cell adhesion mediated by cadherin,GO:0044331,TE_all,highest
+394,ventral trunk neural crest cell migration,GO:0036486,TE_all,highest
+395,positive regulation of skeletal muscle cell differentiation,GO:2001016,TE_all,highest
+396,negative regulation of pro-B cell differentiation,GO:2000974,TE_all,highest
+397,regulation of neurogenesis,GO:0050767,TE_all,highest
+398,positive regulation of osteoblast differentiation,GO:0045669,TE_all,highest
+399,peripheral nervous system development,GO:0007422,TE_all,highest
+400,pulmonary valve morphogenesis,GO:0003184,TE_all,highest
+401,dendritic spine morphogenesis,GO:0060997,TE_all,highest
+402,epithelial to mesenchymal transition,GO:0001837,TE_all,highest
+403,juxtaparanode region of axon,GO:0044224,TE_all,highest
+404,E-box binding,GO:0070888,TE_all,highest
+405,outflow tract morphogenesis,GO:0003151,TE_all,highest
+406,branchiomotor neuron axon guidance,GO:0021785,TE_all,highest
+407,neural crest cell migration involved in autonomic nervous system development,GO:1901166,TE_all,highest
+408,potassium ion import across plasma membrane,GO:1990573,TE_all,highest
+409,chondrocyte differentiation,GO:0002062,TE_all,highest
+410,inward rectifier potassium channel activity,GO:0005242,TE_all,highest
+411,cardiac muscle contraction,GO:0060048,TE_all,highest
+412,smooth muscle cell differentiation,GO:0051145,TE_all,highest
+413,neuron cell-cell adhesion,GO:0007158,TE_all,highest
+414,heparin binding,GO:0008201,TE_all,highest
+415,inner ear development,GO:0048839,TE_all,highest
+416,negative regulation of ossification,GO:0030279,TE_all,highest
+417,negative regulation of ERK1 and ERK2 cascade,GO:0070373,TE_all,highest
+418,hippocampus development,GO:0021766,TE_all,highest
+419,regulation of postsynaptic neurotransmitter receptor internalization,GO:0099149,TE_all,highest
+420,sensory organ development,GO:0007423,TE_all,highest
+421,spinal cord association neuron differentiation,GO:0021527,TE_all,highest
+422,endocardial cushion development,GO:0003197,TE_all,highest
+423,hippocampal mossy fiber to CA3 synapse,GO:0098686,TE_all,highest
+424,epithelial tube branching involved in lung morphogenesis,GO:0060441,TE_all,highest
+425,beta-catenin binding,GO:0008013,TE_all,highest
+426,voltage-gated potassium channel activity,GO:0005249,TE_all,highest
+427,receptor clustering,GO:0043113,TE_all,highest
+428,cochlea morphogenesis,GO:0090103,TE_all,highest
+429,cerebellar granule cell differentiation,GO:0021707,TE_all,highest
+430,forebrain neuron differentiation,GO:0021879,TE_all,highest
+431,mammary gland duct morphogenesis,GO:0060603,TE_all,highest
+432,positive regulation of myoblast differentiation,GO:0045663,TE_all,highest
+433,cytokine activity,GO:0005125,TE_all,highest
+434,cellular response to cAMP,GO:0071320,TE_all,highest
+435,digestive tract development,GO:0048565,TE_all,highest
+436,positive regulation of BMP signaling pathway,GO:0030513,TE_all,highest
+437,wound healing,GO:0042060,TE_all,highest
+438,ciliary basal body,GO:0036064,TE_all,highest
+439,regulation of cardiac muscle cell contraction,GO:0086004,TE_all,highest
+440,G protein-coupled glutamate receptor signaling pathway,GO:0007216,TE_all,highest
+441,ephrin receptor activity,GO:0005003,TE_all,highest
+442,retinal ganglion cell axon guidance,GO:0031290,TE_all,highest
+443,negative regulation of cell population proliferation,GO:0008285,TE_all,highest
+444,skeletal muscle tissue development,GO:0007519,TE_all,highest
+445,negative regulation of cAMP/PKA signal transduction,GO:0141162,TE_all,highest
+446,dorsal/ventral pattern formation,GO:0009953,TE_all,highest
+447,extracellular ligand-gated monoatomic ion channel activity,GO:0005230,TE_all,highest
+448,basement membrane,GO:0005604,TE_all,highest
+449,metanephros morphogenesis,GO:0003338,TE_all,highest
+450,compartment pattern specification,GO:0007386,TE_all,highest
+451,sympathetic neuron projection guidance,GO:0097491,TE_all,highest
+452,heart development,GO:0007507,TE_all,highest
+453,positive regulation of MAPK cascade,GO:0043410,TE_all,highest
+454,negative regulation of DNA-templated transcription,GO:0045892,TE_all,highest
+455,"synaptic transmission, GABAergic",GO:0051932,TE_all,highest
+456,regulation of synapse organization,GO:0050807,TE_all,highest
+457,protein localization to synapse,GO:0035418,TE_all,highest
+458,cell-cell junction assembly,GO:0007043,TE_all,highest
+459,homophilic cell-cell adhesion,GO:0007156,TE_all,highest
+460,transmembrane-ephrin receptor activity,GO:0005005,TE_all,highest
+461,organ growth,GO:0035265,TE_all,highest
+462,growth factor binding,GO:0019838,TE_all,highest
+463,receptor localization to synapse,GO:0097120,TE_all,highest
+464,cAMP catabolic process,GO:0006198,TE_all,highest
+465,branching involved in blood vessel morphogenesis,GO:0001569,TE_all,highest
+466,regulation of DNA-templated transcription,GO:0006355,TE_all,highest
+467,ventricular septum morphogenesis,GO:0060412,TE_all,highest
+468,cell-cell adhesion mediator activity,GO:0098632,TE_all,highest
+469,axonogenesis,GO:0007409,TE_all,highest
+470,intracellular protein transport,GO:0006886,TE_all,highest
+471,positive regulation of neuron apoptotic process,GO:0043525,TE_all,highest
+472,PDZ domain binding,GO:0030165,TE_all,highest
+473,metal ion transport,GO:0030001,TE_all,highest
+474,positive regulation of epithelial to mesenchymal transition,GO:0010718,TE_all,highest
+475,sympathetic nervous system development,GO:0048485,TE_all,highest
+476,maintenance of synapse structure,GO:0099558,TE_all,highest
+477,lysosomal membrane,GO:0005765,TE_all,highest
+478,hair follicle morphogenesis,GO:0031069,TE_all,highest
+479,Golgi lumen,GO:0005796,TE_all,highest
+480,ribosome,GO:0005840,TE_all,highest
+481,caveola,GO:0005901,TE_all,highest
+482,signaling receptor binding,GO:0005102,TE_all,highest
+483,neuron projection morphogenesis,GO:0048812,TE_all,highest
+484,neuromuscular junction development,GO:0007528,TE_all,highest
+485,transmembrane receptor protein tyrosine kinase activity,GO:0004714,TE_all,highest
+486,membrane repolarization during cardiac muscle cell action potential,GO:0086013,TE_all,highest
+487,prostate gland epithelium morphogenesis,GO:0060740,TE_all,highest
+488,muscle organ morphogenesis,GO:0048644,TE_all,highest
+489,embryonic foregut morphogenesis,GO:0048617,TE_all,highest
+490,regulation of postsynapse organization,GO:0099175,TE_all,highest
+491,"regulation of synaptic transmission, glutamatergic",GO:0051966,TE_all,highest
+492,endocytic vesicle membrane,GO:0030666,TE_all,highest
+493,in utero embryonic development,GO:0001701,TE_all,highest
+494,anatomical structure morphogenesis,GO:0009653,TE_all,highest
+495,nucleolus,GO:0005730,TE_all,highest
+496,kainate selective glutamate receptor activity,GO:0015277,TE_all,highest
+497,protein-lysine 6-oxidase activity,GO:0004720,TE_all,highest
+498,neuroligin family protein binding,GO:0097109,TE_all,highest
+499,"oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor",GO:0016641,TE_all,highest
+500,epithelial cell differentiation involved in prostate gland development,GO:0060742,TE_all,highest
+501,central nervous system vasculogenesis,GO:0022009,TE_all,highest
+502,smooth muscle tissue development,GO:0048745,TE_all,highest
+503,positive regulation of cartilage development,GO:0061036,TE_all,highest
+504,kainate selective glutamate receptor complex,GO:0032983,TE_all,highest
+505,neuron recognition,GO:0008038,TE_all,highest
+506,adenylate cyclase inhibitor activity,GO:0010855,TE_all,highest
+507,collagen type XI trimer,GO:0005592,TE_all,highest
+508,forebrain development,GO:0030900,TE_all,highest
+509,regulation of synapse assembly,GO:0051963,TE_all,highest
+510,cell junction,GO:0030054,TE_all,highest
+511,protein folding,GO:0006457,TE_all,highest
+512,membrane,GO:0016020,TE_all,highest
+513,adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway,GO:0007193,TE_all,highest
+514,heterophilic cell-cell adhesion,GO:0007157,TE_all,highest
+515,mammary gland development,GO:0030879,TE_all,highest

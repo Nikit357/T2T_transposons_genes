@@ -1,0 +1,8 @@
+panel,test,x,n,statistic,p_raw
+7A,Pearson r (raw),OR_Observed_to_Random,13,0.1673155197179915,0.5848213792756692
+7C,Pearson r (raw),Total_TEs_number_log,13,0.6454796449929547,0.017184509384608044
+7D,Pearson r (raw),Average_divergence_all,13,-0.2833566919591131,0.3481713321776274
+7B,Mann-Whitney U (raw),Status,11 vs 2,medians 12 vs 2,0.1128228618456713
+7E,Mann-Whitney U (raw),GO_status,13 vs 31,medians 233.1 vs 260,0.20750466701084547
+7F,Mann-Whitney U (raw),GO_status,13 vs 31,medians 1.041 vs 0.725,0.028778571121429494
+7G,Mann-Whitney U (raw),GO_status,13 vs 31,medians 5.067 vs 2.892,1.1634577080761759e-06

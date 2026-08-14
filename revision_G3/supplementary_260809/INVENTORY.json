@@ -1,0 +1,229 @@
+{
+  "package": "supplementary_260809",
+  "built_utc": "2026-08-09T20:35:22+00:00",
+  "built_by": "revision_G3/17_build_supplementary_260809.py",
+  "source_package": "supplementary/ (2026-08-05)",
+  "changes": [
+    "File S3: new sheet GO_borderline (0.05 < FDR <= 0.1) so every FDR quoted in the Results is checkable in the package",
+    "File S4: sheets reordered to the order the text cites them; renamed to File_S4_IFNA_domain_prior_work_and_assembly.xlsx",
+    "File S5: headline_by_condition moved next to the percentile sheets",
+    "File numbers S1-S6 unchanged: already cited in ascending order"
+  ],
+  "files": [
+    {
+      "name": "File_S1_TE_TSS_map_and_enrichment.xlsx",
+      "bytes": 6958259,
+      "sha256": "753a23596d6f918637b06776f6e4288e250d103e30223bf4636d3d3388e63e7b",
+      "sheets": [
+        {
+          "name": "README",
+          "rows": 5,
+          "cols": 4
+        },
+        {
+          "name": "TSS_TE_intersections",
+          "rows": 38704,
+          "cols": 22
+        },
+        {
+          "name": "enrichment_classes",
+          "rows": 6,
+          "cols": 17
+        },
+        {
+          "name": "enrichment_families",
+          "rows": 44,
+          "cols": 20
+        },
+        {
+          "name": "enrichment_subfamilies",
+          "rows": 1143,
+          "cols": 17
+        }
+      ]
+    },
+    {
+      "name": "File_S2_gene_sets.xlsx",
+      "bytes": 930526,
+      "sha256": "57a37ec8d4e8414788d916a5db8848a58f4977eab9e0fcf5919e63d393c5dd6f",
+      "sheets": [
+        {
+          "name": "README",
+          "rows": 4,
+          "cols": 4
+        },
+        {
+          "name": "by_TE_group",
+          "rows": 9708,
+          "cols": 3
+        },
+        {
+          "name": "by_divergence",
+          "rows": 12226,
+          "cols": 3
+        },
+        {
+          "name": "by_family",
+          "rows": 26551,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "name": "File_S3_gene_ontology.xlsx",
+      "bytes": 263331,
+      "sha256": "57a833a08e62ca805a00be9589406820e01698297197cf54beb98125f52e462c",
+      "sheets": [
+        {
+          "name": "README",
+          "rows": 5,
+          "cols": 4
+        },
+        {
+          "name": "GO_TE_groups",
+          "rows": 425,
+          "cols": 12
+        },
+        {
+          "name": "GO_by_divergence",
+          "rows": 414,
+          "cols": 13
+        },
+        {
+          "name": "GO_by_family",
+          "rows": 140,
+          "cols": 13
+        },
+        {
+          "name": "GO_borderline",
+          "rows": 236,
+          "cols": 11
+        }
+      ]
+    },
+    {
+      "name": "File_S4_IFNA_domain_prior_work_and_assembly.xlsx",
+      "bytes": 212490,
+      "sha256": "216d1764730dd849dc8b9f1c4b92b36153f04e2db60065dfd1ef96798742121b",
+      "sheets": [
+        {
+          "name": "README",
+          "rows": 8,
+          "cols": 4
+        },
+        {
+          "name": "IFNA_elements",
+          "rows": 175,
+          "cols": 8
+        },
+        {
+          "name": "IFNA_tests",
+          "rows": 4,
+          "cols": 21
+        },
+        {
+          "name": "IFNA_subfamily_composition",
+          "rows": 36,
+          "cols": 6
+        },
+        {
+          "name": "prior_work_overlap_matrix",
+          "rows": 33,
+          "cols": 14
+        },
+        {
+          "name": "prior_work_categories",
+          "rows": 5960,
+          "cols": 5
+        },
+        {
+          "name": "prior_work_shared_genes",
+          "rows": 2195,
+          "cols": 3
+        },
+        {
+          "name": "assembly_bound",
+          "rows": 75,
+          "cols": 9
+        }
+      ]
+    },
+    {
+      "name": "File_S5_sensitivity_and_robustness.xlsx",
+      "bytes": 371664,
+      "sha256": "9ff858a9e2175f27b1a0a34f72f6305bb4e93a22c86013ddaa712bb3436d3783",
+      "sheets": [
+        {
+          "name": "README",
+          "rows": 14,
+          "cols": 4
+        },
+        {
+          "name": "window_classes",
+          "rows": 18,
+          "cols": 15
+        },
+        {
+          "name": "window_families",
+          "rows": 131,
+          "cols": 15
+        },
+        {
+          "name": "window_concordance",
+          "rows": 6,
+          "cols": 13
+        },
+        {
+          "name": "window_flips",
+          "rows": 11,
+          "cols": 5
+        },
+        {
+          "name": "geneset_stability",
+          "rows": 21,
+          "cols": 10
+        },
+        {
+          "name": "rank_stability",
+          "rows": 21,
+          "cols": 7
+        },
+        {
+          "name": "percentile_summary",
+          "rows": 28,
+          "cols": 13
+        },
+        {
+          "name": "percentile_terms",
+          "rows": 1046,
+          "cols": 7
+        },
+        {
+          "name": "headline_by_condition",
+          "rows": 9,
+          "cols": 18
+        },
+        {
+          "name": "GO_grid_index",
+          "rows": 18,
+          "cols": 11
+        },
+        {
+          "name": "GO_grid_preservation",
+          "rows": 18,
+          "cols": 11
+        },
+        {
+          "name": "GO_grid_concordance",
+          "rows": 15,
+          "cols": 9
+        },
+        {
+          "name": "GO_grid_terms",
+          "rows": 4996,
+          "cols": 9
+        }
+      ]
+    }
+  ]
+}

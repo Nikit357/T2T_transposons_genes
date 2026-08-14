@@ -1,0 +1,31 @@
+{
+  "genome_bp": 3117275501,
+  "aligned_blocks_bp": 2904922608,
+  "chain_span_bp": 3076200371,
+  "no_chain_bp": 41075130,
+  "in_chain_unaligned_bp": 171277763,
+  "in_chain_unaligned_large_bp": 167676509,
+  "newly_resolved_bp": 208751639,
+  "min_gap_bp": 1000,
+  "in_chain_unaligned_small_bp": 3601254,
+  "counts": {
+    "tes_total": 3709429,
+    "tes_newly_resolved": 15381,
+    "windows_total": 38704,
+    "windows_newly_resolved": 190,
+    "windows_entirely_newly_resolved": 5,
+    "genes_total": 28738,
+    "genes_newly_resolved": 158,
+    "te_annotated_bp_genome": 2585405186,
+    "te_annotated_bp_in_newly_resolved": 9718505
+  },
+  "ifna_domain": {
+    "domain": "chr9:21,150,692-21,370,055",
+    "domain_bp": 219363,
+    "newly_resolved_bp_in_domain": 0,
+    "fraction_newly_resolved": 0.0,
+    "fully_alignable_to_hg38": true
+  },
+  "definition": "chm13v2.0 bases not covered by any aligned block of the UCSC hs1->hg38 liftOver chain set; an upper bound on sequence unavailable to hg38 studies",
+  "chain_source": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/hs1ToHg38.over.chain.gz"
+}

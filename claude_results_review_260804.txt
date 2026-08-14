@@ -1,0 +1,23 @@
+
+Figures:
+Fig2D_relabelled.svg - Fig2F_relabelled.svg are at the level of individual subfamilies, whereas I need families.
+Fig6A_simplified.svg - too sparce packing of GO term nodes and their text names - please pack tighter. Fig5A_simplified.svg and Fig4A_simplified.svg are OK.
+Fig6B_fdr005.svg is too large, make it 30% smaller by both directions.
+Fig7B_fdr005.svg (also the E, F, G panels) - make the plot two times smaller, keep the same dot size.
+Fig7H_fdr005.svg - its for supplementary figure 8C, for Figure 7H please filter the connective ribbons by at least 5 terms to simplify the plot.
+S_extra_subfamily* plots - not needed, the article is about families only. Do not include them into the article, if already included and/or described-remove!
+S8B_fdr005.svg - smaller by 10% in both directions.
+S9_full.svg - S11_full.svg - denser packing, by 30-50%.
+S13A_or_by_window.svg - make the classes subpanel smaller and their dots larger - to visually highlight in comparison with families. Color dots firstly by TE class using the common palette class_names_p, and then as you did already: 5 kb faint, 10 kb medium, 20 kb - dark version of the class color.
+S13B_bland_altman_families.svg - color dots by TE classes with class_names
+S13C_go_term_stability_percentile.svg - add a left-side vertical color annotation of the comparison groups, take the colors from the main figures 4B, 5B, 6B.
+S13D_headline_claims_by_percentile.svg - increase the circle size, color them by the adjusted p-value isung the same colorbar as for GO networks in main figures. Make the packing tighter.
+
+Redo the figures. 
+
+
+The figures that I did not mentioned are OK by quality and I accept them. But for ALL figures I want the font size 1.2 times larger. Why? When I add the current figures to figma, I get 13.33 font size - whereas for all frames in figma its 16.
+Tables:
+I do not see a folder with new supplementary files (tables) proposed by you. Where is it? If no, please prepare it.
+Analysis:
+I have not found GO analysis and GO tables for 5/10% percentiles of 5kB and 20Kb windows, and the 10% percentile of the already used 10Kb window. Please create the GO tables and a separate analysis notebook that studies robustness of comparison between GO terms in the main 10Kb/5% setting and all the combinations. The comparison should be done for all GO analysis parts: for classes by count, for classes by divergence, for families by count. The panels for supplementary figures in SVG should be prepared and the manuscript should be changed accordingly.

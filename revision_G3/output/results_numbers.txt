@@ -1,0 +1,1602 @@
+Numbers quoted by the revised manuscript, re-derived from revision_G3/output/
+==============================================================================
+
+### go_totals
+
+  classes_count:
+    n_terms_fdr01: 504
+    n_terms_fdr005: 425
+    n_groups_fdr01: 6
+    n_groups_fdr005: 6
+    groups_fdr005:
+      - LINE
+      - LTR
+      - SINE
+      - SVA
+      - TE_bottom
+      - TE_top
+    groups_lost_at_005:
+    terms_per_group_fdr005:
+      TE_bottom: 345
+      SINE: 32
+      LTR: 22
+      TE_top: 15
+      LINE: 6
+      SVA: 5
+  classes_divergence:
+    n_terms_fdr01: 516
+    n_terms_fdr005: 414
+    n_groups_fdr01: 8
+    n_groups_fdr005: 8
+    groups_fdr005:
+      - LINE / highest
+      - LINE / lowest
+      - LTR / highest
+      - LTR / lowest
+      - SINE / highest
+      - SINE / lowest
+      - TE_all / highest
+      - TE_all / lowest
+    groups_lost_at_005:
+    terms_per_group_fdr005:
+      TE_all / highest: 214
+      SINE / highest: 148
+      LINE / lowest: 16
+      TE_all / lowest: 15
+      LINE / highest: 9
+      LTR / highest: 9
+      SINE / lowest: 2
+      LTR / lowest: 1
+  families:
+    n_terms_fdr01: 195
+    n_terms_fdr005: 140
+    n_groups_fdr01: 14
+    n_groups_fdr005: 13
+    groups_fdr005:
+      - Alu
+      - CR1
+      - ERV1
+      - ERVK
+      - ERVL
+      - ERVL-MaLR
+      - Gypsy
+      - L1
+      - L2
+      - MIR
+      - SVA
+      - hAT-Charlie
+      - hAT-Tip100
+    groups_lost_at_005:
+      - Dong-R4
+    terms_per_group_fdr005:
+      Alu: 31
+      MIR: 23
+      L1: 22
+      ERV1: 16
+      ERVL: 12
+      ERVL-MaLR: 12
+      Gypsy: 6
+      CR1: 6
+      SVA: 5
+      ERVK: 3
+      hAT-Charlie: 2
+      hAT-Tip100: 1
+      L2: 1
+  subfamilies:
+    n_terms_fdr01: 1231
+    n_terms_fdr005: 1003
+    n_groups_fdr01: 230
+    n_groups_fdr005: 199
+    groups_fdr005:
+      - AluJb
+      - AluJo
+      - AluJr
+      - AluJr4
+      - AluSc
+      - AluSc8
+      - AluSg
+      - AluSg4
+      - AluSg7
+      - AluSp
+      - AluSq
+      - AluSq2
+      - AluSx
+      - AluSx1
+      - AluSx3
+      - AluSx4
+      - AluSz
+      - AluSz6
+      - AluY
+      - AluYa8
+      - AluYe5
+      - AluYk2
+      - Arthur1C
+      - Charlie10
+      - Charlie15a
+      - Charlie16a
+      - Charlie18a
+      - Charlie21a
+      - Charlie31a
+      - Charlie4a
+      - Charlie4z
+      - Charlie9
+      - Cheshire
+      - ERV3-16A3_I
+      - ERVL-E-int
+      - EutTc1-N2
+      - EuthAT-N1
+      - Eutr15
+      - FLAM_A
+      - FLAM_C
+      - FRAM
+      - HAL1
+      - HERV16-int
+      - HERV35I-int
+      - HERVL40-int
+      - L1M1
+      - L1M2
+      - L1M2a
+      - L1M2c
+      - L1M3
+      - L1M3e
+      - L1M4
+      - L1M8
+      - L1MA1
+      - L1MA4
+      - L1MA5A
+      - L1MA6
+      - L1MA7
+      - L1MA8
+      - L1MA9
+      - L1MB8
+      - L1MC2
+      - L1MCa
+      - L1MD1
+      - L1MDb
+      - L1ME3A
+      - L1ME3B
+      - L1ME3F
+      - L1ME4b
+      - L1MEc
+      - L1MEf
+      - L1MEh
+      - L1MEj
+      - L1P2
+      - L1P3
+      - L1P4
+      - L1P4c
+      - L1P4e
+      - L1PA10
+      - L1PA13
+      - L1PA15
+      - L1PA16
+      - L1PA2
+      - L1PA3
+      - L1PA4
+      - L1PA5
+      - L1PA6
+      - L1PA7
+      - L1PA8
+      - L1PB1
+      - L1PREC2
+      - L2
+      - L2a
+      - L2b
+      - L2c
+      - L2d2
+      - L3
+      - L3b
+      - LOR1-int
+      - LTR1
+      - LTR101_Mam
+      - LTR12B
+      - LTR12C
+      - LTR12D
+      - LTR13
+      - LTR16A
+      - LTR16C
+      - LTR16D2
+      - LTR16E1
+      - LTR1C3
+      - LTR23-int
+      - LTR24
+      - LTR24C
+      - LTR25
+      - LTR25-int
+      - LTR26
+      - LTR26E
+      - LTR2B
+      - LTR3
+      - LTR33A_v
+      - LTR42
+      - LTR44
+      - LTR47B2
+      - LTR54B
+      - LTR5B
+      - LTR70
+      - LTR84b
+      - LTR85a
+      - LTR86C
+      - LTR8B
+      - MER106A
+      - MER106B
+      - MER113
+      - MER113A
+      - MER11A
+      - MER11D
+      - MER20B
+      - MER21C
+      - MER2B
+      - MER31B
+      - MER34
+      - MER34-int
+      - MER39B
+      - MER4-int
+      - MER41-int
+      - MER49
+      - MER4CL34
+      - MER54B
+      - MER57-int
+      - MER57A-int
+      - MER57B2
+      - MER57E3
+      - MER58D
+      - MER6
+      - MER65A
+      - MER65B
+      - MER65C
+      - MER65D
+      - MER67C
+      - MER68
+      - MER70B
+      - MER81
+      - MER84-int
+      - MER92B
+      - MIR
+      - MIR1_Amn
+      - MIR3
+      - MIRb
+      - MIRc
+      - MLT1A
+      - MLT1A0
+      - MLT1D
+      - MLT1E3
+      - MLT1F1
+      - MLT1H
+      - MLT1H2
+      - MLT1J1
+      - MLT1K
+      - MLT1L
+      - MLT1N2
+      - MLT2B2
+      - MLT2B3
+      - MST-int
+      - MSTA
+      - MSTB1
+      - MamTip1b
+      - MamTip2
+      - PABL_A-int
+      - PrimLTR79
+      - SVA_A
+      - SVA_B
+      - THE1B
+      - Tigger19a
+      - Tigger2
+      - Tigger6a
+      - UCON9
+      - X12_DNA
+      - X7A_LINE
+      - X9_LINE
+    groups_lost_at_005:
+      - AluYf1
+      - ERV24_Prim-int
+      - HERV3-int
+      - L1M7
+      - L1MB2
+      - L1ME3G
+      - L1PA15-16
+      - L1PB4
+      - LTR10B2
+      - LTR14
+      - LTR57-int
+      - MADE1
+      - MER110A
+      - MER20
+      - MER21A
+      - MER33
+      - MER58B
+      - MER65-int
+      - MER66C
+      - MER76-int
+      - MER83B-int
+      - MLT-int
+      - MLT1J
+      - MamTip3B
+      - Mam_R4
+      - Tigger16b
+      - Tigger17b
+      - Tigger19b
+      - Tigger23a
+      - UCON58
+      - X6a_DNA
+    terms_per_group_fdr005:
+      AluSx: 47
+      L1M3: 25
+      FLAM_C: 25
+      MER68: 21
+      AluY: 18
+      MLT1E3: 17
+      AluSx4: 16
+      MER57E3: 16
+      AluJb: 15
+      AluSg: 15
+      AluSx1: 15
+      MER106B: 15
+      AluSg7: 14
+      AluSp: 13
+      L1PREC2: 13
+      MIR3: 12
+      L1PA8: 12
+      Charlie9: 12
+      AluSq2: 11
+      AluSq: 11
+      ERVL-E-int: 11
+      MER65D: 11
+      L1M2c: 11
+      Tigger2: 11
+      L1PA16: 11
+      L1P4c: 11
+      MER92B: 10
+      L1PA13: 10
+      AluSc: 9
+      AluSz: 9
+      L1P4: 9
+      L1PA7: 9
+      L3b: 9
+      ERV3-16A3_I: 9
+      L1MC2: 9
+      MLT1F1: 9
+      MER57A-int: 9
+      AluSx3: 8
+      L1PA4: 8
+      L2: 8
+      L1PA6: 8
+      AluYk2: 8
+      AluYe5: 8
+      MER65A: 8
+      L1MA9: 8
+      L1M2a: 8
+      LTR1: 8
+      LTR70: 8
+      L1MA4: 7
+      MER21C: 7
+      MER67C: 7
+      L1PA3: 7
+      LTR26: 7
+      L1PA15: 7
+      MER6: 7
+      LTR44: 7
+      L1MA8: 6
+      L1MA7: 6
+      MER113: 6
+      LTR42: 6
+      L1M2: 6
+      MER34: 6
+      LTR24C: 6
+      L1MA1: 6
+      LTR24: 6
+      Charlie10: 6
+      Charlie4z: 5
+      L1PA5: 5
+      L1M8: 5
+      L1PB1: 5
+      MER49: 5
+      L1MA5A: 5
+      MLT2B2: 5
+      L1MA6: 5
+      MST-int: 5
+      Charlie16a: 5
+      SVA_B: 5
+      L1M1: 5
+      MER65C: 5
+      MIRc: 4
+      MIR: 4
+      AluJr: 4
+      AluSc8: 4
+      MER20B: 4
+      L1MEj: 4
+      LTR16D2: 4
+      MER39B: 3
+      L2c: 3
+      L2a: 3
+      AluSz6: 3
+      L1PA10: 3
+      THE1B: 3
+      AluJo: 3
+      L1ME4b: 3
+      MER113A: 3
+      AluSg4: 3
+      LTR2B: 3
+      AluYa8: 3
+      MER65B: 3
+      Charlie15a: 3
+      L1P2: 3
+      LTR85a: 3
+      MER11A: 3
+      L1P3: 3
+      LTR101_Mam: 3
+      MLT1N2: 3
+      LTR84b: 3
+      MER84-int: 3
+      MER11D: 3
+      MER106A: 3
+      MER34-int: 3
+      L1MDb: 3
+      L1M3e: 3
+      L1P4e: 3
+      MLT1H2: 2
+      MSTB1: 2
+      L1ME3B: 2
+      L2b: 2
+      FLAM_A: 2
+      HAL1: 2
+      MER2B: 2
+      MIR1_Amn: 2
+      LTR12C: 2
+      MLT1A0: 2
+      L1ME3A: 2
+      LTR33A_v: 2
+      X7A_LINE: 2
+      MER54B: 2
+      MER70B: 2
+      MamTip2: 2
+      L1PA2: 2
+      X9_LINE: 2
+      Charlie21a: 2
+      LTR26E: 2
+      EutTc1-N2: 2
+      LTR47B2: 2
+      Charlie31a: 2
+      LTR25-int: 2
+      EuthAT-N1: 2
+      LTR12B: 2
+      LTR3: 2
+      MIRb: 1
+      MER31B: 1
+      MLT1K: 1
+      FRAM: 1
+      MSTA: 1
+      MLT1H: 1
+      L3: 1
+      L1M4: 1
+      MLT1D: 1
+      L1MB8: 1
+      AluJr4: 1
+      LTR16C: 1
+      LOR1-int: 1
+      HERV16-int: 1
+      MLT1A: 1
+      L1MEc: 1
+      L1MEf: 1
+      LTR13: 1
+      SVA_A: 1
+      L2d2: 1
+      LTR16E1: 1
+      MER81: 1
+      MLT2B3: 1
+      LTR12D: 1
+      Arthur1C: 1
+      L1MEh: 1
+      Charlie4a: 1
+      LTR5B: 1
+      HERVL40-int: 1
+      MLT1L: 1
+      MLT1J1: 1
+      Tigger19a: 1
+      L1MCa: 1
+      Eutr15: 1
+      L1ME3F: 1
+      L1MD1: 1
+      LTR16A: 1
+      MER58D: 1
+      LTR8B: 1
+      Charlie18a: 1
+      MER4-int: 1
+      LTR86C: 1
+      MER57B2: 1
+      Cheshire: 1
+      Tigger6a: 1
+      LTR1C3: 1
+      MamTip1b: 1
+      LTR23-int: 1
+      LTR25: 1
+      LTR54B: 1
+      HERV35I-int: 1
+      MER57-int: 1
+      X12_DNA: 1
+      MER4CL34: 1
+      MER41-int: 1
+      PrimLTR79: 1
+      PABL_A-int: 1
+      UCON9: 1
+
+### classes_count
+
+  terms_per_class:
+    TE_bottom: 345
+    SINE: 32
+    LTR: 22
+    TE_top: 15
+    LINE: 6
+    SVA: 5
+  classes_with_no_terms:
+    - DNA
+    - RC
+  LINE_terms:
+    - Term ID=GO:0050911; Term Name=detection of chemical stimulus involved in sensory perception of smell; FDR=6.911334305508483e-10; Overlap Count=59
+    - Term ID=GO:0004984; Term Name=olfactory receptor activity; FDR=6.911334305508483e-10; Overlap Count=59
+    - Term ID=GO:0007608; Term Name=sensory perception of smell; FDR=3.061591682798232e-09; Overlap Count=60
+    - Term ID=GO:0045922; Term Name=negative regulation of fatty acid metabolic process; FDR=0.0009930941388107; Overlap Count=7
+    - Term ID=GO:0004930; Term Name=G protein-coupled receptor activity; FDR=0.00144846214124; Overlap Count=74
+    - Term ID=GO:0007186; Term Name=G protein-coupled receptor signaling pathway; FDR=0.0037902858453687; Overlap Count=85
+  LINE_terms_lost_at_005:
+    - Term Name=flavone metabolic process; FDR=0.0881646910105348
+  SVA_terms:
+    - Term ID=GO:0005634; Term Name=nucleus; FDR=0.0113123839874294; Overlap Count=278
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=0.0113123839874294; Overlap Count=526
+    - Term ID=GO:0006397; Term Name=mRNA processing; FDR=0.0202647454872782; Overlap Count=33
+    - Term ID=GO:0006369; Term Name=termination of RNA polymerase II transcription; FDR=0.0202647454872782; Overlap Count=6
+    - Term ID=GO:0019899; Term Name=enzyme binding; FDR=0.0211728942371974; Overlap Count=32
+  LTR_terms:
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=1.4333794304200261e-22; Overlap Count=476
+    - Term ID=GO:0005737; Term Name=cytoplasm; FDR=2.842126288057227e-12; Overlap Count=203
+    - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=8.688258554071092e-10; Overlap Count=96
+    - Term ID=GO:0016020; Term Name=membrane; FDR=5.156943444681391e-09; Overlap Count=176
+    - Term ID=GO:0000785; Term Name=chromatin; FDR=1.7332240902122582e-07; Overlap Count=16
+    - Term ID=GO:0005886; Term Name=plasma membrane; FDR=4.789278058615824e-07; Overlap Count=168
+    - Term ID=GO:0045944; Term Name=positive regulation of transcription by RNA polymerase II; FDR=7.791020073727788e-06; Overlap Count=21
+    - Term ID=GO:0005829; Term Name=cytosol; FDR=2.710277635503791e-05; Overlap Count=175
+    - Term ID=GO:0007165; Term Name=signal transduction; FDR=2.854078579447647e-05; Overlap Count=55
+    - Term ID=GO:0030154; Term Name=cell differentiation; FDR=3.823184469708502e-05; Overlap Count=18
+    - Term ID=GO:0003723; Term Name=RNA binding; FDR=3.823184469708502e-05; Overlap Count=34
+    - Term ID=GO:0045893; Term Name=positive regulation of DNA-templated transcription; FDR=0.0004695390763132; Overlap Count=12
+    - Term ID=GO:0042802; Term Name=identical protein binding; FDR=0.0026171723148791; Overlap Count=48
+    - Term ID=GO:0045202; Term Name=synapse; FDR=0.0036464591517185; Overlap Count=13
+    - Term ID=GO:0001228; Term Name=DNA-binding transcription activator activity, RNA polymerase II-specific; FDR=0.0052690009556123; Overlap Count=4
+    - Term ID=GO:0005634; Term Name=nucleus; FDR=0.0070368325625689; Overlap Count=252
+    - Term ID=GO:0005794; Term Name=Golgi apparatus; FDR=0.0090723820484859; Overlap Count=26
+    - Term ID=GO:0006811; Term Name=monoatomic ion transport; FDR=0.0118110492598151; Overlap Count=11
+    - Term ID=GO:0034220; Term Name=monoatomic ion transmembrane transport; FDR=0.0236413973324575; Overlap Count=4
+    - Term ID=GO:0032991; Term Name=protein-containing complex; FDR=0.0344001085818009; Overlap Count=15
+    - Term ID=GO:0070062; Term Name=extracellular exosome; FDR=0.034756945666245; Overlap Count=65
+    - Term ID=GO:1990837; Term Name=sequence-specific double-stranded DNA binding; FDR=0.042288474968093; Overlap Count=11
+  TE_bottom_top3_lowest_fdr:
+    - Term ID=GO:0000785; Term Name=chromatin; FDR=2.2602540595887911e-91; Overlap Count=254
+    - Term ID=GO:0000981; Term Name=DNA-binding transcription factor activity, RNA polymerase II-specific; FDR=3.284292752113761e-83; Overlap Count=251
+    - Term ID=GO:1990837; Term Name=sequence-specific double-stranded DNA binding; FDR=2.6748736668232187e-81; Overlap Count=177
+  TE_top_terms:
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=1.0671959651928577e-10; Overlap Count=816
+    - Term ID=GO:0005829; Term Name=cytosol; FDR=7.742952890585769e-07; Overlap Count=347
+    - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=2.110393980224275e-06; Overlap Count=261
+    - Term ID=GO:0005739; Term Name=mitochondrion; FDR=5.8867031038618245e-06; Overlap Count=136
+    - Term ID=GO:0005634; Term Name=nucleus; FDR=2.020285301304916e-05; Overlap Count=413
+    - Term ID=GO:0005737; Term Name=cytoplasm; FDR=0.000550685356707; Overlap Count=406
+    - Term ID=GO:0000166; Term Name=nucleotide binding; FDR=0.000550685356707; Overlap Count=141
+    - Term ID=GO:0006281; Term Name=DNA repair; FDR=0.0038292251760725; Overlap Count=46
+    - Term ID=GO:0000398; Term Name=mRNA splicing, via spliceosome; FDR=0.0042786012715271; Overlap Count=28
+    - Term ID=GO:0036064; Term Name=ciliary basal body; FDR=0.0081659581563358; Overlap Count=28
+    - Term ID=GO:0005524; Term Name=ATP binding; FDR=0.0081659581563358; Overlap Count=113
+    - Term ID=GO:0006974; Term Name=DNA damage response; FDR=0.014252760372271; Overlap Count=55
+    - Term ID=GO:0004386; Term Name=helicase activity; FDR=0.0165371824535816; Overlap Count=20
+    - Term ID=GO:0005813; Term Name=centrosome; FDR=0.026064252480608; Overlap Count=54
+    - Term ID=GO:0097190; Term Name=apoptotic signaling pathway; FDR=0.0344031301311325; Overlap Count=13
+  n_functional_groups: 22
+  unclassified_terms: 0
+  significant_functional_cells:
+    - group=TE_bottom; functional_group=Embryogenesis; n_terms=141; fdr=6.562050414702463e-13
+    - group=TE_bottom; functional_group=Nervous system; n_terms=81; fdr=7.658871741942506e-06
+    - group=LTR; functional_group=Too general; n_terms=10; fdr=0.001250380667543212
+    - group=SINE; functional_group=RNA splicing and processing; n_terms=5; fdr=0.001250380667543212
+    - group=SINE; functional_group=Too general; n_terms=12; fdr=0.0015341210087513315
+    - group=LTR; functional_group=Metals metabolism; n_terms=3; fdr=0.010307207237757441
+    - group=TE_top; functional_group=Too general; n_terms=7; fdr=0.010543392187034843
+  functional_group_counts:
+    LINE:
+      Lipids metabolism: 1
+      Sensory system: 3
+      Signaling pathways: 2
+    LTR:
+      Chromatin structure: 1
+      Embryogenesis: 1
+      Exosomes and vesicles: 1
+      Metals metabolism: 3
+      Nervous system: 1
+      Signaling pathways: 1
+      Too general: 10
+      Transcription and its regulation: 4
+    SINE:
+      Cell cycle/cell division: 3
+      Cytoskeleton: 1
+      DNA repair: 1
+      Mitochondrion: 3
+      RNA splicing and processing: 5
+      Ribosome biogenesis and translation itself: 1
+      Sensory system: 3
+      Signaling pathways: 2
+      Too general: 12
+      Transcription and its regulation: 1
+    SVA:
+      RNA splicing and processing: 1
+      Too general: 3
+      Transcription and its regulation: 1
+    TE_bottom:
+      Cell adhesion: 3
+      Cell cycle/cell division: 8
+      Cell migration: 2
+      Chromatin structure: 3
+      Embryogenesis: 141
+      Exosomes and vesicles: 5
+      Lipids metabolism: 1
+      Metals metabolism: 1
+      Mitochondrion: 3
+      Nervous system: 81
+      Other immune processes: 4
+      Protein ubiquitination and degradation: 5
+      Ribosome biogenesis and translation itself: 2
+      Sensory system: 21
+      Signaling pathways: 20
+      Too general: 17
+      Transcription and its regulation: 28
+    TE_top:
+      Cell cycle/cell division: 1
+      Cell death: 1
+      Cytoskeleton: 1
+      DNA repair: 2
+      DNA replication: 1
+      Mitochondrion: 1
+      RNA splicing and processing: 1
+      Too general: 7
+
+### classes_divergence
+
+  terms_per_group:
+    TE_all / highest: 214
+    SINE / highest: 148
+    LINE / lowest: 16
+    TE_all / lowest: 15
+    LINE / highest: 9
+    LTR / highest: 9
+    SINE / lowest: 2
+    LTR / lowest: 1
+  groups_lost_at_005:
+  LINE_lowest_terms:
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=4.450145037087536e-18; Overlap Count=468
+    - Term ID=GO:0050911; Term Name=detection of chemical stimulus involved in sensory perception of smell; FDR=4.755612362386049e-15; Overlap Count=66
+    - Term ID=GO:0004984; Term Name=olfactory receptor activity; FDR=4.755612362386049e-15; Overlap Count=66
+    - Term ID=GO:0007608; Term Name=sensory perception of smell; FDR=3.77680209004828e-14; Overlap Count=67
+    - Term ID=GO:0005737; Term Name=cytoplasm; FDR=1.5946188193288095e-11; Overlap Count=196
+    - Term ID=GO:0004930; Term Name=G protein-coupled receptor activity; FDR=8.535661739764383e-09; Overlap Count=86
+    - Term ID=GO:0005829; Term Name=cytosol; FDR=3.0226582282936793e-08; Overlap Count=152
+    - Term ID=GO:0007186; Term Name=G protein-coupled receptor signaling pathway; FDR=1.7141884502585658e-06; Overlap Count=93
+    - Term ID=GO:0005132; Term Name=type I interferon receptor binding; FDR=0.0005028581468689; Overlap Count=8
+    - Term ID=GO:0002312; Term Name=B cell activation involved in immune response; FDR=0.000818936656407; Overlap Count=8
+    - Term ID=GO:0002323; Term Name=natural killer cell activation involved in immune response; FDR=0.0012837976868039; Overlap Count=8
+    - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=0.0028183314797352; Overlap Count=117
+    - Term ID=GO:0006721; Term Name=terpenoid metabolic process; FDR=0.0074601121596022; Overlap Count=4
+    - Term ID=GO:0002286; Term Name=T cell activation involved in immune response; FDR=0.0091237116727219; Overlap Count=8
+    - Term ID=GO:0070062; Term Name=extracellular exosome; FDR=0.0205530050562796; Overlap Count=60
+    - Term ID=GO:0015031; Term Name=protein transport; FDR=0.0329450040801325; Overlap Count=11
+  LINE_lowest_lost:
+    - Term Name=DNA damage response; FDR=0.0939944332309577
+  LINE_highest_terms:
+    - Term ID=GO:0006813; Term Name=potassium ion transport; FDR=0.0009659622258137; Overlap Count=25
+    - Term ID=GO:0008076; Term Name=voltage-gated potassium channel complex; FDR=0.0009659622258137; Overlap Count=18
+    - Term ID=GO:0019901; Term Name=protein kinase binding; FDR=0.0010902326533712; Overlap Count=50
+    - Term ID=GO:0071805; Term Name=potassium ion transmembrane transport; FDR=0.0021415592400202; Overlap Count=23
+    - Term ID=GO:0055012; Term Name=ventricular cardiac muscle cell differentiation; FDR=0.005320972681822; Overlap Count=5
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=0.0282019501832542; Overlap Count=722
+    - Term ID=GO:0034702; Term Name=monoatomic ion channel complex; FDR=0.0447528589146046; Overlap Count=20
+    - Term ID=GO:0005242; Term Name=inward rectifier potassium channel activity; FDR=0.0447528589146046; Overlap Count=8
+    - Term ID=GO:0030020; Term Name=extracellular matrix structural constituent conferring tensile strength; FDR=0.0449876856783626; Overlap Count=10
+  LTR_lowest_terms:
+    - Term ID=GO:0016712; Term Name=oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen; FDR=0.0393441845290895; Overlap Count=9
+  LTR_highest_terms:
+    - Term ID=GO:0007165; Term Name=signal transduction; FDR=4.771132663796595e-05; Overlap Count=117
+    - Term ID=GO:0007186; Term Name=G protein-coupled receptor signaling pathway; FDR=4.771132663796595e-05; Overlap Count=67
+    - Term ID=GO:0004930; Term Name=G protein-coupled receptor activity; FDR=8.144482661183657e-05; Overlap Count=57
+    - Term ID=GO:0050911; Term Name=detection of chemical stimulus involved in sensory perception of smell; FDR=0.0002107963691117; Overlap Count=35
+    - Term ID=GO:0004984; Term Name=olfactory receptor activity; FDR=0.0002107963691117; Overlap Count=35
+    - Term ID=GO:0007608; Term Name=sensory perception of smell; FDR=0.0009632510364042; Overlap Count=35
+    - Term ID=GO:0005634; Term Name=nucleus; FDR=0.0052687401878373; Overlap Count=145
+    - Term ID=GO:0005886; Term Name=plasma membrane; FDR=0.0074547526438989; Overlap Count=215
+    - Term ID=GO:0016339; Term Name=calcium-dependent cell-cell adhesion; FDR=0.0235771129713263; Overlap Count=9
+  SINE_lowest_terms:
+    - Term ID=GO:0070062; Term Name=extracellular exosome; FDR=0.0008154057211825; Overlap Count=53
+    - Term ID=GO:0005515; Term Name=protein binding; FDR=0.0008154057211825; Overlap Count=555
+  TE_all_lowest_terms:
+    - Term ID=GO:0005634; Term Name=nucleus; FDR=1.816572568701226e-07; Overlap Count=426
+    - Term ID=GO:0006355; Term Name=regulation of DNA-templated transcription; FDR=2.7630891993501e-06; Overlap Count=129
+    - Term ID=GO:0003723; Term Name=RNA binding; FDR=2.7630891993501e-06; Overlap Count=132
+    - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=1.1217882003284322e-05; Overlap Count=255
+    - Term ID=GO:1990904; Term Name=ribonucleoprotein complex; FDR=0.0001338236261709; Overlap Count=47
+    - Term ID=GO:0003677; Term Name=DNA binding; FDR=0.0003926277240233; Overlap Count=167
+    - Term ID=GO:0008270; Term Name=zinc ion binding; FDR=0.0009114006975607; Overlap Count=158
+    - Term ID=GO:0005886; Term Name=plasma membrane; FDR=0.0020098291392366; Overlap Count=185
+    - Term ID=GO:0005576; Term Name=extracellular region; FDR=0.0079459710176169; Overlap Count=68
+    - Term ID=GO:0000981; Term Name=DNA-binding transcription factor activity, RNA polymerase II-specific; FDR=0.0097976104898631; Overlap Count=97
+    - Term ID=GO:0106333; Term Name=subcortical maternal complex; FDR=0.0097976104898631; Overlap Count=5
+    - Term ID=GO:0005615; Term Name=extracellular space; FDR=0.0347279408745699; Overlap Count=45
+    - Term ID=GO:0097368; Term Name=establishment of Sertoli cell barrier; FDR=0.0416963523024743; Overlap Count=4
+    - Term ID=GO:0019843; Term Name=rRNA binding; FDR=0.0437291772792879; Overlap Count=11
+    - Term ID=GO:0007165; Term Name=signal transduction; FDR=0.0471934815125152; Overlap Count=67
+  top3_lowest_fdr_overall:
+    - group_label=LINE / lowest; Term Name=protein binding; FDR=4.450145037087536e-18
+    - group_label=TE_all / highest; Term Name=nervous system development; FDR=1.8434384626510557e-17
+    - group_label=SINE / highest; Term Name=plasma membrane; FDR=8.64369409435464e-17
+  n_functional_groups: 22
+  unclassified_terms: 0
+  significant_functional_cells:
+    - group=LINE_lowest; functional_group=Other immune processes; n_terms=4; fdr=0.016903667481250682
+    - group=TE_all_lowest; functional_group=Too general; n_terms=6; fdr=0.02430003015360004
+
+### families
+
+  n_families_with_terms: 13
+  n_families_total: 44
+  families_lost_at_005:
+    - Dong-R4
+  families_by_class:
+    DNA:
+      - hAT-Charlie
+      - hAT-Tip100
+    LINE:
+      - CR1
+      - L1
+      - L2
+    LTR:
+      - ERV1
+      - ERVK
+      - ERVL
+      - ERVL-MaLR
+      - Gypsy
+    Retroposon:
+      - SVA
+    SINE:
+      - Alu
+      - MIR
+  terms_per_family:
+    Alu: 31
+    MIR: 23
+    L1: 22
+    ERV1: 16
+    ERVL: 12
+    ERVL-MaLR: 12
+    Gypsy: 6
+    CR1: 6
+    SVA: 5
+    ERVK: 3
+    hAT-Charlie: 2
+    hAT-Tip100: 1
+    L2: 1
+  families_with_single_term:
+    - L2
+    - hAT-Tip100
+  terms:
+    Alu:
+      - Term ID=GO:0005634; Term Name=nucleus; FDR=1.038809722281801e-20; Overlap Count=487
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=6.416839317148313e-17; Overlap Count=845
+      - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=1.454073044335506e-16; Overlap Count=302
+      - Term ID=GO:0003723; Term Name=RNA binding; FDR=5.8406139984930144e-08; Overlap Count=138
+      - Term ID=GO:0005829; Term Name=cytosol; FDR=3.097181156234308e-07; Overlap Count=347
+      - Term ID=GO:0005739; Term Name=mitochondrion; FDR=5.672173203210193e-07; Overlap Count=139
+      - Term ID=GO:0000398; Term Name=mRNA splicing, via spliceosome; FDR=8.317377771862808e-07; Overlap Count=35
+      - Term ID=GO:1990904; Term Name=ribonucleoprotein complex; FDR=0.0001662301203037; Overlap Count=47
+      - Term ID=GO:0006397; Term Name=mRNA processing; FDR=0.0002534377586624; Overlap Count=47
+      - Term ID=GO:0005743; Term Name=mitochondrial inner membrane; FDR=0.0003490799399617; Overlap Count=52
+      - Term ID=GO:0005737; Term Name=cytoplasm; FDR=0.0016344224541028; Overlap Count=401
+      - Term ID=GO:0006298; Term Name=mismatch repair; FDR=0.0017616560885311; Overlap Count=10
+      - Term ID=GO:0005681; Term Name=spliceosomal complex; FDR=0.0019804484251084; Overlap Count=27
+      - Term ID=GO:0008380; Term Name=RNA splicing; FDR=0.0019804484251084; Overlap Count=37
+      - Term ID=GO:0140664; Term Name=ATP-dependent DNA damage sensor activity; FDR=0.0054031360659107; Overlap Count=8
+      - Term ID=GO:0006974; Term Name=DNA damage response; FDR=0.0060636030891562; Overlap Count=56
+      - Term ID=GO:0005886; Term Name=plasma membrane; FDR=0.0060636030891562; Overlap Count=192
+      - Term ID=GO:0000387; Term Name=spliceosomal snRNP assembly; FDR=0.0100343683248874; Overlap Count=13
+      - Term ID=GO:0032968; Term Name=positive regulation of transcription elongation by RNA polymerase II; FDR=0.0134962576764704; Overlap Count=12
+      - Term ID=GO:0005819; Term Name=spindle; FDR=0.0134962576764704; Overlap Count=29
+      - Term ID=GO:0032300; Term Name=mismatch repair complex; FDR=0.0136248377982638; Overlap Count=5
+      - Term ID=GO:0071011; Term Name=precatalytic spliceosome; FDR=0.0200218988778016; Overlap Count=11
+      - Term ID=GO:0070585; Term Name=protein localization to mitochondrion; FDR=0.0257147015447393; Overlap Count=6
+      - Term ID=GO:0007144; Term Name=female meiosis I; FDR=0.0257147015447393; Overlap Count=5
+      - Term ID=GO:0015031; Term Name=protein transport; FDR=0.0320576222685495; Overlap Count=58
+      - Term ID=GO:0051726; Term Name=regulation of cell cycle; FDR=0.0335166015586235; Overlap Count=30
+      - Term ID=GO:0006352; Term Name=DNA-templated transcription initiation; FDR=0.0335166015586235; Overlap Count=8
+      - Term ID=GO:0005576; Term Name=extracellular region; FDR=0.0356384056345956; Overlap Count=74
+      - Term ID=GO:0000166; Term Name=nucleotide binding; FDR=0.0376122617053908; Overlap Count=129
+      - Term ID=GO:0007141; Term Name=male meiosis I; FDR=0.0398376172505088; Overlap Count=8
+      - Term ID=GO:0006281; Term Name=DNA repair; FDR=0.0469661584526314; Overlap Count=41
+    CR1:
+      - Term ID=GO:0005886; Term Name=plasma membrane; FDR=3.4964595020251486e-11; Overlap Count=372
+      - Term ID=GO:0016020; Term Name=membrane; FDR=1.5730792876273606e-06; Overlap Count=371
+      - Term ID=GO:0045202; Term Name=synapse; FDR=0.0006880022600611; Overlap Count=73
+      - Term ID=GO:0007186; Term Name=G protein-coupled receptor signaling pathway; FDR=0.0237178308470056; Overlap Count=83
+      - Term ID=GO:0042220; Term Name=response to cocaine; FDR=0.027181739090831; Overlap Count=10
+      - Term ID=GO:0007165; Term Name=signal transduction; FDR=0.030853105489697; Overlap Count=151
+    ERV1:
+      - Term ID=GO:0008270; Term Name=zinc ion binding; FDR=1.0778361865447418e-13; Overlap Count=199
+      - Term ID=GO:0006355; Term Name=regulation of DNA-templated transcription; FDR=6.260969578476079e-11; Overlap Count=144
+      - Term ID=GO:0000981; Term Name=DNA-binding transcription factor activity, RNA polymerase II-specific; FDR=4.1189311600419513e-07; Overlap Count=115
+      - Term ID=GO:0000785; Term Name=chromatin; FDR=8.839572980789548e-07; Overlap Count=17
+      - Term ID=GO:0046872; Term Name=metal ion binding; FDR=9.157996868139084e-07; Overlap Count=284
+      - Term ID=GO:0003677; Term Name=DNA binding; FDR=4.960480373644655e-05; Overlap Count=172
+      - Term ID=GO:0006629; Term Name=lipid metabolic process; FDR=4.960480373644655e-05; Overlap Count=81
+      - Term ID=GO:0000978; Term Name=RNA polymerase II cis-regulatory region sequence-specific DNA binding; FDR=0.0001165418541621; Overlap Count=98
+      - Term ID=GO:0006357; Term Name=regulation of transcription by RNA polymerase II; FDR=0.0003291119046899; Overlap Count=125
+      - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=0.0008715998805948; Overlap Count=121
+      - Term ID=GO:0006805; Term Name=xenobiotic metabolic process; FDR=0.0080972885934577; Overlap Count=19
+      - Term ID=GO:0031462; Term Name=Cul2-RING ubiquitin ligase complex; FDR=0.0192916507782708; Overlap Count=11
+      - Term ID=GO:0016055; Term Name=Wnt signaling pathway; FDR=0.0263732890928563; Overlap Count=0
+      - Term ID=GO:0006066; Term Name=alcohol metabolic process; FDR=0.0304079417730968; Overlap Count=7
+      - Term ID=GO:0004065; Term Name=arylsulfatase activity; FDR=0.0385720523171089; Overlap Count=6
+      - Term ID=GO:0070292; Term Name=N-acylphosphatidylethanolamine metabolic process; FDR=0.0385720523171089; Overlap Count=5
+    ERVK:
+      - Term ID=GO:0006629; Term Name=lipid metabolic process; FDR=0.0040839068364974; Overlap Count=55
+      - Term ID=GO:0006631; Term Name=fatty acid metabolic process; FDR=0.0040839068364974; Overlap Count=23
+      - Term ID=GO:0000785; Term Name=chromatin; FDR=0.016758791117014; Overlap Count=12
+    ERVL:
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=5.5411337996914115e-11; Overlap Count=527
+      - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=3.550997428035706e-07; Overlap Count=104
+      - Term ID=GO:0005737; Term Name=cytoplasm; FDR=1.4821851923616177e-06; Overlap Count=229
+      - Term ID=GO:0045944; Term Name=positive regulation of transcription by RNA polymerase II; FDR=3.8013145803997223e-06; Overlap Count=20
+      - Term ID=GO:0005829; Term Name=cytosol; FDR=7.576399676258288e-06; Overlap Count=171
+      - Term ID=GO:0000785; Term Name=chromatin; FDR=5.208546738494023e-05; Overlap Count=21
+      - Term ID=GO:0030154; Term Name=cell differentiation; FDR=0.0010548328824051; Overlap Count=21
+      - Term ID=GO:0001228; Term Name=DNA-binding transcription activator activity, RNA polymerase II-specific; FDR=0.001697868528711; Overlap Count=3
+      - Term ID=GO:0005634; Term Name=nucleus; FDR=0.004177942034488; Overlap Count=249
+      - Term ID=GO:0042633; Term Name=hair cycle; FDR=0.005247449003698; Overlap Count=8
+      - Term ID=GO:0033038; Term Name=bitter taste receptor activity; FDR=0.0232797692941588; Overlap Count=8
+      - Term ID=GO:0001580; Term Name=detection of chemical stimulus involved in sensory perception of bitter taste; FDR=0.0314645653727518; Overlap Count=10
+    ERVL-MaLR:
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=1.5621126774855088e-20; Overlap Count=484
+      - Term ID=GO:0005634; Term Name=nucleus; FDR=6.760725329965698e-12; Overlap Count=202
+      - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=5.8232006441784225e-08; Overlap Count=102
+      - Term ID=GO:0005737; Term Name=cytoplasm; FDR=7.233554242883824e-07; Overlap Count=228
+      - Term ID=GO:0016020; Term Name=membrane; FDR=1.3577720801291266e-05; Overlap Count=192
+      - Term ID=GO:0030154; Term Name=cell differentiation; FDR=0.0001622369987961; Overlap Count=19
+      - Term ID=GO:0005829; Term Name=cytosol; FDR=0.0001940106313284; Overlap Count=179
+      - Term ID=GO:0000785; Term Name=chromatin; FDR=0.005290828575089; Overlap Count=26
+      - Term ID=GO:0003723; Term Name=RNA binding; FDR=0.0061956564067179; Overlap Count=40
+      - Term ID=GO:0005886; Term Name=plasma membrane; FDR=0.0073095191212299; Overlap Count=191
+      - Term ID=GO:0070062; Term Name=extracellular exosome; FDR=0.0205137988416139; Overlap Count=63
+      - Term ID=GO:0008284; Term Name=positive regulation of cell population proliferation; FDR=0.0347980571333507; Overlap Count=8
+    Gypsy:
+      - Term ID=GO:0005634; Term Name=nucleus; FDR=2.510948268551201e-05; Overlap Count=186
+      - Term ID=GO:0000981; Term Name=DNA-binding transcription factor activity, RNA polymerase II-specific; FDR=0.0051636487622244; Overlap Count=20
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=0.0168228260569321; Overlap Count=485
+      - Term ID=GO:0005654; Term Name=nucleoplasm; FDR=0.0168228260569321; Overlap Count=101
+      - Term ID=GO:0006357; Term Name=regulation of transcription by RNA polymerase II; FDR=0.0242555815664445; Overlap Count=33
+      - Term ID=GO:0008494; Term Name=translation activator activity; FDR=0.0376787664630407; Overlap Count=6
+    L1:
+      - Term ID=GO:0050911; Term Name=detection of chemical stimulus involved in sensory perception of smell; FDR=6.425755724753261e-41; Overlap Count=103
+      - Term ID=GO:0004984; Term Name=olfactory receptor activity; FDR=6.425755724753261e-41; Overlap Count=103
+      - Term ID=GO:0007608; Term Name=sensory perception of smell; FDR=4.4347374687503917e-38; Overlap Count=103
+      - Term ID=GO:0004930; Term Name=G protein-coupled receptor activity; FDR=3.3911488188646097e-23; Overlap Count=119
+      - Term ID=GO:0007186; Term Name=G protein-coupled receptor signaling pathway; FDR=5.767804966638017e-19; Overlap Count=127
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=3.4066243361863194e-11; Overlap Count=530
+      - Term ID=GO:0005549; Term Name=odorant binding; FDR=1.6397442966117048e-08; Overlap Count=26
+      - Term ID=GO:0045944; Term Name=positive regulation of transcription by RNA polymerase II; FDR=5.13967378945746e-07; Overlap Count=19
+      - Term ID=GO:0007165; Term Name=signal transduction; FDR=5.379733966729977e-05; Overlap Count=163
+      - Term ID=GO:0045922; Term Name=negative regulation of fatty acid metabolic process; FDR=0.0003972376555243; Overlap Count=7
+      - Term ID=GO:0045202; Term Name=synapse; FDR=0.0004860037413042; Overlap Count=11
+      - Term ID=GO:0007606; Term Name=sensory perception of chemical stimulus; FDR=0.0081301684481034; Overlap Count=9
+      - Term ID=GO:0007399; Term Name=nervous system development; FDR=0.0081301684481034; Overlap Count=10
+      - Term ID=GO:0016477; Term Name=cell migration; FDR=0.0114494765083692; Overlap Count=1
+      - Term ID=GO:0003700; Term Name=DNA-binding transcription factor activity; FDR=0.0114494765083692; Overlap Count=13
+      - Term ID=GO:0005737; Term Name=cytoplasm; FDR=0.0138966354316271; Overlap Count=257
+      - Term ID=GO:0000785; Term Name=chromatin; FDR=0.0228578000376938; Overlap Count=29
+      - Term ID=GO:0002250; Term Name=adaptive immune response; FDR=0.0228578000376938; Overlap Count=26
+      - Term ID=GO:0001228; Term Name=DNA-binding transcription activator activity, RNA polymerase II-specific; FDR=0.0228578000376938; Overlap Count=5
+      - Term ID=GO:0051552; Term Name=flavone metabolic process; FDR=0.0308576418536871; Overlap Count=5
+      - Term ID=GO:0005509; Term Name=calcium ion binding; FDR=0.0330885070233894; Overlap Count=14
+      - Term ID=GO:1990837; Term Name=sequence-specific double-stranded DNA binding; FDR=0.042288474968093; Overlap Count=11
+    L2:
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=1.5225700623759112e-06; Overlap Count=792
+    MIR:
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=4.7425818365493676e-12; Overlap Count=823
+      - Term ID=GO:0005886; Term Name=plasma membrane; FDR=9.239667458169687e-10; Overlap Count=364
+      - Term ID=GO:0070062; Term Name=extracellular exosome; FDR=6.948481932044459e-05; Overlap Count=161
+      - Term ID=GO:0005615; Term Name=extracellular space; FDR=0.0001803828168384; Overlap Count=129
+      - Term ID=GO:0008289; Term Name=lipid binding; FDR=0.0025446346753977; Overlap Count=42
+      - Term ID=GO:0045202; Term Name=synapse; FDR=0.0032519267719382; Overlap Count=70
+      - Term ID=GO:0005576; Term Name=extracellular region; FDR=0.0032519267719382; Overlap Count=163
+      - Term ID=GO:0005856; Term Name=cytoskeleton; FDR=0.0055318912879008; Overlap Count=72
+      - Term ID=GO:0005829; Term Name=cytosol; FDR=0.0056447500549249; Overlap Count=320
+      - Term ID=GO:0071294; Term Name=cellular response to zinc ion; FDR=0.0056447500549249; Overlap Count=9
+      - Term ID=GO:0071805; Term Name=potassium ion transmembrane transport; FDR=0.0061974306281925; Overlap Count=22
+      - Term ID=GO:0008076; Term Name=voltage-gated potassium channel complex; FDR=0.0070524551789961; Overlap Count=16
+      - Term ID=GO:0050729; Term Name=positive regulation of inflammatory response; FDR=0.0070524551789961; Overlap Count=19
+      - Term ID=GO:0031012; Term Name=extracellular matrix; FDR=0.0107203978469929; Overlap Count=47
+      - Term ID=GO:0016323; Term Name=basolateral plasma membrane; FDR=0.0107203978469929; Overlap Count=32
+      - Term ID=GO:0006882; Term Name=intracellular zinc ion homeostasis; FDR=0.014418368904208; Overlap Count=10
+      - Term ID=GO:0005737; Term Name=cytoplasm; FDR=0.0152819713029975; Overlap Count=392
+      - Term ID=GO:0005249; Term Name=voltage-gated potassium channel activity; FDR=0.0172513258843582; Overlap Count=13
+      - Term ID=GO:0006813; Term Name=potassium ion transport; FDR=0.020859278333346; Overlap Count=21
+      - Term ID=GO:0004668; Term Name=protein-arginine deiminase activity; FDR=0.0279412123478901; Overlap Count=4
+      - Term ID=GO:0055085; Term Name=transmembrane transport; FDR=0.0328918965377333; Overlap Count=52
+      - Term ID=GO:0007605; Term Name=sensory perception of sound; FDR=0.0413078660515016; Overlap Count=21
+      - Term ID=GO:0044325; Term Name=transmembrane transporter binding; FDR=0.0413078660515016; Overlap Count=20
+    SVA:
+      - Term ID=GO:0005634; Term Name=nucleus; FDR=0.0113123839874294; Overlap Count=278
+      - Term ID=GO:0005515; Term Name=protein binding; FDR=0.0113123839874294; Overlap Count=526
+      - Term ID=GO:0006397; Term Name=mRNA processing; FDR=0.0202647454872782; Overlap Count=33
+      - Term ID=GO:0006369; Term Name=termination of RNA polymerase II transcription; FDR=0.0202647454872782; Overlap Count=6
+      - Term ID=GO:0019899; Term Name=enzyme binding; FDR=0.0211728942371974; Overlap Count=32
+    hAT-Charlie:
+      - Term ID=GO:0004984; Term Name=olfactory receptor activity; FDR=0.0111574642882085; Overlap Count=2
+      - Term ID=GO:0042612; Term Name=MHC class I protein complex; FDR=0.0254881874152267; Overlap Count=6
+    hAT-Tip100:
+      - Term ID=GO:0004869; Term Name=cysteine-type endopeptidase inhibitor activity; FDR=0.040144772098386; Overlap Count=11
+  terms_lost_at_005:
+    Alu:
+      - Term Name=mitotic recombination; FDR=0.0503045916838834
+      - Term Name=protein kinase binding; FDR=0.057896430269872
+      - Term Name=G protein-coupled receptor signaling pathway; FDR=0.057896430269872
+      - Term Name=DNA binding; FDR=0.0666543472051315
+      - Term Name=RNA polymerase I general transcription initiation factor activity; FDR=0.080151923221919
+      - Term Name=oxidative phosphorylation; FDR=0.080151923221919
+      - Term Name=oogenesis; FDR=0.080151923221919
+      - Term Name=in utero embryonic development; FDR=0.080151923221919
+      - Term Name=vitamin K metabolic process; FDR=0.080151923221919
+      - Term Name=U1 snRNP; FDR=0.080151923221919
+      - Term Name=U1 snRNP binding; FDR=0.080151923221919
+      - Term Name=lipase inhibitor activity; FDR=0.080151923221919
+      - Term Name=subcortical maternal complex; FDR=0.080151923221919
+      - Term Name=chromosome, telomeric region; FDR=0.080151923221919
+      - Term Name=G protein-coupled receptor activity; FDR=0.0813509697231263
+      - Term Name=U12-type precatalytic spliceosome; FDR=0.0825704541844235
+      - Term Name=spliceosome conformational change to release U4 (or U4atac) and U1 (or U11); FDR=0.0825704541844235
+      - Term Name=endosome membrane; FDR=0.0825704541844235
+      - Term Name=protein branched polyubiquitination; FDR=0.0881403444373455
+      - Term Name=ATP hydrolysis activity; FDR=0.0881403444373455
+      - Term Name=mitochondrial matrix; FDR=0.0941882943910266
+    CR1:
+      - Term Name=regulation of postsynaptic neurotransmitter receptor internalization; FDR=0.0855300359985059
+      - Term Name=ventricular septum development; FDR=0.0855300359985059
+      - Term Name=serine-type endopeptidase inhibitor activity; FDR=0.0855300359985059
+    Dong-R4:
+      - Term Name=axonal transport of mitochondrion; FDR=0.062040245256413
+    ERV1:
+      - Term Name=positive regulation of transcription by RNA polymerase II; FDR=0.0521748511238985
+      - Term Name=chromatin binding; FDR=0.0544735287730426
+      - Term Name=succinyl-CoA catabolic process; FDR=0.0804873466942135
+      - Term Name=plasma membrane; FDR=0.0804873466942135
+      - Term Name=lysosome; FDR=0.0938520530042695
+      - Term Name=host-mediated suppression of symbiont invasion; FDR=0.0938520530042695
+      - Term Name=long-chain fatty aldehyde dehydrogenase (NAD+) activity; FDR=0.0938520530042695
+      - Term Name=medium-chain fatty aldehyde dehydrogenase (NAD+) activity; FDR=0.0938520530042695
+      - Term Name=glutamatergic synapse; FDR=0.0938520530042695
+    ERVK:
+    ERVL:
+      - Term Name=intermediate filament; FDR=0.0539125921936026
+      - Term Name=keratin filament; FDR=0.0614167607058785
+      - Term Name=transcription regulator complex; FDR=0.0748648690437366
+      - Term Name=RNA binding; FDR=0.0758072026936447
+    ERVL-MaLR:
+      - Term Name=translation; FDR=0.0686880970433387
+    Gypsy:
+    L1:
+    L2:
+    MIR:
+      - Term Name=macrophage activation; FDR=0.0526018281012247
+      - Term Name=actin binding; FDR=0.0624075188356817
+      - Term Name=phosphatidylinositol-4,5-bisphosphate binding; FDR=0.0624075188356817
+      - Term Name=negative regulation of response to cytokine stimulus; FDR=0.0624075188356817
+      - Term Name=cellular response to cadmium ion; FDR=0.0778946683929681
+      - Term Name=detoxification of copper ion; FDR=0.0778946683929681
+      - Term Name=complement component C1q complex; FDR=0.0778946683929681
+      - Term Name=neuromuscular junction; FDR=0.0778946683929681
+      - Term Name=cell junction; FDR=0.0983700318281671
+      - Term Name=actin filament binding; FDR=0.0983700318281671
+    SVA:
+      - Term Name=nucleoplasm; FDR=0.0769663835755001
+    hAT-Charlie:
+      - Term Name=beta-2-microglobulin binding; FDR=0.0514105968245668
+      - Term Name=antigen processing and presentation of peptide antigen via MHC class I; FDR=0.0514105968245668
+      - Term Name=detection of chemical stimulus involved in sensory perception of smell; FDR=0.0848247550783353
+      - Term Name=translation activator activity; FDR=0.0875510830839741
+      - Term Name=sensory perception of smell; FDR=0.0875510830839741
+    hAT-Tip100:
+  n_ltr_family_terms: 33
+  n_functional_groups: 21
+  unclassified_terms: 0
+  functional_group_frequency:
+    Too general: 41
+    Transcription and its regulation: 15
+    Nervous system: 9
+    Sensory system: 9
+    RNA splicing and processing: 8
+    Signaling pathways: 7
+    Lipids metabolism: 6
+    Other metabolism: 5
+    Chromatin structure: 5
+    Cell cycle/cell division: 5
+    Metals metabolism: 5
+    DNA repair: 5
+    Other: 4
+    Other immune processes: 3
+    Mitochondrion: 3
+    Exosomes and vesicles: 3
+    Embryogenesis: 2
+    Protein ubiquitination and degradation: 2
+    Cell migration: 1
+    Cytoskeleton: 1
+    Ribosome biogenesis and translation itself: 1
+  functional_groups_found_once:
+    - Cell migration
+    - Cytoskeleton
+    - Ribosome biogenesis and translation itself
+  significant_functional_cells:
+    - group=Alu; functional_group=RNA splicing and processing; n_terms=7; fdr=0.026928685213869145
+  n_ltr_class_terms: 22
+
+### supplementary_8b
+
+  fdr005:
+    n_te_groups: 18
+    n_functional_groups: 24
+    unclassified_terms: 0
+    significant_functional_cells:
+      - group=TE_bottom; functional_group=Embryogenesis; n_terms=141; fdr=1.0109317489471374e-29
+      - group=TE_bottom; functional_group=Nervous system; n_terms=81; fdr=3.6768547571903114e-08
+      - group=Alu; functional_group=RNA splicing and processing; n_terms=7; fdr=0.0008718591887778477
+      - group=Alu; functional_group=DNA repair; n_terms=5; fdr=0.0019366445615214762
+      - group=ERVL-MaLR; functional_group=Too general; n_terms=8; fdr=0.005950158172092372
+      - group=SINE; functional_group=RNA splicing and processing; n_terms=6; fdr=0.007896929670337777
+      - group=ERV1; functional_group=Other metabolism; n_terms=3; fdr=0.011160560612817824
+      - group=MIR; functional_group=Other; n_terms=3; fdr=0.012451986089155468
+      - group=ERVK; functional_group=Lipids metabolism; n_terms=2; fdr=0.029039899427877332
+      - group=LTR; functional_group=Too general; n_terms=10; fdr=0.029039899427877332
+  fdr01:
+    n_te_groups: 19
+    n_functional_groups: 26
+    unclassified_terms: 2
+    significant_functional_cells:
+      - group=TE_bottom; functional_group=Embryogenesis; n_terms=162; fdr=2.5753100193327174e-36
+      - group=TE_bottom; functional_group=Nervous system; n_terms=90; fdr=3.641409773461332e-09
+      - group=SINE; functional_group=RNA splicing and processing; n_terms=11; fdr=3.062027167522863e-05
+      - group=Alu; functional_group=RNA splicing and processing; n_terms=11; fdr=5.639544702841947e-05
+      - group=Alu; functional_group=DNA repair; n_terms=6; fdr=0.0021427335557381564
+      - group=SVA; functional_group=Too general; n_terms=8; fdr=0.0027259997912664185
+      - group=ERVL-MaLR; functional_group=Too general; n_terms=8; fdr=0.005378655219850257
+      - group=LTR; functional_group=Too general; n_terms=11; fdr=0.01131004580279126
+      - group=ERV1; functional_group=Other metabolism; n_terms=3; fdr=0.03691073489714371
+      - group=MIR; functional_group=Other; n_terms=3; fdr=0.04490707066524687
+      - group=ERV1; functional_group=Lipids metabolism; n_terms=4; fdr=0.04525303716854351
+      - group=ERVK; functional_group=Lipids metabolism; n_terms=2; fdr=0.04525303716854351
+      - group=MIR; functional_group=Metals metabolism; n_terms=4; fdr=0.04525303716854351
+      - group=TE_top; functional_group=DNA replication; n_terms=2; fdr=0.04525303716854351
+
+### subfamilies_companion_panel
+
+  n_subfamilies_with_terms: 199
+  n_terms: 1003
+  n_functional_groups: 31
+  unclassified_terms: 0
+
+### figure7
+
+  7A:
+    x: observed / random OR
+    n: 13
+    pearson_r: 0.1673155197179915
+    pearson_p_raw: 0.5848213792756692
+  7C:
+    x: log10(total elements in a family)
+    n: 13
+    pearson_r: 0.6454796449929547
+    pearson_p_raw: 0.017184509384608044
+  7D:
+    x: average divergence in a family
+    n: 13
+    pearson_r: -0.2833566919591131
+    pearson_p_raw: 0.3481713321776274
+  7B:
+    comparison: GO terms by enrichment significance
+    groups:
+      - Significant
+      - Non-Significant
+    n:
+      - 11
+      - 2
+    median:
+      - 12.0
+      - 2.0
+    mannwhitney_p_raw: 0.1128228618456713
+  7E:
+    comparison: divergence by GO status
+    groups:
+      - Yes
+      - No
+    n:
+      - 13
+      - 31
+    median:
+      - 233.112647778582
+      - 260.0319091400757
+    mannwhitney_p_raw: 0.20750466701084547
+  7F:
+    comparison: obs/random OR by GO status
+    groups:
+      - Yes
+      - No
+    n:
+      - 13
+      - 31
+    median:
+      - 1.041052098647936
+      - 0.7250306469502121
+    mannwhitney_p_raw: 0.028778571121429494
+  7G:
+    comparison: copy number by GO status
+    groups:
+      - Yes
+      - No
+    n:
+      - 13
+      - 31
+    median:
+      - 5.066735795350929
+      - 2.8915374576725643
+    mannwhitney_p_raw: 1.1634577080761759e-06
+  families_with_zero_terms: 31
+  zero_term_families_by_class:
+    DNA: 20
+    LINE: 6
+    SINE: 4
+    RC: 1
+
+### ifna
+
+  qc:
+    domain: chr9:21150692-21370055
+    domain_length_bp: 219363
+    n_tes_in_window: 175
+    n_l1_in_window: 77
+    l1_fraction_of_window_tes: 0.44
+    family_composition:
+      L1: 77
+      Alu: 33
+      L2: 15
+      MIR: 13
+      hAT-Charlie: 11
+      ERV1: 10
+      ERVL-MaLR: 6
+      MULE-MuDR: 3
+      TcMar-Tigger: 2
+      PiggyBac: 1
+      hAT-Blackjack: 1
+      ERVK: 1
+      RTE-BovB: 1
+      5S-Deu-L2: 1
+    n_distinct_l1_subfamilies: 36
+    l1_subfamilies:
+      - L1M2c
+      - L1M3
+      - L1M4
+      - L1MA1
+      - L1MA2
+      - L1MA3
+      - L1MA4A
+      - L1MA5A
+      - L1MA6
+      - L1MA9
+      - L1MB2
+      - L1MC
+      - L1MC3
+      - L1MC4a
+      - L1MCb
+      - L1MD3
+      - L1ME3A
+      - L1ME4b
+      - L1ME4c
+      - L1MEf
+      - L1P1
+      - L1P3
+      - L1P4e
+      - L1P5
+      - L1PA10
+      - L1PA14
+      - L1PA15
+      - L1PA2
+      - L1PA3
+      - L1PA4
+      - L1PA5
+      - L1PA6
+      - L1PA7
+      - L1PA8
+      - L1PB
+      - L1PREC2
+    genes_in_window:
+      - IFNA10
+      - IFNA14
+      - IFNA16
+      - IFNA17
+      - IFNA21
+      - IFNA22P
+      - IFNA4
+      - IFNA5
+      - IFNA6
+      - IFNA7
+      - IFNW1
+      - KLHL9
+    mean_l1_divergence_window: 135.68
+    mean_l1_divergence_window_excl_zero: 137.46
+    mean_l1_divergence_window_excl_5_youngest: 143.76
+    mean_l1_divergence_genome: 188.19
+    median_l1_divergence_genome: 197.0
+    n_l1_genome: 565459
+    l1_per_mb_window: 351.0
+    l1_per_mb_genome: 181.4
+    l1_density_ratio: 1.94
+    n_genes_in_window: 12
+    qc_divergence_zero_elements:
+      - chrom=chr9; start=21356054; end=21362200; score=0; subfamily_name=L1P3
+    qc_note_C7: One L1P3 element is annotated with divergence 0, implausible for that clade and possibly a RepeatMasker artefact. Every divergence statistic is reported with and without it; the conclusion does not depend on it.
+    random_seed: 42
+    pool_size: 120000
+    n_null_per_test: 10000
+  tests:
+    - test=T1_divergence_unmatched; description=Mean L1 divergence vs random 220 kb autosomal windows with >= 1 L1; observed=135.67532467532467; n_null_windows=10000.0; n_qualifying_in_pool=114182.0; pool_size=120000; null_mean=189.36374687; null_sd=23.5922268987474; null_median=189.8585; null_q025=148.49785; null_q975=231.600275; z_score=-2.275682682482417; n_null_at_least_as_low=122.0; empirical_p_two_sided=0.0223977602239776; empirical_p_floor=0.0001999800019998; at_floor=False; statistic=empirical permutation p (two-sided), raw; window_young=None; window_old=None; genome_young=None; genome_old=None
+    - test=T2_divergence_L1_count_matched; description=Mean L1 divergence vs random windows with >= 40 L1 (controls for L1 density); observed=135.67532467532467; n_null_windows=10000.0; n_qualifying_in_pool=66553.0; pool_size=120000; null_mean=189.231808; null_sd=17.422546814552877; null_median=189.3265; null_q025=154.070325; null_q975=223.262375; z_score=-3.073975572844501; n_null_at_least_as_low=28.0; empirical_p_two_sided=0.0060993900609939; empirical_p_floor=0.0001999800019998; at_floor=False; statistic=empirical permutation p (two-sided), raw; window_young=None; window_old=None; genome_young=None; genome_old=None
+    - test=T3_divergence_gene_density_matched; description=Mean L1 divergence vs random windows with >= 10 genes and >= 1 L1; observed=135.67532467532467; n_null_windows=3582.0; n_qualifying_in_pool=3582.0; pool_size=120000; null_mean=204.4978570630932; null_sd=22.828005305197703; null_median=204.4835; null_q025=158.8209; null_q975=251.1008; z_score=-3.014828999189796; n_null_at_least_as_low=1.0; empirical_p_two_sided=0.001674574379012; empirical_p_floor=0.0005581914596706; at_floor=False; statistic=empirical permutation p (two-sided), raw; window_young=None; window_old=None; genome_young=None; genome_old=None
+    - test=T4_subfamily_composition; description=2x2 Fisher exact: young primate-specific L1 (L1HS/L1P*) vs older L1M* in the domain against the rest of the genome; observed=3.009663083263683; n_null_windows=None; n_qualifying_in_pool=None; pool_size=120000; null_mean=0.3237435378655002; null_sd=None; null_median=None; null_q025=None; null_q975=None; z_score=None; n_null_at_least_as_low=None; empirical_p_two_sided=3.207110551256685e-06; empirical_p_floor=None; at_floor=False; statistic=Fisher exact p (two-sided), raw; window_young=38.0; window_old=39.0; genome_young=133450.0; genome_old=412209.0
+
+### sensitivity
+
+  n_tss_bp_by_window:
+    5kb: 144952895
+    10kb: 272233268
+    20kb: 494969139
+  concordance:
+    - level=class_name; window_a=5kb; window_b=10kb; n=6; spearman_rho=0.942857142857143; spearman_p=0.004804664723032; pearson_r=0.9790327801055532; pearson_p=0.0006548276153627; concordance_permutation_p=0.008999100089991; bland_altman_mean_diff=0.130267787031958; bland_altman_sd_diff=0.1147978559890403; bland_altman_loa_lower=-0.094736010706561; bland_altman_loa_upper=0.355271584770477
+    - level=class_name; window_a=5kb; window_b=20kb; n=6; spearman_rho=0.942857142857143; spearman_p=0.004804664723032; pearson_r=0.966373269074371; pearson_p=0.0016771237178757; concordance_permutation_p=0.0080991900809919; bland_altman_mean_diff=0.2615080008936202; bland_altman_sd_diff=0.2295079477583312; bland_altman_loa_lower=-0.1883275767127091; bland_altman_loa_upper=0.7113435784999496
+    - level=class_name; window_a=10kb; window_b=20kb; n=6; spearman_rho=1.0; spearman_p=0.0; pearson_r=0.9953436672096938; pearson_p=3.2471674592629405e-05; concordance_permutation_p=0.0014998500149985; bland_altman_mean_diff=0.1312402138616622; bland_altman_sd_diff=0.1205787533892419; bland_altman_loa_lower=-0.1050941427812519; bland_altman_loa_upper=0.3675745705045763
+    - level=family_name; window_a=5kb; window_b=10kb; n=43; spearman_rho=0.8905164602839021; spearman_p=1.3098139114402314e-15; pearson_r=0.8986660764139589; pearson_p=2.904673146894788e-16; concordance_permutation_p=9.999000099990002e-05; bland_altman_mean_diff=0.0584134831602015; bland_altman_sd_diff=0.1388081284097432; bland_altman_loa_lower=-0.2136504485228951; bland_altman_loa_upper=0.3304774148432983
+    - level=family_name; window_a=5kb; window_b=20kb; n=43; spearman_rho=0.8279975838115372; spearman_p=7.401321453890331e-12; pearson_r=0.7722443380101943; pearson_p=1.3225127354735507e-09; concordance_permutation_p=9.999000099990002e-05; bland_altman_mean_diff=0.0838466338890842; bland_altman_sd_diff=0.2411881434148373; bland_altman_loa_lower=-0.3888821272039969; bland_altman_loa_upper=0.5565753949821654
+    - level=family_name; window_a=10kb; window_b=20kb; n=44; spearman_rho=0.94122621564482; spearman_p=2.0664740363585964e-21; pearson_r=0.9339859725187262; pearson_p=2.2071782161044783e-20; concordance_permutation_p=9.999000099990002e-05; bland_altman_mean_diff=0.0269913714120831; bland_altman_sd_diff=0.1405004759942483; bland_altman_loa_lower=-0.2483895615366436; bland_altman_loa_upper=0.30237230436081
+  spearman_rho_range:
+    - 0.8279975838115372
+    - 1.0
+  max_concordance_permutation_p: 0.008999100089991
+  n_significance_flips: 11
+  flip_groups:
+    - RC
+    - ERVL
+    - Gypsy
+    - Helitron
+    - I-Jockey
+    - MULE-MuDR
+    - PiggyBac
+    - TcMar
+    - TcMar-Mariner
+    - hAT
+    - tRNA-Deu
+  percentile_fraction_preserved_median: 0.9032258064516128
+  percentile_fraction_preserved_range:
+    - 0.0
+    - 1.0
+  percentile_terms_lost_total: 144
+  percentile_terms_gained_total: 902
+  headline_claims:
+    - level=classes_divergence; group=LINE; term_name=type I interferon receptor binding; fdr_5pct=0.0005028581468689; survives_5pct=True; fdr_10pct=0.0068224750187664; survives_10pct=True; verdict=survives both
+    - level=classes_divergence; group=LINE; term_name=olfactory receptor activity; fdr_5pct=4.755612362386049e-15; survives_5pct=True; fdr_10pct=3.656926874459842e-31; survives_10pct=True; verdict=survives both
+    - level=families; group=SVA; term_name=termination of RNA polymerase II transcription; fdr_5pct=0.0202647454872782; survives_5pct=True; fdr_10pct=0.0202647454872782; survives_10pct=True; verdict=survives both
+    - level=families; group=L1; term_name=flavone metabolic process; fdr_5pct=0.0308576418536871; survives_5pct=True; fdr_10pct=0.0272089623352263; survives_10pct=True; verdict=survives both
+    - level=families; group=MIR; term_name=cellular response to zinc ion; fdr_5pct=0.0056447500549249; survives_5pct=True; fdr_10pct=0.0178932213193779; survives_10pct=True; verdict=survives both
+    - level=families; group=MIR; term_name=intracellular zinc ion homeostasis; fdr_5pct=0.014418368904208; survives_5pct=True; fdr_10pct=0.0032997045412475; survives_10pct=True; verdict=survives both
+    - level=families; group=hAT-Charlie; term_name=MHC class I protein complex; fdr_5pct=0.0254881874152267; survives_5pct=True; fdr_10pct=nan; survives_10pct=False; verdict=5 % only
+    - level=classes_count; group=LINE; term_name=olfactory receptor activity; fdr_5pct=6.911334305508483e-10; survives_5pct=True; fdr_10pct=1.8305651637432896e-12; survives_10pct=True; verdict=survives both
+    - level=classes_count; group=SINE; term_name=mRNA splicing, via spliceosome; fdr_5pct=0.002501456379493; survives_5pct=True; fdr_10pct=6.088011599826534e-08; survives_10pct=True; verdict=survives both
+  geneset_overlap_coefficient_range:
+    - 0.2851153039832285
+    - 0.9308176100628932
+  geneset_max_hypergeometric_p: 3.5316648794956357e-205
+  kendall_tau_range:
+    - 0.4819304768446702
+    - 0.7931670566296865
+
+### permutation_convergence
+
+  columns:
+    - N
+    - max_class_mean_drift_SD
+    - max_family_mean_drift_SD
+    - median_family_mean_drift_SD
+    - max_class_SD_ratio_error
+  checkpoints:
+    - N=50; max_class_mean_drift_SD=0.3929; max_family_mean_drift_SD=0.3814; median_family_mean_drift_SD=0.0945; max_class_SD_ratio_error=0.2155
+    - N=100; max_class_mean_drift_SD=0.1795; max_family_mean_drift_SD=0.1708; median_family_mean_drift_SD=0.0577; max_class_SD_ratio_error=0.073
+    - N=200; max_class_mean_drift_SD=0.0951; max_family_mean_drift_SD=0.1138; median_family_mean_drift_SD=0.0426; max_class_SD_ratio_error=0.047
+    - N=250; max_class_mean_drift_SD=0.0586; max_family_mean_drift_SD=0.0998; median_family_mean_drift_SD=0.0348; max_class_SD_ratio_error=0.0393
+    - N=300; max_class_mean_drift_SD=0.0502; max_family_mean_drift_SD=0.1016; median_family_mean_drift_SD=0.027; max_class_SD_ratio_error=0.0497
+    - N=400; max_class_mean_drift_SD=0.0464; max_family_mean_drift_SD=0.0516; median_family_mean_drift_SD=0.0128; max_class_SD_ratio_error=0.0227
+
+### lu2020
+
+  columns:
+    - our_set
+    - their_category
+    - n_ours_in_universe
+    - n_theirs_in_universe
+    - n_shared
+    - n_expected_by_chance
+    - fold_over_expected
+    - jaccard
+    - overlap_coefficient
+    - fisher_odds_ratio
+    - fisher_p_raw
+    - fisher_p_adjusted
+    - significant
+    - direction
+  mapping_summary:
+    - category=L1-enriched genes; mgi_ortholog=652; symbol_upcase=41; unmapped=787; n_mouse_genes=1480; mgi_mapping_rate=0.4405405405405405; n_testable=611
+    - category=Low-complexity-repeat-enriched genes; mgi_ortholog=2042; symbol_upcase=69; unmapped=328; n_mouse_genes=2439; mgi_mapping_rate=0.8372283722837228; n_testable=2035
+    - category=SINE-enriched genes; mgi_ortholog=1694; symbol_upcase=50; unmapped=297; n_mouse_genes=2041; mgi_mapping_rate=0.829985301322881; n_testable=1686
+  counterpart_pairs:
+    - our_set=Alu (family); their_category=SINE-enriched genes; n_shared=273; fold_over_expected=2.8739375009887653; fisher_odds_ratio=4.021296132663119; jaccard=0.1108854589764419; fisher_p_adjusted=4.449910508686861e-61; significant=True; direction=excess; n_ours_in_universe=1051; n_theirs_in_universe=1684
+    - our_set=SINE; their_category=SINE-enriched genes; n_shared=270; fold_over_expected=2.7083553168534102; fisher_odds_ratio=3.694023578313928; jaccard=0.1072705601907032; fisher_p_adjusted=6.063775047039205e-55; significant=True; direction=excess; n_ours_in_universe=1103; n_theirs_in_universe=1684
+    - our_set=SINE; their_category=Low-complexity-repeat-enriched genes; n_shared=55; fold_over_expected=0.4572176098114662; fisher_odds_ratio=0.4128392544799545; jaccard=0.0178571428571428; fisher_p_adjusted=7.916579859216636e-12; significant=True; direction=depletion; n_ours_in_universe=1103; n_theirs_in_universe=2032
+    - our_set=MIR (family); their_category=SINE-enriched genes; n_shared=45; fold_over_expected=0.4644458822278157; fisher_odds_ratio=0.4256312033901023; jaccard=0.0165990409443009; fisher_p_adjusted=2.810378697164782e-09; significant=True; direction=depletion; n_ours_in_universe=1072; n_theirs_in_universe=1684
+    - our_set=SINE; their_category=L1-enriched genes; n_shared=4; fold_over_expected=0.1309466079121775; fisher_odds_ratio=0.1209693471337579; jaccard=0.0024767801857585; fisher_p_adjusted=7.599163298045895e-09; significant=True; direction=depletion; n_ours_in_universe=1103; n_theirs_in_universe=516
+    - our_set=L1 (family); their_category=L1-enriched genes; n_shared=49; fold_over_expected=2.2199721825061034; fisher_odds_ratio=2.436281189524671; jaccard=0.0387658227848101; fisher_p_adjusted=6.316562095754445e-07; significant=True; direction=excess; n_ours_in_universe=797; n_theirs_in_universe=516
+    - our_set=Alu (family); their_category=Low-complexity-repeat-enriched genes; n_shared=67; fold_over_expected=0.5845314173977539; fisher_odds_ratio=0.5411117317280043; jaccard=0.0222148541114058; fisher_p_adjusted=9.298925268226366e-07; significant=True; direction=depletion; n_ours_in_universe=1051; n_theirs_in_universe=2032
+    - our_set=LTR; their_category=Low-complexity-repeat-enriched genes; n_shared=37; fold_over_expected=0.5078799094723938; fisher_odds_ratio=0.4693612001477545; jaccard=0.0138941043935411; fisher_p_adjusted=3.648440256634747e-06; significant=True; direction=depletion; n_ours_in_universe=668; n_theirs_in_universe=2032
+    - our_set=L1 (family); their_category=Low-complexity-repeat-enriched genes; n_shared=48; fold_over_expected=0.5522283365771248; fisher_odds_ratio=0.5120052543175847; jaccard=0.0172599784250269; fisher_p_adjusted=4.2816599764134695e-06; significant=True; direction=depletion; n_ours_in_universe=797; n_theirs_in_universe=2032
+    - our_set=LINE; their_category=SINE-enriched genes; n_shared=52; fold_over_expected=0.6120584221963916; fisher_odds_ratio=0.5762564034622858; jaccard=0.0202177293934681; fisher_p_adjusted=0.0001261002232962; significant=True; direction=depletion; n_ours_in_universe=940; n_theirs_in_universe=1684
+    - our_set=SVA; their_category=SINE-enriched genes; n_shared=93; fold_over_expected=1.5043338750677169; fisher_odds_ratio=1.6178153126565356; jaccard=0.0408791208791208; fisher_p_adjusted=0.0001635121369426; significant=True; direction=excess; n_ours_in_universe=684; n_theirs_in_universe=1684
+    - our_set=MIR (family); their_category=L1-enriched genes; n_shared=12; fold_over_expected=0.4041999305796598; fisher_odds_ratio=0.3831087151841869; jaccard=0.0076142131979695; fisher_p_adjusted=0.0004959416233517; significant=True; direction=depletion; n_ours_in_universe=1072; n_theirs_in_universe=516
+    - our_set=LTR; their_category=SINE-enriched genes; n_shared=35; fold_over_expected=0.5797075682364486; fisher_odds_ratio=0.5470547040333699; jaccard=0.0151057401812688; fisher_p_adjusted=0.0004961131160268; significant=True; direction=depletion; n_ours_in_universe=668; n_theirs_in_universe=1684
+    - our_set=Alu (family); their_category=L1-enriched genes; n_shared=12; fold_over_expected=0.4122762374704047; fisher_odds_ratio=0.391333241670104; jaccard=0.007717041800643; fisher_p_adjusted=0.0005837258627586; significant=True; direction=depletion; n_ours_in_universe=1051; n_theirs_in_universe=516
+    - our_set=L1 (family); their_category=SINE-enriched genes; n_shared=48; fold_over_expected=0.6663467814279797; fisher_odds_ratio=0.6345477751916981; jaccard=0.0197287299630086; fisher_p_adjusted=0.0031630079714049; significant=True; direction=depletion; n_ours_in_universe=797; n_theirs_in_universe=1684
+    - our_set=DNA; their_category=SINE-enriched genes; n_shared=62; fold_over_expected=0.7432028678557734; fisher_odds_ratio=0.714188330891588; jaccard=0.0243614931237721; fisher_p_adjusted=0.0168105074996946; significant=True; direction=depletion; n_ours_in_universe=923; n_theirs_in_universe=1684
+    - our_set=LINE; their_category=Low-complexity-repeat-enriched genes; n_shared=82; fold_over_expected=0.7998743508125313; fisher_odds_ratio=0.77152830075907; jaccard=0.0283737024221453; fisher_p_adjusted=0.0395726928988478; significant=True; direction=depletion; n_ours_in_universe=940; n_theirs_in_universe=2032
+    - our_set=LINE; their_category=L1-enriched genes; n_shared=36; fold_over_expected=1.382879762493815; fisher_odds_ratio=1.4279867256637169; jaccard=0.0253521126760563; fisher_p_adjusted=0.0709800808759059; significant=False; direction=excess; n_ours_in_universe=940; n_theirs_in_universe=516
+    - our_set=LTR; their_category=L1-enriched genes; n_shared=24; fold_over_expected=1.2973123520401058; fisher_odds_ratio=1.323435843054083; jaccard=0.0206896551724137; fisher_p_adjusted=0.2450674850939006; significant=False; direction=excess; n_ours_in_universe=668; n_theirs_in_universe=516
+    - our_set=SVA; their_category=L1-enriched genes; n_shared=24; fold_over_expected=1.266965864273086; fisher_odds_ratio=1.290169992609017; jaccard=0.0204081632653061; fisher_p_adjusted=0.2965382468558123; significant=False; direction=excess; n_ours_in_universe=684; n_theirs_in_universe=516
+    - our_set=MIR (family); their_category=Low-complexity-repeat-enriched genes; n_shared=106; fold_over_expected=0.9066650017628394; fisher_odds_ratio=0.8907227887317282; jaccard=0.0353569046030687; fisher_p_adjusted=0.35352622091464; significant=False; direction=depletion; n_ours_in_universe=1072; n_theirs_in_universe=2032
+    - our_set=SVA; their_category=Low-complexity-repeat-enriched genes; n_shared=70; fold_over_expected=0.9383777685684026; fisher_odds_ratio=0.9289032330899468; jaccard=0.0264550264550264; fisher_p_adjusted=0.678781676559262; significant=False; direction=depletion; n_ours_in_universe=684; n_theirs_in_universe=2032
+    - our_set=DNA; their_category=L1-enriched genes; n_shared=27; fold_over_expected=1.0562624404746908; fisher_odds_ratio=1.0611579754601228; jaccard=0.0191218130311614; fisher_p_adjusted=0.7808175639783324; significant=False; direction=excess; n_ours_in_universe=923; n_theirs_in_universe=516
+    - our_set=DNA; their_category=Low-complexity-repeat-enriched genes; n_shared=98; fold_over_expected=0.9735542266317468; fisher_odds_ratio=0.9689135407853092; jaccard=0.0343017150857542; fisher_p_adjusted=0.8284710054054636; significant=False; direction=depletion; n_ours_in_universe=923; n_theirs_in_universe=2032
+  all_overlaps:
+    - our_set=LINE; their_category=L1-enriched genes; n_ours_in_universe=940; n_theirs_in_universe=516; n_shared=36; n_expected_by_chance=26.03263203091456; fold_over_expected=1.382879762493815; jaccard=0.0253521126760563; overlap_coefficient=0.0697674418604651; fisher_odds_ratio=1.4279867256637169; fisher_p_raw=0.0516218770006588; fisher_p_adjusted=0.0709800808759059; significant=False; direction=excess
+    - our_set=LINE; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=940; n_theirs_in_universe=2032; n_shared=82; n_expected_by_chance=102.51610133104336; fold_over_expected=0.7998743508125313; jaccard=0.0283737024221453; overlap_coefficient=0.0872340425531914; fisher_odds_ratio=0.77152830075907; fisher_p_raw=0.0275809677779848; fisher_p_adjusted=0.0395726928988478; significant=True; direction=depletion
+    - our_set=LINE; their_category=SINE-enriched genes; n_ours_in_universe=940; n_theirs_in_universe=1684; n_shared=52; n_expected_by_chance=84.9592099613568; fold_over_expected=0.6120584221963916; jaccard=0.0202177293934681; overlap_coefficient=0.0553191489361702; fisher_odds_ratio=0.5762564034622858; fisher_p_raw=5.3497064428699e-05; fisher_p_adjusted=0.0001261002232962; significant=True; direction=depletion
+    - our_set=LTR; their_category=L1-enriched genes; n_ours_in_universe=668; n_theirs_in_universe=516; n_shared=24; n_expected_by_chance=18.499785315586088; fold_over_expected=1.2973123520401058; jaccard=0.0206896551724137; overlap_coefficient=0.0465116279069767; fisher_odds_ratio=1.323435843054083; fisher_p_raw=0.1856571856771974; fisher_p_adjusted=0.2450674850939006; significant=False; direction=excess
+    - our_set=LTR; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=668; n_theirs_in_universe=2032; n_shared=37; n_expected_by_chance=72.85186775440103; fold_over_expected=0.5078799094723938; jaccard=0.0138941043935411; overlap_coefficient=0.0553892215568862; fisher_odds_ratio=0.4693612001477545; fisher_p_raw=1.3267055478671807e-06; fisher_p_adjusted=3.648440256634747e-06; significant=True; direction=depletion
+    - our_set=LTR; their_category=SINE-enriched genes; n_ours_in_universe=668; n_theirs_in_universe=1684; n_shared=35; n_expected_by_chance=60.37526835551739; fold_over_expected=0.5797075682364486; jaccard=0.0151057401812688; overlap_coefficient=0.0523952095808383; fisher_odds_ratio=0.5470547040333699; fisher_p_raw=0.0002555734234077; fisher_p_adjusted=0.0004961131160268; significant=True; direction=depletion
+    - our_set=SINE; their_category=L1-enriched genes; n_ours_in_universe=1103; n_theirs_in_universe=516; n_shared=4; n_expected_by_chance=30.54680120223272; fold_over_expected=0.1309466079121775; jaccard=0.0024767801857585; overlap_coefficient=0.0077519379844961; fisher_odds_ratio=0.1209693471337579; fisher_p_raw=1.8422214055868838e-09; fisher_p_adjusted=7.599163298045895e-09; significant=True; direction=depletion
+    - our_set=SINE; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=1103; n_theirs_in_universe=2032; n_shared=55; n_expected_by_chance=120.29282954057535; fold_over_expected=0.4572176098114662; jaccard=0.0178571428571428; overlap_coefficient=0.0498640072529465; fisher_odds_ratio=0.4128392544799545; fisher_p_raw=1.4393781562212066e-12; fisher_p_adjusted=7.916579859216636e-12; significant=True; direction=depletion
+    - our_set=SINE; their_category=SINE-enriched genes; n_ours_in_universe=1103; n_theirs_in_universe=1684; n_shared=270; n_expected_by_chance=99.6914984972091; fold_over_expected=2.7083553168534102; jaccard=0.1072705601907032; overlap_coefficient=0.2447869446962828; fisher_odds_ratio=3.694023578313928; fisher_p_raw=3.6750151800237607e-56; fisher_p_adjusted=6.063775047039205e-55; significant=True; direction=excess
+    - our_set=DNA; their_category=L1-enriched genes; n_ours_in_universe=923; n_theirs_in_universe=516; n_shared=27; n_expected_by_chance=25.561829111206528; fold_over_expected=1.0562624404746908; jaccard=0.0191218130311614; overlap_coefficient=0.0523255813953488; fisher_odds_ratio=1.0611579754601228; fisher_p_raw=0.7571564256759586; fisher_p_adjusted=0.7808175639783324; significant=False; direction=excess
+    - our_set=DNA; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=923; n_theirs_in_universe=2032; n_shared=98; n_expected_by_chance=100.66208673250324; fold_over_expected=0.9735542266317468; jaccard=0.0343017150857542; overlap_coefficient=0.1061755146262188; fisher_odds_ratio=0.9689135407853092; fisher_p_raw=0.8284710054054636; fisher_p_adjusted=0.8284710054054636; significant=False; direction=depletion
+    - our_set=DNA; their_category=SINE-enriched genes; n_ours_in_universe=923; n_theirs_in_universe=1684; n_shared=62; n_expected_by_chance=83.42271361099185; fold_over_expected=0.7432028678557734; jaccard=0.0243614931237721; overlap_coefficient=0.0671722643553629; fisher_odds_ratio=0.714188330891588; fisher_p_raw=0.0112070049997964; fisher_p_adjusted=0.0168105074996946; significant=True; direction=depletion
+    - our_set=SVA; their_category=L1-enriched genes; n_ours_in_universe=684; n_theirs_in_universe=516; n_shared=24; n_expected_by_chance=18.942893945899527; fold_over_expected=1.266965864273086; jaccard=0.0204081632653061; overlap_coefficient=0.0465116279069767; fisher_odds_ratio=1.290169992609017; fisher_p_raw=0.2336361944924582; fisher_p_adjusted=0.2965382468558123; significant=False; direction=excess
+    - our_set=SVA; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=684; n_theirs_in_universe=2032; n_shared=70; n_expected_by_chance=74.59682267067411; fold_over_expected=0.9383777685684026; jaccard=0.0264550264550264; overlap_coefficient=0.1023391812865497; fisher_odds_ratio=0.9289032330899468; fisher_p_raw=0.6170742514175109; fisher_p_adjusted=0.678781676559262; significant=False; direction=depletion
+    - our_set=SVA; their_category=SINE-enriched genes; n_ours_in_universe=684; n_theirs_in_universe=1684; n_shared=93; n_expected_by_chance=61.82138256762559; fold_over_expected=1.5043338750677169; jaccard=0.0408791208791208; overlap_coefficient=0.1359649122807017; fisher_odds_ratio=1.6178153126565356; fisher_p_raw=7.432369861027453e-05; fisher_p_adjusted=0.0001635121369426; significant=True; direction=excess
+    - our_set=Helitron; their_category=L1-enriched genes; n_ours_in_universe=82; n_theirs_in_universe=516; n_shared=3; n_expected_by_chance=2.2709317303563763; fold_over_expected=1.3210436755530346; jaccard=0.0050420168067226; overlap_coefficient=0.0365853658536585; fisher_odds_ratio=1.335183951439781; fisher_p_raw=0.4968408256692298; fisher_p_adjusted=0.5653705947270546; significant=False; direction=excess
+    - our_set=Helitron; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=82; n_theirs_in_universe=2032; n_shared=11; n_expected_by_chance=8.942893945899527; fold_over_expected=1.2300268868830422; jaccard=0.0052306229196386; overlap_coefficient=0.1341463414634146; fisher_odds_ratio=1.267110829250615; fisher_p_raw=0.4751993488279868; fisher_p_adjusted=0.5600563754044131; significant=False; direction=excess
+    - our_set=Helitron; their_category=SINE-enriched genes; n_ours_in_universe=82; n_theirs_in_universe=1684; n_shared=6; n_expected_by_chance=7.411335337054529; fold_over_expected=0.8095707085336887; jaccard=0.0034090909090909; overlap_coefficient=0.073170731707317; fisher_odds_ratio=0.7938021454112039; fisher_p_raw=0.7022743003505507; fisher_p_adjusted=0.7475823197280056; significant=False; direction=depletion
+    - our_set=TE_top; their_category=L1-enriched genes; n_ours_in_universe=1044; n_theirs_in_universe=516; n_shared=16; n_expected_by_chance=28.91283812795191; fold_over_expected=0.5533873889928421; jaccard=0.0103626943005181; overlap_coefficient=0.0310077519379844; fisher_odds_ratio=0.5319221789883268; fisher_p_raw=0.0111462476704916; fisher_p_adjusted=0.0168105074996946; significant=True; direction=depletion
+    - our_set=TE_top; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=1044; n_theirs_in_universe=2032; n_shared=61; n_expected_by_chance=113.85830828681836; fold_over_expected=0.5357536126949649; jaccard=0.0202321724709784; overlap_coefficient=0.0584291187739463; fisher_odds_ratio=0.4916853893149549; fisher_p_raw=8.552196121287856e-09; fisher_p_adjusted=3.135805244472214e-08; significant=True; direction=depletion
+    - our_set=TE_top; their_category=SINE-enriched genes; n_ours_in_universe=1044; n_theirs_in_universe=1684; n_shared=198; n_expected_by_chance=94.35895234006011; fold_over_expected=2.098370054877549; jaccard=0.0782608695652174; overlap_coefficient=0.1896551724137931; fisher_odds_ratio=2.5360384868703645; fisher_p_raw=7.861916585079694e-25; fisher_p_adjusted=6.4860811826907484e-24; significant=True; direction=excess
+    - our_set=TE_bottom; their_category=L1-enriched genes; n_ours_in_universe=910; n_theirs_in_universe=516; n_shared=11; n_expected_by_chance=25.201803349076854; fold_over_expected=0.4364767015929806; jaccard=0.007773851590106; overlap_coefficient=0.0213178294573643; fisher_odds_ratio=0.4171565766142799; fisher_p_raw=0.0017557057481739; fisher_p_adjusted=0.0030493836678811; significant=True; direction=depletion
+    - our_set=TE_bottom; their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=910; n_theirs_in_universe=2032; n_shared=235; n_expected_by_chance=99.24431086303134; fold_over_expected=2.367893917106516; jaccard=0.0868119689693387; overlap_coefficient=0.2582417582417582; fisher_odds_ratio=3.085286176549393; fisher_p_raw=1.378876149184507e-38; fisher_p_adjusted=1.5167637641029575e-37; significant=True; direction=excess
+    - our_set=TE_bottom; their_category=SINE-enriched genes; n_ours_in_universe=910; n_theirs_in_universe=1684; n_shared=25; n_expected_by_chance=82.24774581365394; fold_over_expected=0.3039596982589856; jaccard=0.0097314130011677; overlap_coefficient=0.0274725274725274; fisher_odds_ratio=0.2735123943019244; fisher_p_raw=1.368095357910498e-14; fisher_p_adjusted=9.029429362209289e-14; significant=True; direction=depletion
+    - our_set=L1 (family); their_category=L1-enriched genes; n_ours_in_universe=797; n_theirs_in_universe=516; n_shared=49; n_expected_by_chance=22.07234864748819; fold_over_expected=2.2199721825061034; jaccard=0.0387658227848101; overlap_coefficient=0.0949612403100775; fisher_odds_ratio=2.436281189524671; fisher_p_raw=1.9141097259861962e-07; fisher_p_adjusted=6.316562095754445e-07; significant=True; direction=excess
+    - our_set=L1 (family); their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=797; n_theirs_in_universe=2032; n_shared=48; n_expected_by_chance=86.92056676685273; fold_over_expected=0.5522283365771248; jaccard=0.0172599784250269; overlap_coefficient=0.0602258469259723; fisher_odds_ratio=0.5120052543175847; fisher_p_raw=1.686714536162882e-06; fisher_p_adjusted=4.2816599764134695e-06; significant=True; direction=depletion
+    - our_set=L1 (family); their_category=SINE-enriched genes; n_ours_in_universe=797; n_theirs_in_universe=1684; n_shared=48; n_expected_by_chance=72.03456419063976; fold_over_expected=0.6663467814279797; jaccard=0.0197287299630086; overlap_coefficient=0.0602258469259723; fisher_odds_ratio=0.6345477751916981; fisher_p_raw=0.0019169745281241; fisher_p_adjusted=0.0031630079714049; significant=True; direction=depletion
+    - our_set=Alu (family); their_category=L1-enriched genes; n_ours_in_universe=1051; n_theirs_in_universe=516; n_shared=12; n_expected_by_chance=29.10669815371404; fold_over_expected=0.4122762374704047; jaccard=0.007717041800643; overlap_coefficient=0.0232558139534883; fisher_odds_ratio=0.391333241670104; fisher_p_raw=0.000318395925141; fisher_p_adjusted=0.0005837258627586; significant=True; direction=depletion
+    - our_set=Alu (family); their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=1051; n_theirs_in_universe=2032; n_shared=67; n_expected_by_chance=114.62172606268786; fold_over_expected=0.5845314173977539; jaccard=0.0222148541114058; overlap_coefficient=0.0637488106565176; fisher_odds_ratio=0.5411117317280043; fisher_p_raw=3.099641756075455e-07; fisher_p_adjusted=9.298925268226366e-07; significant=True; direction=depletion
+    - our_set=Alu (family); their_category=SINE-enriched genes; n_ours_in_universe=1051; n_theirs_in_universe=1684; n_shared=273; n_expected_by_chance=94.99162730785746; fold_over_expected=2.8739375009887653; jaccard=0.1108854589764419; overlap_coefficient=0.2597526165556613; fisher_odds_ratio=4.021296132663119; fisher_p_raw=1.3484577299051094e-62; fisher_p_adjusted=4.449910508686861e-61; significant=True; direction=excess
+    - our_set=MIR (family); their_category=L1-enriched genes; n_ours_in_universe=1072; n_theirs_in_universe=516; n_shared=12; n_expected_by_chance=29.688278231000428; fold_over_expected=0.4041999305796598; jaccard=0.0076142131979695; overlap_coefficient=0.0232558139534883; fisher_odds_ratio=0.3831087151841869; fisher_p_raw=0.0002404565446554; fisher_p_adjusted=0.0004959416233517; significant=True; direction=depletion
+    - our_set=MIR (family); their_category=Low-complexity-repeat-enriched genes; n_ours_in_universe=1072; n_theirs_in_universe=2032; n_shared=106; n_expected_by_chance=116.91197939029628; fold_over_expected=0.9066650017628394; jaccard=0.0353569046030687; overlap_coefficient=0.0988805970149253; fisher_odds_ratio=0.8907227887317282; fisher_p_raw=0.2892487262028873; fisher_p_adjusted=0.35352622091464; significant=False; direction=depletion
+    - our_set=MIR (family); their_category=SINE-enriched genes; n_ours_in_universe=1072; n_theirs_in_universe=1684; n_shared=45; n_expected_by_chance=96.88965221124948; fold_over_expected=0.4644458822278157; jaccard=0.0165990409443009; overlap_coefficient=0.0419776119402985; fisher_odds_ratio=0.4256312033901023; fisher_p_raw=5.961409357622266e-10; fisher_p_adjusted=2.810378697164782e-09; significant=True; direction=depletion
+
+### assembly_bound
+
+  genome_bp: 3117275501
+  aligned_blocks_bp: 2904922608
+  chain_span_bp: 3076200371
+  no_chain_bp: 41075130
+  in_chain_unaligned_bp: 171277763
+  in_chain_unaligned_large_bp: 167676509
+  newly_resolved_bp: 208751639
+  min_gap_bp: 1000
+  in_chain_unaligned_small_bp: 3601254
+  counts:
+    tes_total: 3709429
+    tes_newly_resolved: 15381
+    windows_total: 38704
+    windows_newly_resolved: 190
+    windows_entirely_newly_resolved: 5
+    genes_total: 28738
+    genes_newly_resolved: 158
+    te_annotated_bp_genome: 2585405186
+    te_annotated_bp_in_newly_resolved: 9718505
+  ifna_domain:
+    domain: chr9:21,150,692-21,370,055
+    domain_bp: 219363
+    newly_resolved_bp_in_domain: 0
+    fraction_newly_resolved: 0.0
+    fully_alignable_to_hg38: True
+  definition: chm13v2.0 bases not covered by any aligned block of the UCSC hs1->hg38 liftOver chain set; an upper bound on sequence unavailable to hg38 studies
+  chain_source: https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/hs1ToHg38.over.chain.gz
+
+### go_grid
+
+  n_cells: 18
+  windows:
+    - 10kb
+    - 20kb
+    - 5kb
+  percentiles:
+    - 5
+    - 10
+  term_rows_per_cell:
+    classes_count/10kb/p5: 425
+    classes_count/10kb/p10: 779
+    classes_count/20kb/p5: 299
+    classes_count/20kb/p10: 544
+    classes_count/5kb/p5: 510
+    classes_count/5kb/p10: 822
+    classes_divergence/10kb/p5: 414
+    classes_divergence/10kb/p10: 632
+    classes_divergence/20kb/p5: 303
+    classes_divergence/20kb/p10: 608
+    classes_divergence/5kb/p5: 209
+    classes_divergence/5kb/p10: 402
+    families/10kb/p5: 140
+    families/10kb/p10: 321
+    families/20kb/p5: 201
+    families/20kb/p10: 402
+    families/5kb/p5: 137
+    families/5kb/p10: 282
+  distinct_terms_per_cell:
+    classes_count/5kb/p5: 465
+    classes_count/5kb/p10: 728
+    classes_count/10kb/p5: 375
+    classes_count/10kb/p10: 670
+    classes_count/20kb/p5: 249
+    classes_count/20kb/p10: 419
+    classes_divergence/5kb/p5: 183
+    classes_divergence/5kb/p10: 312
+    classes_divergence/10kb/p5: 282
+    classes_divergence/10kb/p10: 390
+    classes_divergence/20kb/p5: 198
+    classes_divergence/20kb/p10: 352
+    families/5kb/p5: 77
+    families/5kb/p10: 181
+    families/10kb/p5: 95
+    families/10kb/p10: 212
+    families/20kb/p5: 136
+    families/20kb/p10: 260
+  window_trend_at_5pct:
+    classes_count: falls with window width (510 -> 425 -> 299)
+    classes_divergence: peaks at 10kb (209 / 414 / 303)
+    families: rises with window width (137 -> 140 -> 201)
+  percentile_always_increases_term_count: True
+  fraction_of_published_preserved:
+    classes_count/5kb/p5: 0.781
+    classes_count/5kb/p10: 0.888
+    classes_count/10kb/p10: 0.907
+    classes_count/20kb/p5: 0.552
+    classes_count/20kb/p10: 0.677
+    classes_divergence/5kb/p5: 0.44
+    classes_divergence/5kb/p10: 0.592
+    classes_divergence/10kb/p10: 0.83
+    classes_divergence/20kb/p5: 0.468
+    classes_divergence/20kb/p10: 0.663
+    families/5kb/p5: 0.537
+    families/5kb/p10: 0.663
+    families/10kb/p10: 0.789
+    families/20kb/p5: 0.716
+    families/20kb/p10: 0.789
+  fraction_of_published_preserved_min: 0.44
+  fraction_of_published_preserved_median: 0.677
+  jaccard_min: 0.268
+  spearman_rho_min: 0.614
+  spearman_rho_max: 1.0
+  concordance_permutation_p_max: 0.0219780219780219
+  headline_claims_total: 9
+  headline_claims_robust_all_six: 3
+  headline_claims_surviving_published: 9
+  headline_claims_by_conditions_survived:
+    LINE: type I interferon receptor binding: 5
+    LINE: olfactory receptor activity: 6
+    SVA: termination of RNA polymerase II transcription: 2
+    L1: flavone metabolic process: 6
+    MIR: cellular response to zinc ion: 4
+    MIR: intracellular zinc ion homeostasis: 4
+    hAT-Charlie: MHC class I protein complex: 1
+    SINE: mRNA splicing, via spliceosome: 5
+  groups_surviving_all_six:
+    classes_count: 5
+    classes_divergence: 6
+    families: 9
+  groups_total:
+    classes_count: 7
+    classes_divergence: 9
+    families: 18
+  permutations_rerun_for_the_grid: False
+
+### supplementary
+
+  n_workbooks: 5
+  workbooks:
+    File_S1_TE_TSS_map_and_enrichment.xlsx:
+      subject: The TE-TSS map and the enrichment statistics
+      size_mb: 6.96
+      n_sheets: 4
+      sheets:
+        TSS_TE_intersections: 38704
+        enrichment_classes: 6
+        enrichment_families: 44
+        enrichment_subfamilies: 1143
+      columns_dropped_for_excel:
+    File_S2_gene_sets.xlsx:
+      subject: The foreground gene sets used for GO enrichment
+      size_mb: 0.93
+      n_sheets: 3
+      sheets:
+        by_TE_group: 9708
+        by_divergence: 12226
+        by_family: 26551
+      columns_dropped_for_excel:
+    File_S3_gene_ontology.xlsx:
+      subject: Gene Ontology enrichment at FDR < 0.05
+      size_mb: 0.23
+      n_sheets: 3
+      sheets:
+        GO_TE_groups: 425
+        GO_by_divergence: 414
+        GO_by_family: 140
+      columns_dropped_for_excel:
+        GO_TE_groups:
+          - Full Term Gene List
+        GO_by_divergence:
+          - Full Term Gene List
+        GO_by_family:
+          - Full Term Gene List
+    File_S4_IFNA_domain_and_prior_work.xlsx:
+      subject: The interferon-alpha domain, the assembly bound, and the overlap with prior work
+      size_mb: 0.22
+      n_sheets: 7
+      sheets:
+        IFNA_elements: 175
+        IFNA_tests: 4
+        IFNA_subfamily_composition: 36
+        assembly_bound: 75
+        prior_work_overlap_matrix: 33
+        prior_work_categories: 5960
+        prior_work_shared_genes: 2195
+      columns_dropped_for_excel:
+    File_S5_sensitivity_and_robustness.xlsx:
+      subject: Window-size, percentile and GO-grid sensitivity analyses
+      size_mb: 0.39
+      n_sheets: 13
+      sheets:
+        window_classes: 18
+        window_families: 131
+        window_concordance: 6
+        window_flips: 11
+        percentile_summary: 28
+        percentile_terms: 1046
+        geneset_stability: 21
+        rank_stability: 21
+        GO_grid_index: 18
+        GO_grid_preservation: 18
+        GO_grid_terms: 4996
+        GO_grid_concordance: 15
+        headline_by_condition: 9
+      columns_dropped_for_excel:
+  total_size_mb: 8.72
+

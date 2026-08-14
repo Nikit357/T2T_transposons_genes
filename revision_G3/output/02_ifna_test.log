@@ -1,0 +1,77 @@
+IFNA domain: chr9:21,150,692-21,370,055  (219,363 bp)
+
+All TEs in the window          : 175
+L1 elements                    : 77 (44 % of all TEs)
+
+Family composition:
+  L1               77
+  Alu              33
+  L2               15
+  MIR              13
+  hAT-Charlie      11
+  ERV1             10
+  ERVL-MaLR        6
+  MULE-MuDR        3
+  TcMar-Tigger     2
+  PiggyBac         1
+  hAT-Blackjack    1
+  ERVK             1
+  RTE-BovB         1
+  5S-Deu-L2        1
+
+Genes with a TSS neighbourhood overlapping the domain: 12
+  IFNA10, IFNA14, IFNA16, IFNA17, IFNA21, IFNA22P, IFNA4, IFNA5, IFNA6, IFNA7, IFNW1, KLHL9
+
+QC: L1 elements with divergence 0 in the window: 1
+  L1P3 at chr9:21,356,054-21,362,200 (6,146 bp) — implausible for this clade, see caveat C7
+  genome-wide L1 with divergence 0: 545 of 565,459 (0.0964 %)
+
+Mean divergence of the 77 domain L1 elements : 135.7
+  excluding the divergence-0 element (n=76)   : 137.5
+  excluding the 5 youngest (n=72)        : 143.8
+Genome-wide L1 mean divergence (565,459 elements) : 188.2  (median 197)
+
+L1 density in the window : 351 / Mb
+L1 density genome-wide   : 181 / Mb  (1.9x)
+
+Distinct L1 subfamilies in the window: 36
+  L1M2c, L1M3, L1M4, L1MA1, L1MA2, L1MA3, L1MA4A, L1MA5A, L1MA6, L1MA9, L1MB2, L1MC, L1MC3, L1MC4a, L1MCb, L1MD3, L1ME3A, L1ME4b, L1ME4c, L1MEf, L1P1, L1P3, L1P4e, L1P5, L1PA10, L1PA14, L1PA15, L1PA2, L1PA3, L1PA4, L1PA5, L1PA6, L1PA7, L1PA8, L1PB, L1PREC2
+
+Youngest elements (lowest divergence):
+  L1P3         div    0  chr9:21,356,054-21,362,200
+  L1PA3        div   19  chr9:21,232,360-21,238,516
+  L1PA2        div   24  chr9:21,260,607-21,266,760
+  L1P1         div   25  chr9:21,156,840-21,162,995
+  L1PA4        div   28  chr9:21,311,433-21,317,590
+  L1PA3        div   33  chr9:21,230,326-21,237,246
+  L1PA5        div   37  chr9:21,299,006-21,305,161
+  L1PA4        div   39  chr9:21,152,059-21,158,215
+
+Drawing 120,000 random 219 kb autosomal windows (seed 42) ...
+  windows with >= 1 L1                    : 114,182
+  windows with >= 40 L1                   : 66,553
+  windows with >= 10 genes and >= 1 L1     : 3,582
+
+Test 4 — subfamily composition (2x2 Fisher exact, two-sided, raw p):
+  domain      : 38 young primate-specific L1, 39 old L1M*
+  rest of genome: 133,450 young, 412,209 old
+  odds ratio 3.010, p = 3.21e-06
+
+Robustness of the divergence result (test 2's null):
+  all 77 elements                mean  135.7  empirical p = 0.0061  (n = 77)
+  excluding the div=0 element    mean  137.5  empirical p = 0.0072  (n = 76)
+  excluding the 5 youngest       mean  143.8  empirical p = 0.0142  (n = 72)
+  leave-one-out mean range      : 132.7 - 137.5 (all below the null mean 189.2: True)
+
+==============================================================================
+Test results
+==============================================================================
+                              test  observed  null_mean  null_sd  z_score  empirical_p_two_sided  n_null_windows
+           T1_divergence_unmatched     135.7      189.4    23.59   -2.276                 0.0224           1e+04
+    T2_divergence_L1_count_matched     135.7      189.2    17.42   -3.074               0.006099           1e+04
+T3_divergence_gene_density_matched     135.7      204.5    22.83   -3.015               0.001675            3582
+          T4_subfamily_composition      3.01     0.3237      NaN      NaN              3.207e-06             NaN
+
+Wrote ifna_window_elements.csv, ifna_test_results.csv,
+      ifna_null_distributions.csv, ifna_subfamily_composition.csv,
+      ifna_null_pool.csv, ifna_qc.json

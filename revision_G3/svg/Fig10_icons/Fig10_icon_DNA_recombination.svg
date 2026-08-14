@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>DNA recombination</title>
+  <desc>Two homologous chromatids crossing over at a chiasma; the break in one strand shows they
+        are separate molecules exchanging arms.</desc>
+  <!-- chromatid A, top-left to bottom-right, continuous -->
+  <path d="M18 3 V 22 C 18 31, 46 33, 46 42 V 61"/>
+  <!-- chromatid B, top-right to bottom-left, interrupted where A crosses over it -->
+  <path d="M46 3 V 21 C 46 26, 43 28.5, 40 29.5"/>
+  <path d="M24 34.5 C 21 35.5, 18 37, 18 43 V 61"/>
+</svg>

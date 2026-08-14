@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     fill="none" stroke="#000000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Metals metabolism</title>
+  <desc>Metal ions crossing a membrane through an ion channel or transporter.</desc>
+  <!-- membrane, interrupted by the channel -->
+  <path d="M2 22 H 19"/>
+  <path d="M45 22 H 62"/>
+  <path d="M2 42 H 19"/>
+  <path d="M45 42 H 62"/>
+  <!-- channel: two membrane-spanning helices with an open pore between them -->
+  <rect x="19" y="16" width="7" height="32" rx="3.5" stroke-width="3"/>
+  <rect x="38" y="16" width="7" height="32" rx="3.5" stroke-width="3"/>
+  <!-- metal ions in transit: above the membrane, inside the pore, released below -->
+  <circle cx="32" cy="6" r="3.5" fill="#000000" stroke="none"/>
+  <circle cx="32" cy="31" r="3.5" fill="#000000" stroke="none"/>
+  <circle cx="32" cy="56" r="3.5" fill="#000000" stroke="none"/>
+</svg>

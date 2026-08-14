@@ -1,0 +1,9 @@
+Window        : 20kb  (windows_20kb.bed, 38704 intervals)
+Repeats       : T2T_repeat_masker_processed_sorted.bed  (3709429 intervals)
+Permutations  : 500
+Parallelism   : 8 jobs
+Output        : /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/revision_G3/output/permutation_counts_20kb
+
+
+Finished 500 seed files in 1092 s
+135M	/home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/revision_G3/output/permutation_counts_20kb

@@ -1,0 +1,10 @@
+level,group,term_name,fdr_5pct,survives_5pct,fdr_10pct,survives_10pct,verdict
+classes_divergence,LINE,type I interferon receptor binding,0.0005028581468689,True,0.0068224750187664,True,survives both
+classes_divergence,LINE,olfactory receptor activity,4.755612362386049e-15,True,3.656926874459842e-31,True,survives both
+families,SVA,termination of RNA polymerase II transcription,0.0202647454872782,True,0.0202647454872782,True,survives both
+families,L1,flavone metabolic process,0.0308576418536871,True,0.0272089623352263,True,survives both
+families,MIR,cellular response to zinc ion,0.0056447500549249,True,0.0178932213193779,True,survives both
+families,MIR,intracellular zinc ion homeostasis,0.014418368904208,True,0.0032997045412475,True,survives both
+families,hAT-Charlie,MHC class I protein complex,0.0254881874152267,True,,False,5 % only
+classes_count,LINE,olfactory receptor activity,6.911334305508483e-10,True,1.8305651637432896e-12,True,survives both
+classes_count,SINE,"mRNA splicing, via spliceosome",0.002501456379493,True,6.088011599826534e-08,True,survives both

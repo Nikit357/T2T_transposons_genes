@@ -1,0 +1,100 @@
+{
+  "check": "streaming pipeline vs published 10 kb background",
+  "byte_identical": false,
+  "byte_identical_expected": false,
+  "reason_not_byte_identical": "bedtools shuffle's RNG stream differs between builds; the December 2025 run used a different binary. Inputs are md5/interval-identical and the current binary is deterministic on repeat invocation.",
+  "n_legacy": 500,
+  "n_rerun": 50,
+  "smd_tolerance": 0.5,
+  "divergence_ks": {
+    "D": 0.00031285129280261836,
+    "p": 0.1401793930093772
+  },
+  "per_class": [
+    {
+      "group": "DNA",
+      "legacy_mean": 60997.862,
+      "legacy_sd": 323.17355902751234,
+      "rerun_mean": 61047.16,
+      "rerun_sd": 363.257504662846,
+      "abs_diff": 49.2980000000025,
+      "smd_legacy_sd": 0.1525434201620612,
+      "mannwhitney_p": 0.4235078731417079,
+      "ks_p": 0.15830927706115122,
+      "equivalent": true
+    },
+    {
+      "group": "LINE",
+      "legacy_mean": 189291.772,
+      "legacy_sd": 594.0967074573157,
+      "rerun_mean": 189254.54,
+      "rerun_sd": 600.4845053991734,
+      "abs_diff": 37.23199999998906,
+      "smd_legacy_sd": 0.06266993156608948,
+      "mannwhitney_p": 0.5574643887522945,
+      "ks_p": 0.7234971110740552,
+      "equivalent": true
+    },
+    {
+      "group": "LTR",
+      "legacy_mean": 73087.758,
+      "legacy_sd": 374.0773170271467,
+      "rerun_mean": 73038.56,
+      "rerun_sd": 358.1590776428251,
+      "abs_diff": 49.19800000000396,
+      "smd_legacy_sd": 0.13151826577186895,
+      "mannwhitney_p": 0.6380623447420688,
+      "ks_p": 0.8671255527449785,
+      "equivalent": true
+    },
+    {
+      "group": "RC",
+      "legacy_mean": 249.704,
+      "legacy_sd": 21.890517891249036,
+      "rerun_mean": 246.22,
+      "rerun_sd": 17.820293407877916,
+      "abs_diff": 3.484000000000009,
+      "smd_legacy_sd": 0.15915566809832188,
+      "mannwhitney_p": 0.16172848804900297,
+      "ks_p": 0.2803814428318085,
+      "equivalent": true
+    },
+    {
+      "group": "Retroposon",
+      "legacy_mean": 899.89,
+      "legacy_sd": 41.43611713960678,
+      "rerun_mean": 901.52,
+      "rerun_sd": 35.96099928238584,
+      "abs_diff": 1.6299999999999955,
+      "smd_legacy_sd": 0.039337662708795594,
+      "mannwhitney_p": 0.9371346541474468,
+      "ks_p": 0.4577095648060849,
+      "equivalent": true
+    },
+    {
+      "group": "SINE",
+      "legacy_mean": 218446.138,
+      "legacy_sd": 654.7830852530225,
+      "rerun_mean": 218440.34,
+      "rerun_sd": 632.5903213722745,
+      "abs_diff": 5.798000000009779,
+      "smd_legacy_sd": 0.00885484083292913,
+      "mannwhitney_p": 0.9367662432066176,
+      "ks_p": 0.9831224907876134,
+      "equivalent": true
+    },
+    {
+      "group": "ALL",
+      "legacy_mean": 542973.124,
+      "legacy_sd": 1048.924910353033,
+      "rerun_mean": 542928.34,
+      "rerun_sd": 984.297959907238,
+      "abs_diff": 44.7839999999851,
+      "smd_legacy_sd": 0.04269514391160021,
+      "mannwhitney_p": 0.9694744760331615,
+      "ks_p": 0.9619904059979321,
+      "equivalent": true
+    }
+  ],
+  "passed": true
+}

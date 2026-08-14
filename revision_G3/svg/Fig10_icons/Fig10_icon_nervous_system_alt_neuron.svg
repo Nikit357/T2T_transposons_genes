@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     fill="none" stroke="#000000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Nervous system (alternative: neuron)</title>
+  <desc>Neuron: soma with dendrites, axon and axon terminals.</desc>
+  <circle cx="20" cy="32" r="8"/>
+  <!-- dendrites -->
+  <path d="M14 26 L5 18" stroke-width="2.5"/>
+  <path d="M13 34 L3 33" stroke-width="2.5"/>
+  <path d="M16 39 L9 47" stroke-width="2.5"/>
+  <path d="M22 24 L20 12" stroke-width="2.5"/>
+  <!-- axon -->
+  <path d="M28 32 H 51"/>
+  <!-- axon terminals -->
+  <path d="M51 32 L59 24" stroke-width="2.5"/>
+  <path d="M51 32 L60 32" stroke-width="2.5"/>
+  <path d="M51 32 L59 40" stroke-width="2.5"/>
+</svg>

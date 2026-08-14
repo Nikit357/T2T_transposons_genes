@@ -1,0 +1,310 @@
+Loaded TEs_on_genes.csv: 38,704 TSS windows, 28,738 distinct genes
+nesting check: 5 % sets are strict prefixes of the 10 % sets (1,436 -> 2,872 genes)
+Deriving per-family counts from TE_families ...
+
+=== level: classes_count at top/bottom 10 % ===
+Loading GO DAG from /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/go-basic.obo ...
+/home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/go-basic.obo: fmt(1.2) rel(2025-10-10) 42,666 Terms
+Loading human GO annotations from /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/goa_human.gaf ...
+HMS:0:00:20.332418 972,437 annotations READ: /home/jovyan/Projects/Retroelements/T2T_genes_article/T2T_transposons_genes/goa_human.gaf 
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LINE                          2,872 genes ->   18 terms at FDR<0.1,   12 at FDR<0.05   (30.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LTR                           2,872 genes ->   71 terms at FDR<0.1,   51 at FDR<0.05   (9.3 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  SINE                          2,872 genes ->  119 terms at FDR<0.1,   93 at FDR<0.05   (8.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  DNA                           2,872 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TE_top                        2,872 genes ->   90 terms at FDR<0.1,   44 at FDR<0.05   (8.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TE_bottom                     2,872 genes ->  722 terms at FDR<0.1,  579 at FDR<0.05   (8.8 s)
+  wrote GO_classes_count_p10_fdr01_reference.csv and GO_classes_count_p10_fdr005.csv
+
+=== level: classes_divergence at top/bottom 10 % ===
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LINE / highest                2,745 genes ->   36 terms at FDR<0.1,   28 at FDR<0.05   (8.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LINE / lowest                 2,745 genes ->   37 terms at FDR<0.1,   27 at FDR<0.05   (8.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LTR / highest                 1,811 genes ->    9 terms at FDR<0.1,    8 at FDR<0.05   (8.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  LTR / lowest                  1,811 genes ->    3 terms at FDR<0.1,    2 at FDR<0.05   (8.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  SINE / highest                2,792 genes ->  290 terms at FDR<0.1,  211 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  SINE / lowest                 2,792 genes ->   12 terms at FDR<0.1,   11 at FDR<0.05   (8.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  DNA / highest                 2,030 genes ->    1 terms at FDR<0.1,    1 at FDR<0.05   (8.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  DNA / lowest                  2,030 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TE_all / highest              2,850 genes ->  428 terms at FDR<0.1,  312 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TE_all / lowest               2,850 genes ->   40 terms at FDR<0.1,   32 at FDR<0.05   (9.2 s)
+  wrote GO_classes_divergence_p10_fdr01_reference.csv and GO_classes_divergence_p10_fdr005.csv
+
+=== level: families at top/bottom 10 % ===
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  I-Jockey / LINE                  15 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tigger / DNA            2,873 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (8.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Kolobok / DNA                    26 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT / DNA                       220 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tag1 / DNA                  225 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  MULE-MuDR / DNA                 156 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVL / LTR                    2,873 genes ->   25 terms at FDR<0.1,   22 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA-RTE / SINE                 437 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Pogo / DNA                  3 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tip100 / DNA              2,873 genes ->   20 terms at FDR<0.1,    3 at FDR<0.05   (9.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVK / LTR                      906 genes ->    3 terms at FDR<0.1,    3 at FDR<0.05   (7.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Penelope / LINE                 103 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L1-Tx1 / LINE                    12 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERVL-MaLR / LTR               2,873 genes ->   25 terms at FDR<0.1,   24 at FDR<0.05   (9.2 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Gypsy / LTR                   1,205 genes ->    6 terms at FDR<0.1,    6 at FDR<0.05   (7.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  PiggyBac / DNA                  150 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Mariner / DNA           1,219 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (7.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  RTE-BovB / LINE                 659 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-hAT19 / DNA                   1 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L2 / LINE                     2,873 genes ->    2 terms at FDR<0.1,    2 at FDR<0.05   (8.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT? / DNA                        3 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Crypton-A / DNA                   8 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA-Deu / SINE                  47 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tc1 / DNA                  96 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.9 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  CR1 / LINE                    2,873 genes ->   28 terms at FDR<0.1,   23 at FDR<0.05   (9.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Tip100? / DNA                 4 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Ac / DNA                    425 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Alu / SINE                    2,873 genes ->  151 terms at FDR<0.1,  126 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Charlie / DNA             2,873 genes ->    4 terms at FDR<0.1,    4 at FDR<0.05   (9.3 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  5S-Deu-L2 / SINE                246 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Crypton / DNA                    18 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  PIF-Harbinger / DNA              14 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  MIR / SINE                    2,873 genes ->   38 terms at FDR<0.1,   26 at FDR<0.05   (9.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  RTE-X / LINE                  1,204 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (7.6 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  L1 / LINE                     2,873 genes ->   55 terms at FDR<0.1,   46 at FDR<0.05   (9.3 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  ERV1 / LTR                    2,873 genes ->   43 terms at FDR<0.1,   31 at FDR<0.05   (9.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Merlin / DNA                      9 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Helitron / RC                   130 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.0 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  SVA / Retroposon                962 genes ->    6 terms at FDR<0.1,    5 at FDR<0.05   (7.4 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  tRNA / SINE                     182 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.1 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  Dong-R4 / LINE                   57 genes ->    1 terms at FDR<0.1,    0 at FDR<0.05   (5.8 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar-Tc2 / DNA                 563 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (6.5 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  TcMar / DNA                      14 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (5.7 s)
+
+Load  Ontology Enrichment Analysis ...
+ 66% 18,930 of 28,738 population items found in association
+  hAT-Blackjack / DNA           1,543 genes ->    0 terms at FDR<0.1,    0 at FDR<0.05   (7.9 s)
+  wrote GO_families_p10_fdr01_reference.csv and GO_families_p10_fdr005.csv
+
+Wrote percentile_sensitivity_{summary,terms,headline}.csv
+==============================================================================
+GO term stability, published top/bottom 5 % vs. 10 %, FDR < 0.05
+==============================================================================
+
+classes_count: 6 groups, 5 percentile-dependent
+  terms at  5 %: 425
+  terms at 10 %: 779
+  median Jaccard (percentile-dependent groups): 0.377
+  median fraction of 5 % terms preserved:       0.933
+  least stable groups:
+    TE_top                   J = 0.311  (15 -> 44 terms, 1 lost, 30 gained)
+    SINE                     J = 0.316  (32 -> 93 terms, 2 lost, 63 gained)
+    LTR                      J = 0.377  (22 -> 51 terms, 2 lost, 31 gained)
+    LINE                     J = 0.500  (6 -> 12 terms, 0 lost, 6 gained)
+    TE_bottom                J = 0.502  (345 -> 579 terms, 36 lost, 270 gained)
+
+classes_divergence: 9 groups, 9 percentile-dependent
+  terms at  5 %: 414
+  terms at 10 %: 632
+  median Jaccard (percentile-dependent groups): 0.424
+  median fraction of 5 % terms preserved:       0.846
+  least stable groups:
+    DNA / highest            J = 0.000  (0 -> 1 terms, 0 lost, 1 gained)
+    LTR / lowest             J = 0.000  (1 -> 2 terms, 1 lost, 2 gained)
+    SINE / lowest            J = 0.000  (2 -> 11 terms, 2 lost, 11 gained)
+    LINE / highest           J = 0.276  (9 -> 28 terms, 1 lost, 20 gained)
+    TE_all / lowest          J = 0.424  (15 -> 32 terms, 1 lost, 18 gained)
+
+families: 13 groups, 10 percentile-dependent
+  terms at  5 %: 140
+  terms at 10 %: 321
+  median Jaccard (percentile-dependent groups): 0.293
+  median fraction of 5 % terms preserved:       0.868
+  least stable groups:
+    hAT-Tip100               J = 0.000  (1 -> 3 terms, 1 lost, 3 gained)
+    hAT-Charlie              J = 0.200  (2 -> 4 terms, 1 lost, 3 gained)
+    Alu                      J = 0.217  (31 -> 126 terms, 3 lost, 98 gained)
+    ERV1                     J = 0.237  (16 -> 31 terms, 7 lost, 22 gained)
+    CR1                      J = 0.261  (6 -> 23 terms, 0 lost, 17 gained)
+
+------------------------------------------------------------------------------
+Headline claims at both percentiles:
+  LINE           type I interferon receptor binding               5 %  0.0005029   10 %   0.006822   survives both
+  LINE           olfactory receptor activity                      5 %  4.756e-15   10 %  3.657e-31   survives both
+  SVA            termination of RNA polymerase II transcription   5 %    0.02026   10 %    0.02026   survives both
+  L1             flavone metabolic process                        5 %    0.03086   10 %    0.02721   survives both
+  MIR            cellular response to zinc ion                    5 %   0.005645   10 %    0.01789   survives both
+  MIR            intracellular zinc ion homeostasis               5 %    0.01442   10 %     0.0033   survives both
+  hAT-Charlie    MHC class I protein complex                      5 %    0.02549   10 %        n/a   5 % only
+  LINE           olfactory receptor activity                      5 %  6.911e-10   10 %  1.831e-12   survives both
+  SINE           mRNA splicing, via spliceosome                   5 %   0.002501   10 %  6.088e-08   survives both
+------------------------------------------------------------------------------

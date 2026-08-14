@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+1,GO:0004090,carbonyl reductase (NADPH) activity,MF,1.1021396529077252e-08,0.00020660709933408217,615.8142857142857,3,10,"['DHRS4', 'DHRS4L1', 'DHRS4L2']","['CBR1', 'CBR3', 'DCXR', 'DHRS1', 'DHRS2', 'DHRS4', 'DHRS4L1', 'DHRS4L2', 'DHRS7', 'KCNAB1']",LTR3,LTR
+0,GO:0042574,retinal metabolic process,BP,8.876805257034116e-08,0.0008320229567418077,324.11278195488717,3,19,"['DHRS4', 'DHRS4L1', 'DHRS4L2']","['ABCA4', 'AKR1C1', 'AKR1C3', 'ALDH1A2', 'ALDH1A3', 'ALDH8A1', 'BCO1', 'BCO2', 'CYP1B1', 'CYP27C1', 'DHRS4', 'DHRS4L1', 'DHRS4L2', 'RBP4', 'RDH10', 'RDH11', 'RDH13', 'RPE65', 'SDR16C5']",LTR3,LTR

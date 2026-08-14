@@ -1,0 +1,3 @@
+,Term ID,Term Name,Term Database,P-value,FDR,Fold Enrichment,Overlap Count,Total Term Genes (Human),Overlapping Genes,Full Term Gene List,subfamily_name,class_name
+0,GO:0018003,peptidyl-lysine N6-acetylation,BP,6.684071844443687e-07,0.012529961079594134,1197.4166666666665,2,2,"['NAT8', 'NAT8B']","['NAT8', 'NAT8B']",PrimLTR79,LTR
+1,GO:0004468,"L-lysine N-acetyltransferase activity, acting on acetyl phosphate as donor",MF,1.0005655549797555e-05,0.09378300946825248,399.13888888888886,2,6,"['NAT8', 'NAT8B']","['ATAT1', 'EP300', 'ESCO2', 'KAT2B', 'NAT8', 'NAT8B']",PrimLTR79,LTR

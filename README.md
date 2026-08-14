@@ -1,6 +1,26 @@
 # T2T_transposons_genes. Supplementary repository for the article:
 
-## Evolutionary arms race between transposable elements and human genes: telomere-to-telomere genome co-mapping identifies young L1 clusters in the interferon-alpha domain
+## Telomere-to-telomere co-mapping of transposable elements and human genes identifies a cluster of young L1 elements in the interferon-alpha domain
+
+**Conditionally accepted at *G3: Genes|Genomes|Genetics* (manuscript G3-2026-406828).**
+Preprint: [10.32942/X2FM2M](https://doi.org/10.32942/X2FM2M).
+
+- **How to re-run any of this:** [`REPRODUCE.md`](REPRODUCE.md) — the exact order from a clean
+  checkout, resolved paths, and how to obtain the four large inputs the repository does not carry.
+- **Revision materials:** [`revision_G3/`](revision_G3/) — the scripts, notebooks, tables and
+  manuscript files produced for the G3 revision. See its
+  [`README.md`](revision_G3/README.md) for the layout.
+- **Genome browser:** the TE annotation, the TSS 10 kb windows, the TE-top and TE-bottom gene sets
+  and the interferon-alpha domain are available as a UCSC track hub on `hs1`
+  (T2T-CHM13v2.0), coloured to match the figures:
+  [open at the interferon-alpha domain](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hs1&hubUrl=https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt&position=chr9:21150692-21370055).
+  Hub URL: `https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt`
+- **Archival snapshot:** Zenodo DOI *(to be minted at publication)*.
+
+> The permutation background is published for the first time in this revision: 500 per-seed count
+> files with a `MANIFEST.json` and the `revision_G3/01c_expand_counts.py` reconstructor, in
+> `revision_G3/output/permutation_counts_10kb/`. Every enrichment value in the paper is the ratio
+> of an observed to a random odds ratio, and that random odds ratio is now checkable.
 
 
 Data and code for the T2T-CHM13 analysis of TE-gene proximity. Features proximity mapping for 3.7M TEs across 28k genes, enrichment statistics for 44 families, and GO functional networks. Includes Jupyter notebooks for the IFNA cluster arms race and regulatory innovation analysis.
@@ -18,7 +38,7 @@ The repository is organized into several key components: the core processing not
 - Gene_ontology_analysis.ipynb: Performs functional enrichment analysis using goatools to link specific TE groups to biological processes.
 
 ### 2. Scripts & Frameworks
-- run_permutation_test.sh: Bash script for executing the 1,000x random shuffling of TEs to establish a statistical background.
+- run_permutation_test.sh: Bash script for the random shuffling of TEs that establishes the statistical background. **N = 500 permutations were run** — the generator notebook contains a `NUM_PERMUTATIONS = 1000` line that was never executed at that value; see `REPRODUCE.md` §10.
 - draw_length_divergence_corr.py: Python script for generating correlations between TE evolutionary age (divergence) and sequence length.
 - genes_subfamilies_network.py: Implementation of network analysis using networkx to visualize the "Ring of Power" functional co-associations.
 - GO_subfamilies.py: Specialized script for processing subfamily-specific functional enrichments.
