@@ -13,6 +13,11 @@ Transposable elements (TEs) have played a central role in major evolutionary tra
 ## Repository Structure
 
 The repository is organized into several key components: the core processing notebooks, specialized scripts for visualization and network analysis, and a comprehensive collection of epigenomic and Gene Ontology (GO) data.
+
+The repository contains also revision history with the revision-specific scripts and notebooks under revision_G3/ and a REPRODUCE.md giving the exact run order and resolved paths.
+Tables of TE-gene intersections, including divergence and family-level enrichment statistics, have been deposited in the same GitHub repository.Tables of TE-gene intersections, including divergence and family-level enrichment statistics, are deposited in the same repository. Specifically: TEs_on_genes.csv and TEs_on_genes_counts_subfamilies.csv hold the per-gene intersections; enrichment_families_with_random.csv and enrichment_subfamilies_with_random.csv hold the class, family and subfamily enrichment statistics with both raw and FDR-adjusted p-values; File S1, sheet enrichment_classes holds the unadjusted Fisher p-values omitted from Table 2; the GO_tables directory holds the Gene Ontology results with both P-value and FDR columns; and revision_G3/output/ holds the window and percentile sensitivity tables, the interferon-alpha domain test results and the gene-set overlap matrix. The 500-permutation background is published as a compacted per-seed count store with a MANIFEST.json and the 01c_expand_counts.py reconstructor, so the random background is reproducible without re-running bedtools shuffle. The Gene Ontology annotation file goa_human.gaf is not redistributed because of its size; download instructions are in REPRODUCE.md.
+<img width="468" height="235" alt="image" src="https://github.com/user-attachments/assets/c5b9340d-87fe-4cf5-9ad0-baefe66e3e2e" />
+
 ### 1. Core Analysis & Notebooks
 
 - download_and_process_files_UCSC_genes.ipynb: Initial pipeline for acquiring T2T RefSeq gene annotations and preparing genomic intervals.
