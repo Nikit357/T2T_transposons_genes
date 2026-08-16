@@ -157,7 +157,15 @@ python revision_G3/11_results_numbers.py                         # every number 
 
 # --- Phase 6: deliverable ---------------------------------------------------
 bash revision_G3/12_build_trackhub.sh                            # bigBeds + hub, ~1 h
+bash revision_G3/12b_publish_trackhub.sh --push                  # -> origin/gh-pages
+bash revision_G3/12c_verify_trackhub_live.sh                     # only after Pages is enabled
 ```
+
+**The hub is live only after GitHub Pages is enabled**, which is a one-time manual step on the
+`gh-pages` branch that only the repository owner can take (*Settings → Pages → Deploy from a branch
+→ `gh-pages`, `/ (root)`*). Until then the URL the manuscript prints returns 404 no matter how many
+times the branch is pushed — that was the state of things on 2026-08-14, diagnosed in
+`../trackhub_ghpages_plan_260814.md`.
 
 **The working manuscript changed on 2026-08-04, and with it how these two scripts behave.** Daniil
 edited the revision by hand and **accepted 594 of the 1,124 tracked deletions**, so
@@ -236,6 +244,8 @@ revision_G3/
   10_tables.py                       Table1.csv + Table2.csv (reformat; values unchanged)
   11_results_numbers.py              re-derives every number the revised manuscript quotes
   12_build_trackhub.sh               bigBeds + hub.txt/genomes.txt/trackDb.txt + hubCheck
+  12b_publish_trackhub.sh            publish trackhub/ to gh-pages; the push is behind --push
+  12c_verify_trackhub_live.sh        live hub check: 200, 206, bigBed magic, sizes vs MANIFEST.json
   13_manuscript_tracked_edits.py     Phase 5 D-K, all as tracked changes; citation-safe
   15_house_style.py                  Phase 7 G3 house style; MUST run after 13
   14_build_extensive_discussion.py   Extensive_discussion_260803.docx by copy-and-delete
@@ -265,7 +275,13 @@ revision_G3/
     permutation_counts_20kb/         new N=500 background
   svg/                               one SVG per panel, for manual Figma placement
     PLACEMENT.md                     SVG -> Figma frame ID + panel position
+  trackhub/                          the built hs1 hub, 105 MB, gitignored; published to gh-pages
 ```
+
+The repository root additionally carries `.github/workflows/`: `verify-trackhub.yml` (manual
+dispatch plus a weekly link-rot check of the published hub) and `deploy-trackhub.yml` (dormant;
+only needed if Pages is ever switched to the "GitHub Actions" source). Neither builds the hub —
+building needs the 155 MB gitignored RepeatMasker BED and UCSC's `bedToBigBed`.
 
 ## 7. Environment decisions
 

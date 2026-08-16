@@ -15,6 +15,9 @@ Preprint: [10.32942/X2FM2M](https://doi.org/10.32942/X2FM2M).
   (T2T-CHM13v2.0), coloured to match the figures:
   [open at the interferon-alpha domain](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hs1&hubUrl=https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt&position=chr9:21150692-21370055).
   Hub URL: `https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt`
+  Landing page: <https://nikit357.github.io/T2T_transposons_genes/>. If the hub fails to load,
+  it is verified weekly by [`.github/workflows/verify-trackhub.yml`](.github/workflows/verify-trackhub.yml);
+  the last report is the workflow's `trackhub-live-check` artifact.
 - **Archival snapshot:** Zenodo DOI *(to be minted at publication)*.
 
 > The permutation background is published for the first time in this revision: 500 per-seed count

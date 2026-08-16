@@ -275,24 +275,44 @@ Two expected messages:
   how many.
 
 The hub is **not** tracked on the main branch — it is published to `gh-pages`, so that a
-clone does not carry 105 MB twice:
+clone does not carry 105 MB twice. Publishing and verifying are scripted:
 
 ```bash
-git switch --orphan gh-pages        # first time only
-cp -r revision_G3/trackhub .
-git add trackhub && git commit -m "Publish T2T TE track hub"
-git push -u origin gh-pages
-git switch g3-revision
+bash revision_G3/12b_publish_trackhub.sh            # preflight + stage; prints the push command
+bash revision_G3/12b_publish_trackhub.sh --push     # publish to origin/gh-pages
 ```
 
-GitHub Pages is required rather than Zenodo because UCSC needs HTTP range requests. Verify
-after publishing:
+`12b` refuses to publish a hub that would not load: it checks the file inventory, reads the
+bigBed magic number out of every `.bb`, enforces the 100 MB per-file and 1 GB per-site limits,
+insists that `bigDataUrl` values stay relative, and writes `MANIFEST.json` + `CHECKSUMS.md5`
+next to the hub.
+
+**One manual step, once, and only the repository owner can do it.** GitHub Pages has to be
+switched on: *Settings → Pages → Build and deployment → Source: Deploy from a branch →
+Branch `gh-pages`, folder `/ (root)` → Save*. Equivalent API call, with a token carrying
+`administration:write` and `pages:write`:
 
 ```bash
-curl -sI -H 'Range: bytes=0-99' \
-  https://nikit357.github.io/T2T_transposons_genes/trackhub/hs1/TEs_LINE.bb | head -1
-# expect: HTTP/2 206
+curl -X POST -H "Authorization: Bearer $GH_TOKEN" \
+     -H "Accept: application/vnd.github+json" \
+     https://api.github.com/repos/Nikit357/T2T_transposons_genes/pages \
+     -d '{"source":{"branch":"gh-pages","path":"/"}}'
 ```
+
+GitHub Pages is required rather than Zenodo because UCSC needs HTTP range requests. The first
+build takes a minute or two; watch it under the repository's Actions tab as
+`pages-build-deployment`. Then verify:
+
+```bash
+bash revision_G3/12c_verify_trackhub_live.sh
+```
+
+This is stronger than a status check. For every bigBed it requests bytes 0–3 and asserts they
+are the bigBed magic number `eb f2 89 87`, so it proves the host honours byte ranges without
+transcoding the payload — which is the property UCSC actually requires, and the only thing that
+cannot be tested before publication. The same script runs weekly in
+`.github/workflows/verify-trackhub.yml`, so a future 404 is caught rather than reported by a
+reader.
 
 One-click load, opening at the interferon-alpha domain:
 

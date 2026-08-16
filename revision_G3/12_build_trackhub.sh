@@ -122,7 +122,7 @@ html TSS_10kb_windows
 track genes_TE_top
 bigDataUrl genes_TE_top.bb
 shortLabel TE-top genes
-longLabel The 1,436 genes with the highest TE count in their TSS 10 kb neighbourhood (top 5 percent)
+longLabel The 1,436 genes with the highest TE count in their TSS 10 kb neighbourhood (top 5 percent), shown as their 2,075 TSS windows
 type bigBed 9 .
 itemRgb on
 visibility pack
@@ -132,7 +132,7 @@ html genes_TE_top
 track genes_TE_bottom
 bigDataUrl genes_TE_bottom.bb
 shortLabel TE-bottom genes
-longLabel The 1,436 genes with the lowest TE count in their TSS 10 kb neighbourhood (bottom 5 percent)
+longLabel The 1,436 genes with the lowest TE count in their TSS 10 kb neighbourhood (bottom 5 percent), shown as their 2,271 TSS windows
 type bigBed 9 .
 itemRgb on
 visibility pack
@@ -237,8 +237,15 @@ else
 fi
 
 echo
-echo "=== 5. one-click URL ==="
+echo "=== 5. one-click URL (works only once the hub is published) ==="
 echo "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hs1&hubUrl=$HUB_URL_BASE/hub.txt&position=chr9:21150692-21370055"
 echo
 du -sh "$OUT"
 echo "built -> $OUT"
+echo
+echo "=== 6. publish ==="
+echo "  This directory is gitignored on the analysis branch. Nothing is public until it is"
+echo "  pushed to gh-pages and GitHub Pages is enabled:"
+echo "    bash revision_G3/12b_publish_trackhub.sh            # preflight + stage, no push"
+echo "    bash revision_G3/12b_publish_trackhub.sh --push      # publish"
+echo "    bash revision_G3/12c_verify_trackhub_live.sh         # 200 + 206 + magic-number check"

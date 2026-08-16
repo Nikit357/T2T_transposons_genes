@@ -148,6 +148,8 @@ python revision_G3/11_results_numbers.py                    # every number the t
 
 # --- Phase 6: deliverable ----------------------------------------------------
 bash revision_G3/12_build_trackhub.sh                       # bigBeds + hub + hubCheck
+bash revision_G3/12b_publish_trackhub.sh --push             # -> origin/gh-pages (needs credentials)
+bash revision_G3/12c_verify_trackhub_live.sh                # after Pages is enabled
 ```
 
 Most scripts take `--summary` or `--report` to print their result without recomputing.
@@ -179,6 +181,9 @@ revision_lib.py                     shared helpers; AUTHORITATIVE for the revisi
 10_tables.py                        Table1.csv + Table2.csv (reformat; refuses if a value moves)
 11_results_numbers.py               re-derives every number the manuscript quotes
 12_build_trackhub.sh + 12a_…_beds.py  hs1 track hub: 10 bigBeds + trackDb + 11 description pages
+12b_publish_trackhub.sh             publish trackhub/ to gh-pages; --push gates the network step
+12c_verify_trackhub_live.sh         live hub check: 200, 206, bigBed magic, sizes vs MANIFEST.json
+../.github/workflows/               verify-trackhub.yml (dispatch + weekly), deploy-trackhub.yml (dormant)
 13_manuscript_tracked_edits.py      Phase 5 edits D–K, tracked, citation-safe, idempotent
 15_house_style.py                   Phase 7 G3 house style G2–G16; MUST run after 13
 14_build_extensive_discussion.py    Extensive_discussion docx by copy-and-delete
@@ -194,8 +199,23 @@ output/                             every derived table, log and QC JSON
                                     are TRACKED (55 MB), the 0.1 retrieval twins gitignored
   TEs_on_genes_{5,10,20}kb.csv      per-window gene tables, gitignored, regenerable by 07a
 svg/                                one SVG per panel + PLACEMENT.md
-trackhub/                           105 MB, gitignored; published to gh-pages
+trackhub/                           105 MB, gitignored; published to gh-pages by 12b
 ```
+
+## The UCSC track hub
+
+`12_build_trackhub.sh` builds the hs1 hub in `trackhub/`: one bigBed per TE class coloured with the
+project palette, the 38,704 TSS windows, the TE-top and TE-bottom gene sets, and the interferon-alpha
+domain. `12b_publish_trackhub.sh` publishes it to `gh-pages` (preflight, `.nojekyll`, landing page,
+`MANIFEST.json`, single-commit force-push; it does not push without `--push`) and
+`12c_verify_trackhub_live.sh` verifies the live site with a 200 + 206 + bigBed-magic-number check
+that also runs weekly in `../.github/workflows/verify-trackhub.yml`. **Publishing is what was missing
+until 2026-08-14: the branch had never been pushed and Pages had never been enabled, so the URL
+printed in the manuscript 404'd.** The published tree must keep `trackhub/` as a top-level directory,
+because the manuscript prints `.../trackhub/hub.txt`.
+
+The gene-set tracks hold **2,075** and **2,271** intervals, not 1,436: each gene is drawn as its TSS
+windows and a gene with several annotated TSS contributes several windows. Both `longLabel`s say so.
 
 ## `revision_lib.py`
 
@@ -517,7 +537,8 @@ Figure 3's A overlaps its y-axis tick `1.0`, and Figure 8C writes `3.2*10-6` whe
 `3.2 × 10-6`. `review_report_260810.md` §4 has the measured detail.
 
 Everything computational is done; the remainder is Daniil's, one action each — the three figure fixes
-above, publishing `trackhub/` to `gh-pages`,
+above, running `12b_publish_trackhub.sh --push`, enabling Pages on `gh-pages` (one click, owner
+only) and then `12c_verify_trackhub_live.sh`,
 the Zenodo DOI, the Mendeley style switch and preprint metadata, refreshing Mendeley in both docx
 files, deleting the 28 orphan citation paragraphs, adding the five missing prior-work citations
 (`review_report_260810.md` §3.2), the 10 browser-verify items, and the response letter plus

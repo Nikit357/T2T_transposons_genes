@@ -108,8 +108,11 @@ canvas carries the subfamilies paper's labels, so scope any Figma work **by node
 
 `revision_G3/12_build_trackhub.sh` builds a hs1 track hub from the canonical inputs: one bigBed per
 TE class coloured with the project palette, the 38,704 TSS windows, the TE-top and TE-bottom gene
-sets, and the interferon-alpha domain. It is gitignored on this branch and published to `gh-pages`,
-because UCSC requires HTTP range requests and carrying it twice would add 105 MB to every clone.
+sets, and the interferon-alpha domain. It is gitignored on this branch and published to `gh-pages` by
+`revision_G3/12b_publish_trackhub.sh`, then checked live by `12c_verify_trackhub_live.sh`. GitHub
+Pages must be enabled once by hand on the `gh-pages` branch; until that is done the URL the
+manuscript prints returns 404. Publishing on a separate branch is what keeps UCSC's HTTP range
+requests satisfied without adding 105 MB to every clone.
 
 ## Working Directory Gotchas (read this before running anything)
 
