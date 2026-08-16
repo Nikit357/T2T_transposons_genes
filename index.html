@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>T2T transposable elements and human genes — UCSC track hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font: 16px/1.55 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+         max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; color: #1c1c1c; }
+  code { background: #f2f2f2; padding: .1rem .3rem; border-radius: 3px; word-break: break-all; }
+  table { border-collapse: collapse; margin: 1rem 0; }
+  th, td { text-align: left; padding: .3rem .8rem .3rem 0; border-bottom: 1px solid #e6e6e6; }
+  .cta { display: inline-block; padding: .55rem 1rem; background: #cc660b; color: #fff;
+         text-decoration: none; border-radius: 4px; }
+</style>
+<h1>Transposable elements and human genes in T2T-CHM13v2.0</h1>
+<p>UCSC Genome Browser track hub accompanying Nikitin (2026), <i>G3: Genes|Genomes|Genetics</i>.
+Tracks are coloured with the same transposable-element class palette as the paper's figures.</p>
+
+<p><a class="cta" href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hs1&amp;hubUrl=https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt&amp;position=chr9:21150692-21370055">Open
+the interferon-alpha domain in the UCSC Genome Browser</a></p>
+
+<p>Hub URL, to paste into <i>My Data &rarr; Track Hubs &rarr; Connected Hubs</i>:<br>
+<code>https://nikit357.github.io/T2T_transposons_genes/trackhub/hub.txt</code></p>
+
+<h2>Tracks</h2>
+<table>
+<tr><th>Track</th><th>Contents</th></tr>
+<tr><td>T2T TEs by class</td><td>All 3,709,429 RepeatMasker elements, one subtrack per class
+(LINE, SINE, LTR, DNA, SVA, Helitron). Item name is the subfamily; item score is divergence in
+substitutions per 1000 bp (observed range 0&ndash;480; higher means older).</td></tr>
+<tr><td>TSS 10 kb windows</td><td>The 38,704 transcription start site neighbourhoods (5 kb either
+side of each TSS) that define proximity throughout the paper.</td></tr>
+<tr><td>TE-top / TE-bottom genes</td><td>The 1,436 genes with the highest and the lowest TE count in
+their TSS neighbourhood, shown as their TSS windows.</td></tr>
+<tr><td>IFNA domain</td><td>The 220 kb interferon-alpha domain, chr9:21,150,692&ndash;21,370,055.</td></tr>
+</table>
+
+<h2>Provenance</h2>
+<p>Built by <code>revision_G3/12_build_trackhub.sh</code> and published by
+<code>revision_G3/12b_publish_trackhub.sh</code> from
+<a href="https://github.com/Nikit357/T2T_transposons_genes">github.com/Nikit357/T2T_transposons_genes</a>.
+Per-file sizes and md5 checksums are in
+<a href="trackhub/MANIFEST.json">trackhub/MANIFEST.json</a>.</p>

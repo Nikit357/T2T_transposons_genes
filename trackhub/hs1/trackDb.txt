@@ -1,0 +1,109 @@
+track T2T_TEs
+compositeTrack on
+shortLabel T2T TEs by class
+longLabel Transposable elements in T2T-CHM13v2.0, split by RepeatMasker class
+type bigBed 9 .
+itemRgb on
+visibility dense
+priority 1
+html T2T_TEs
+
+    track TEs_LINE
+    parent T2T_TEs on
+    bigDataUrl TEs_LINE.bb
+    shortLabel LINE
+    longLabel LINE elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_LINE
+
+    track TEs_SINE
+    parent T2T_TEs on
+    bigDataUrl TEs_SINE.bb
+    shortLabel SINE
+    longLabel SINE elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_SINE
+
+    track TEs_LTR
+    parent T2T_TEs on
+    bigDataUrl TEs_LTR.bb
+    shortLabel LTR
+    longLabel LTR elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_LTR
+
+    track TEs_DNA
+    parent T2T_TEs on
+    bigDataUrl TEs_DNA.bb
+    shortLabel DNA
+    longLabel DNA elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_DNA
+
+    track TEs_SVA
+    parent T2T_TEs on
+    bigDataUrl TEs_SVA.bb
+    shortLabel SVA
+    longLabel SVA elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_SVA
+
+    track TEs_Helitron
+    parent T2T_TEs on
+    bigDataUrl TEs_Helitron.bb
+    shortLabel Helitron
+    longLabel Helitron elements; name = subfamily, score = RepeatMasker divergence (substitutions per 1000 bp, observed range 0-480)
+    type bigBed 9 .
+    itemRgb on
+    visibility dense
+    html TEs_Helitron
+
+track TSS_10kb_windows
+bigDataUrl TSS_10kb_windows.bb
+shortLabel TSS 10 kb windows
+longLabel The 38,704 TSS 10 kb neighbourhoods used for all TE mapping (5 kb either side of each TSS)
+type bigBed 9 .
+itemRgb on
+visibility pack
+priority 2
+html TSS_10kb_windows
+
+track genes_TE_top
+bigDataUrl genes_TE_top.bb
+shortLabel TE-top genes
+longLabel The 1,436 genes with the highest TE count in their TSS 10 kb neighbourhood (top 5 percent), shown as their 2,075 TSS windows
+type bigBed 9 .
+itemRgb on
+visibility pack
+priority 3
+html genes_TE_top
+
+track genes_TE_bottom
+bigDataUrl genes_TE_bottom.bb
+shortLabel TE-bottom genes
+longLabel The 1,436 genes with the lowest TE count in their TSS 10 kb neighbourhood (bottom 5 percent), shown as their 2,271 TSS windows
+type bigBed 9 .
+itemRgb on
+visibility pack
+priority 4
+html genes_TE_bottom
+
+track IFNA_domain
+bigDataUrl IFNA_domain.bb
+shortLabel IFNA domain
+longLabel The 220 kb interferon-alpha domain enriched with young L1 elements (chr9:21,150,692-21,370,055)
+type bigBed 9 .
+itemRgb on
+visibility pack
+priority 5
+html IFNA_domain
